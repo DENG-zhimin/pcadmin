@@ -1,0 +1,1984 @@
+---------------------------------------------------------------
+[ 2021-04-28T01:27:33+08:00 ] 45.155.205.27 GET 113.90.29.63:8081/jars
+[运行时间：0.004531s] [吞吐率：220.71req/s] [内存消耗：497.20kb] [文件加载：76]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.29.63:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/jars' => '',
+)
+---------------------------------------------------------------
+[ 2021-04-28T01:27:33+08:00 ] 45.155.205.27 POST 113.90.29.63:8081/service/extdirect
+[运行时间：0.004825s] [吞吐率：207.25req/s] [内存消耗：469.13kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.29.63:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-length' => '293',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/service/extdirect' => '',
+  'action' => 'coreui_Component',
+  'data' => 
+  array (
+    0 => 
+    array (
+      'filter' => 
+      array (
+        0 => 
+        array (
+          'property' => 'repositoryName',
+          'value' => '*',
+        ),
+        1 => 
+        array (
+          'property' => 'expression',
+          'value' => '1==1',
+        ),
+        2 => 
+        array (
+          'property' => 'type',
+          'value' => 'jexl',
+        ),
+      ),
+      'limit' => '50',
+      'page' => '1',
+      'sort' => 
+      array (
+        0 => 
+        array (
+          'direction' => 'ASC',
+          'property' => 'name',
+        ),
+      ),
+      'start' => '0',
+    ),
+  ),
+  'method' => 'previewAssets',
+  'tid' => '18',
+  'type' => 'rpc',
+)
+---------------------------------------------------------------
+[ 2021-04-28T01:27:33+08:00 ] 45.155.205.27 GET 113.90.29.63:8081/
+[运行时间：0.002440s] [吞吐率：409.84req/s] [内存消耗：489.98kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.29.63:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'authorization' => 'Basic YWRtaW46cGFzcw==',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-04-28T01:27:34+08:00 ] 45.155.205.27 GET 113.90.29.63:8081/padmin/adminlogin/index.html
+[运行时间：0.002729s] [吞吐率：366.41req/s] [内存消耗：486.55kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.29.63:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://113.90.29.63:8081/jars',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-04-28T01:27:34+08:00 ] 45.155.205.27 GET 113.90.29.63:8081/padmin/adminlogin/index.html
+[运行时间：0.002759s] [吞吐率：362.45req/s] [内存消耗：486.76kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.29.63:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'authorization' => 'Basic YWRtaW46cGFzcw==',
+  'content-type' => 'application/json',
+  'referer' => 'http://113.90.29.63:8081/',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-04-28T04:17:42+08:00 ] 101.251.200.214 GET 113.90.29.63:8081/
+[运行时间：0.002998s] [吞吐率：333.57req/s] [内存消耗：489.84kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.29.63:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-charset' => 'GBK,utf-8;q=0.7,*;q=0.3',
+  'accept' => 'application/json, text/plain, */*',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-04-28T04:17:45+08:00 ] 101.251.200.214 GET 113.90.29.63:8081/padmin/adminlogin/index.html
+[运行时间：0.003160s] [吞吐率：316.46req/s] [内存消耗：486.41kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.29.63:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-charset' => 'GBK,utf-8;q=0.7,*;q=0.3',
+  'accept' => 'application/json, text/plain, */*',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-04-28T04:59:44+08:00 ] 128.14.211.186 GET 113.90.29.63:8081/
+[运行时间：0.003091s] [吞吐率：323.51req/s] [内存消耗：489.49kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.29.63:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-04-28T04:59:44+08:00 ] 128.14.211.186 GET 113.90.29.63:8081/padmin/adminlogin/index.html
+[运行时间：0.002585s] [吞吐率：386.86req/s] [内存消耗：486.27kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.29.63:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://113.90.29.63:8081/',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-04-28T08:28:00+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/index.html
+[运行时间：0.147733s] [吞吐率：6.77req/s] [内存消耗：769.17kb] [文件加载：76]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/adminlogin/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'cookie' => 'PHPSESSID=aanab44da8etkdm01oqa1mlg9q',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/index_html' => '',
+)
+---------------------------------------------------------------
+[ 2021-04-28T08:28:00+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/adminlogin/index.html
+[运行时间：0.003160s] [吞吐率：316.46req/s] [内存消耗：489.25kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/adminlogin/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'cookie' => 'PHPSESSID=aanab44da8etkdm01oqa1mlg9q',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-04-28T09:37:13+08:00 ] 192.168.10.58 POST pcadmin.aoi.bj/padmin/adminlogin/loginaction.html
+[运行时间：0.026385s] [吞吐率：37.90req/s] [内存消耗：693.96kb] [文件加载：79]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'content-length' => '31',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://pcadmin.aoi.bj',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/adminlogin/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'cookie' => 'PHPSESSID=aanab44da8etkdm01oqa1mlg9q',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/loginaction_html' => '',
+  'username' => 'it02',
+  'password' => 'loevluma',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000519s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.001210s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'it02' LIMIT 1 [ RunTime:0.000489s ]
+[ sql ] [ SQL ] UPDATE `admin`  SET `lastip` = '192.168.10.58' , `lastvisit` = '1619573833'  WHERE  `id` = 17 [ RunTime:0.000434s ]
+---------------------------------------------------------------
+[ 2021-04-28T09:37:14+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/index.html
+[运行时间：0.003372s] [吞吐率：296.54req/s] [内存消耗：501.52kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/adminlogin/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'cookie' => 'PHPSESSID=aanab44da8etkdm01oqa1mlg9q',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/index.html [ array (
+  0 => 'PAdmin',
+  1 => 'data',
+  2 => 'msg',
+) ]
+---------------------------------------------------------------
+[ 2021-04-28T09:37:14+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/static/padmin/css/font-awesome.css
+[运行时间：0.006973s] [吞吐率：143.41req/s] [内存消耗：470.64kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://pcadmin.aoi.bj/static/padmin/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'cookie' => 'PHPSESSID=aanab44da8etkdm01oqa1mlg9q',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/font-awesome_css' => '',
+)
+---------------------------------------------------------------
+[ 2021-04-28T09:37:14+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/static/padmin/css/animate.css
+[运行时间：0.009047s] [吞吐率：110.53req/s] [内存消耗：469.95kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://pcadmin.aoi.bj/static/padmin/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'cookie' => 'PHPSESSID=aanab44da8etkdm01oqa1mlg9q',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/animate_css' => '',
+)
+---------------------------------------------------------------
+[ 2021-04-28T09:37:14+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/computer.html
+[运行时间：0.005948s] [吞吐率：168.12req/s] [内存消耗：737.17kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'cookie' => 'PHPSESSID=aanab44da8etkdm01oqa1mlg9q',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/computer_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/computer.html [ array (
+  0 => 'PAdmin',
+  1 => 'internetAccess',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000424s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `internet_access` [ RunTime:0.001098s ]
+[ sql ] [ SQL ] SELECT * FROM `internet_access` WHERE  `disabled` = 0 [ RunTime:0.000345s ]
+---------------------------------------------------------------
+[ 2021-04-28T09:37:15+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/static/padmin/css/font-awesome.css
+[运行时间：0.010572s] [吞吐率：94.59req/s] [内存消耗：469.08kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://pcadmin.aoi.bj/static/padmin/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'cookie' => 'PHPSESSID=aanab44da8etkdm01oqa1mlg9q',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/font-awesome_css' => '',
+)
+---------------------------------------------------------------
+[ 2021-04-28T09:37:15+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/static/padmin/css/animate.css
+[运行时间：0.010572s] [吞吐率：94.59req/s] [内存消耗：469.05kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://pcadmin.aoi.bj/static/padmin/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'cookie' => 'PHPSESSID=aanab44da8etkdm01oqa1mlg9q',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/animate_css' => '',
+)
+---------------------------------------------------------------
+[ 2021-04-28T09:37:15+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/getcomplist.html?page=1&limit=20&keyword=
+[运行时间：0.033944s] [吞吐率：29.46req/s] [内存消耗：935.95kb] [文件加载：90]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/computer.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'cookie' => 'PHPSESSID=aanab44da8etkdm01oqa1mlg9q',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/getcomplist_html' => '',
+  'page' => '1',
+  'limit' => '20',
+  'keyword' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000574s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `computer` [ RunTime:0.001202s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `computer` `c` LEFT JOIN `department` `d` ON `d`.`id`=`c`.`department_id` LEFT JOIN `staff` `s` ON `s`.`id`=`c`.`staff_id` WHERE  `d`.`name` LIKE '%%'  OR `s`.`name` LIKE '%%'  OR `c`.`FQDN` LIKE '%%'  OR `c`.`asset_id` LIKE '%%'  OR `c`.`MAC` LIKE '%%'  OR `c`.`ip_addr_v4` LIKE '%%'  OR `c`.`domain_name` LIKE '%%' LIMIT 1 [ RunTime:0.000454s ]
+[ sql ] [ SQL ] SELECT `c`.*,d.name as department,s.name as staff FROM `computer` `c` LEFT JOIN `department` `d` ON `d`.`id`=`c`.`department_id` LEFT JOIN `staff` `s` ON `s`.`id`=`c`.`staff_id` WHERE  `d`.`name` LIKE '%%'  OR `s`.`name` LIKE '%%'  OR `c`.`FQDN` LIKE '%%'  OR `c`.`asset_id` LIKE '%%'  OR `c`.`MAC` LIKE '%%'  OR `c`.`ip_addr_v4` LIKE '%%'  OR `c`.`domain_name` LIKE '%%' LIMIT 0,20 [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os` [ RunTime:0.001162s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `computer_internet_access` [ RunTime:0.000934s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 1 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 2 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 4 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 5 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 7 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 8 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 9 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 10 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 11 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 12 [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 13 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 14 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 15 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 16 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 17 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 18 [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 20 [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 21 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 22 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 23 [ RunTime:0.000193s ]
+---------------------------------------------------------------
+[ 2021-04-28T09:37:23+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/computerinfo.html?id=1&departmentId=5
+[运行时间：0.009463s] [吞吐率：105.67req/s] [内存消耗：518.41kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/computer.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'cookie' => 'PHPSESSID=aanab44da8etkdm01oqa1mlg9q',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/computerinfo_html' => '',
+  'id' => '1',
+  'departmentId' => '5',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/computer_info.html [ array (
+  0 => 'PAdmin',
+  1 => 'computerId',
+  2 => 'departmentId',
+) ]
+---------------------------------------------------------------
+[ 2021-04-28T09:37:24+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/static/padmin/css/font-awesome.css
+[运行时间：0.004117s] [吞吐率：242.89req/s] [内存消耗：469.08kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://pcadmin.aoi.bj/static/padmin/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'cookie' => 'PHPSESSID=aanab44da8etkdm01oqa1mlg9q',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/font-awesome_css' => '',
+)
+---------------------------------------------------------------
+[ 2021-04-28T09:37:24+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/static/padmin/css/animate.css
+[运行时间：0.007883s] [吞吐率：126.85req/s] [内存消耗：469.95kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://pcadmin.aoi.bj/static/padmin/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'cookie' => 'PHPSESSID=aanab44da8etkdm01oqa1mlg9q',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/animate_css' => '',
+)
+---------------------------------------------------------------
+[ 2021-04-28T09:37:24+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/loaddptlist.html?_=1619573844057
+[运行时间：0.005345s] [吞吐率：187.10req/s] [内存消耗：738.61kb] [文件加载：83]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/computerinfo.html?id=1&departmentId=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'cookie' => 'PHPSESSID=aanab44da8etkdm01oqa1mlg9q',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/loaddptlist_html' => '',
+  '_' => '1619573844057',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000402s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.001084s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `department` LIMIT 1 [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SELECT * FROM `department` LIMIT 0,100 [ RunTime:0.000255s ]
+---------------------------------------------------------------
+[ 2021-04-28T09:37:24+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/getoslist.html?_=1619573844058
+[运行时间：0.007822s] [吞吐率：127.84req/s] [内存消耗：733.38kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/computerinfo.html?id=1&departmentId=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'cookie' => 'PHPSESSID=aanab44da8etkdm01oqa1mlg9q',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/getoslist_html' => '',
+  '_' => '1619573844058',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000488s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os` [ RunTime:0.001084s ]
+[ sql ] [ SQL ] SELECT * FROM `os` ORDER BY `name`,`version` [ RunTime:0.002103s ]
+---------------------------------------------------------------
+[ 2021-04-28T09:37:24+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/getdptstaff.html?dptId=5&_=1619573844059
+[运行时间：0.005639s] [吞吐率：177.33req/s] [内存消耗：745.10kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/computerinfo.html?id=1&departmentId=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'cookie' => 'PHPSESSID=aanab44da8etkdm01oqa1mlg9q',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/getdptstaff_html' => '',
+  'dptId' => '5',
+  '_' => '1619573844059',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000400s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `staff` [ RunTime:0.001112s ]
+[ sql ] [ SQL ] SELECT * FROM `staff` WHERE  `department_id` = 5 [ RunTime:0.000416s ]
+---------------------------------------------------------------
+[ 2021-04-28T09:37:24+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/getcompinfo.html?id=1&_=1619573844060
+[运行时间：0.005126s] [吞吐率：195.08req/s] [内存消耗：762.05kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/computerinfo.html?id=1&departmentId=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'cookie' => 'PHPSESSID=aanab44da8etkdm01oqa1mlg9q',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/getcompinfo_html' => '',
+  'id' => '1',
+  '_' => '1619573844060',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000410s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `computer` [ RunTime:0.001133s ]
+[ sql ] [ SQL ] SELECT * FROM `computer` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000642s ]
+---------------------------------------------------------------
+[ 2021-04-28T10:19:14+08:00 ] 45.155.205.27 POST 113.90.29.63:8081/service/extdirect
+[运行时间：0.007297s] [吞吐率：137.05req/s] [内存消耗：470.03kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.29.63:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-length' => '293',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/service/extdirect' => '',
+  'action' => 'coreui_Component',
+  'data' => 
+  array (
+    0 => 
+    array (
+      'filter' => 
+      array (
+        0 => 
+        array (
+          'property' => 'repositoryName',
+          'value' => '*',
+        ),
+        1 => 
+        array (
+          'property' => 'expression',
+          'value' => '1==1',
+        ),
+        2 => 
+        array (
+          'property' => 'type',
+          'value' => 'jexl',
+        ),
+      ),
+      'limit' => '50',
+      'page' => '1',
+      'sort' => 
+      array (
+        0 => 
+        array (
+          'direction' => 'ASC',
+          'property' => 'name',
+        ),
+      ),
+      'start' => '0',
+    ),
+  ),
+  'method' => 'previewAssets',
+  'tid' => '18',
+  'type' => 'rpc',
+)
+---------------------------------------------------------------
+[ 2021-04-28T10:19:14+08:00 ] 45.155.205.27 GET 113.90.29.63:8081/jars
+[运行时间：0.002488s] [吞吐率：401.91req/s] [内存消耗：497.20kb] [文件加载：76]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.29.63:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/jars' => '',
+)
+---------------------------------------------------------------
+[ 2021-04-28T10:19:14+08:00 ] 45.155.205.27 GET 113.90.29.63:8081/
+[运行时间：0.002316s] [吞吐率：431.78req/s] [内存消耗：489.98kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.29.63:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'authorization' => 'Basic YWRtaW46cGFzcw==',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-04-28T10:19:15+08:00 ] 45.155.205.27 GET 113.90.29.63:8081/padmin/adminlogin/index.html
+[运行时间：0.002751s] [吞吐率：363.49req/s] [内存消耗：486.55kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.29.63:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://113.90.29.63:8081/jars',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-04-28T10:19:15+08:00 ] 45.155.205.27 GET 113.90.29.63:8081/padmin/adminlogin/index.html
+[运行时间：0.006650s] [吞吐率：150.38req/s] [内存消耗：487.66kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.29.63:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'authorization' => 'Basic YWRtaW46cGFzcw==',
+  'content-type' => 'application/json',
+  'referer' => 'http://113.90.29.63:8081/',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-04-28T11:20:10+08:00 ] 167.248.133.53 GET 113.90.29.63:8081/
+[运行时间：0.006383s] [吞吐率：156.67req/s] [内存消耗：488.52kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.29.63:8081',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-04-28T11:20:11+08:00 ] 167.248.133.53 GET 113.90.29.63:8081/
+[运行时间：0.003449s] [吞吐率：289.94req/s] [内存消耗：489.27kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.29.63:8081',
+  'user-agent' => 'Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-04-28T11:20:11+08:00 ] 167.248.133.53 GET 113.90.29.63:8081/padmin/adminlogin/index.html
+[运行时间：0.004174s] [吞吐率：239.58req/s] [内存消耗：485.84kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.29.63:8081',
+  'user-agent' => 'Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-04-28T12:52:17+08:00 ] 161.35.37.57 GET 113.116.133.43:8081/login
+[运行时间：0.007087s] [吞吐率：141.10req/s] [内存消耗：476.49kb] [文件加载：78]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/index//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'login',
+  'route' => 'index/user/logininfo',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.133.43:8081',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:78.0) Gecko/20100101 Firefox/78.0',
+  'content-length' => '1',
+  'accept' => '*/*',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+  '/login' => '',
+)
+[ error ] [0]致命错误: Class 'app\service\SystemService' not found[/var/www/html/compmgmt/application/index/controller/Common.php:54]
+---------------------------------------------------------------
+[ 2021-04-28T12:52:17+08:00 ] 161.35.37.57 GET 113.116.133.43:8081/jenkins/login
+[运行时间：0.003757s] [吞吐率：266.17req/s] [内存消耗：468.27kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.133.43:8081',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:78.0) Gecko/20100101 Firefox/78.0',
+  'content-length' => '1',
+  'accept' => '*/*',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+  '/jenkins/login' => '',
+)
+---------------------------------------------------------------
+[ 2021-04-28T12:52:18+08:00 ] 161.35.37.57 GET 113.116.133.43:8081/
+[运行时间：0.003129s] [吞吐率：319.59req/s] [内存消耗：489.77kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.133.43:8081',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:78.0) Gecko/20100101 Firefox/78.0',
+  'content-length' => '1',
+  'accept' => '*/*',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-04-28T12:52:18+08:00 ] 161.35.37.57 GET 113.116.133.43:8081/padmin/adminlogin/index.html
+[运行时间：0.002651s] [吞吐率：377.22req/s] [内存消耗：486.47kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.133.43:8081',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:78.0) Gecko/20100101 Firefox/78.0',
+  'accept' => '*/*',
+  'accept-language' => 'en-US,en;q=0.5',
+  'cookie' => 'PHPSESSID=06fs5ve0ute4ro9r97neao2eeo',
+  'referer' => 'http://113.116.133.43:8081/',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-04-28T12:52:19+08:00 ] 161.35.37.57 GET 113.116.133.43:8081/manager/html
+[运行时间：0.002881s] [吞吐率：347.12req/s] [内存消耗：468.49kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.133.43:8081',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:78.0) Gecko/20100101 Firefox/78.0',
+  'content-length' => '1',
+  'accept' => '*/*',
+  'accept-language' => 'en-US,en;q=0.5',
+  'authorization' => 'Basic OGhZVFNVRms6OGhZVFNVRms=',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+  '/manager/html' => '',
+)
+---------------------------------------------------------------
+[ 2021-04-28T12:52:19+08:00 ] 116.1.220.56 HEAD 110.242.68.4http://110.242.68.4/
+[运行时间：0.002543s] [吞吐率：393.24req/s] [内存消耗：492.80kb] [文件加载：76]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '110.242.68.4',
+  'proxy-authorization' => 'Basic Og==',
+  'proxy-connection' => 'Keep-Alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.01669615 Mozilla/5.0 (Linux; Android 5.1; S900PROBT Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/39.0.0.0 Safari/537.36',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-04-28T12:52:20+08:00 ] 116.1.220.56 HEAD 110.242.68.4http://110.242.68.4/padmin/adminlogin/index.html
+[运行时间：0.003352s] [吞吐率：298.34req/s] [内存消耗：482.34kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '110.242.68.4',
+  'proxy-authorization' => 'Basic Og==',
+  'proxy-connection' => 'Keep-Alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.01669615 Mozilla/5.0 (Linux; Android 5.1; S900PROBT Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/39.0.0.0 Safari/537.36',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-04-28T12:52:20+08:00 ] 61.52.74.11 GET www.wujieliulan.comhttp://www.wujieliulan.com/
+[运行时间：0.004599s] [吞吐率：217.43req/s] [内存消耗：491.27kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.wujieliulan.com',
+  'proxy-authorization' => 'Basic Og==',
+  'proxy-connection' => 'Keep-Alive',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-04-28T12:52:20+08:00 ] 61.52.74.11 GET www.wujieliulan.comhttp://www.wujieliulan.com/padmin/adminlogin/index.html
+[运行时间：0.004161s] [吞吐率：240.32req/s] [内存消耗：487.83kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.wujieliulan.com',
+  'proxy-authorization' => 'Basic Og==',
+  'proxy-connection' => 'Keep-Alive',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-04-28T12:52:20+08:00 ] 223.166.75.245 GET www.epochtimes.comhttp://www.epochtimes.com/
+[运行时间：0.003387s] [吞吐率：295.25req/s] [内存消耗：491.26kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.epochtimes.com',
+  'proxy-authorization' => 'Basic Og==',
+  'proxy-connection' => 'Keep-Alive',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-04-28T12:52:20+08:00 ] 223.166.75.245 GET www.epochtimes.comhttp://www.epochtimes.com/padmin/adminlogin/index.html
+[运行时间：0.004480s] [吞吐率：223.21req/s] [内存消耗：487.83kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.epochtimes.com',
+  'proxy-authorization' => 'Basic Og==',
+  'proxy-connection' => 'Keep-Alive',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-04-28T12:52:21+08:00 ] 220.200.169.162 CONNECT cn.bing.com:443cn.bing.com:443
+[运行时间：0.002499s] [吞吐率：400.18req/s] [内存消耗：356.59kb] [文件加载：61]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ error ] [8]未定义数组索引: connect[/var/www/html/compmgmt/thinkphp/library/think/route/RuleGroup.php:208]
+---------------------------------------------------------------
+[ 2021-04-28T12:52:21+08:00 ] 106.45.10.61 CONNECT www.so.com:443www.so.com:443
+[运行时间：0.002284s] [吞吐率：437.82req/s] [内存消耗：355.39kb] [文件加载：61]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ error ] [8]未定义数组索引: connect[/var/www/html/compmgmt/thinkphp/library/think/route/RuleGroup.php:208]
+---------------------------------------------------------------
+[ 2021-04-28T12:52:21+08:00 ] 119.39.47.20 GET www.minghui.orghttp://www.minghui.org/
+[运行时间：0.002447s] [吞吐率：408.64req/s] [内存消耗：491.24kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.minghui.org',
+  'proxy-authorization' => 'Basic Og==',
+  'proxy-connection' => 'Keep-Alive',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-04-28T12:52:21+08:00 ] 119.39.47.20 GET www.minghui.orghttp://www.minghui.org/padmin/adminlogin/index.html
+[运行时间：0.002532s] [吞吐率：394.94req/s] [内存消耗：487.69kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.minghui.org',
+  'proxy-authorization' => 'Basic Og==',
+  'proxy-connection' => 'Keep-Alive',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-04-28T12:52:21+08:00 ] 183.185.226.32 CONNECT www.voanews.com:443www.voanews.com:443
+[运行时间：0.002279s] [吞吐率：438.78req/s] [内存消耗：355.40kb] [文件加载：61]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ error ] [8]未定义数组索引: connect[/var/www/html/compmgmt/thinkphp/library/think/route/RuleGroup.php:208]
+---------------------------------------------------------------
+[ 2021-04-28T12:52:22+08:00 ] 119.39.46.10 GET dongtaiwang.comhttp://dongtaiwang.com/
+[运行时间：0.008357s] [吞吐率：119.66req/s] [内存消耗：492.11kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dongtaiwang.com',
+  'proxy-authorization' => 'Basic Og==',
+  'proxy-connection' => 'Keep-Alive',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-04-28T12:52:22+08:00 ] 119.39.46.10 GET dongtaiwang.comhttp://dongtaiwang.com/padmin/adminlogin/index.html
+[运行时间：0.002750s] [吞吐率：363.65req/s] [内存消耗：487.66kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dongtaiwang.com',
+  'proxy-authorization' => 'Basic Og==',
+  'proxy-connection' => 'Keep-Alive',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-04-28T12:52:23+08:00 ] 124.225.40.131 CONNECT www.baidu.com:443www.baidu.com:443
+[运行时间：0.002667s] [吞吐率：374.96req/s] [内存消耗：355.40kb] [文件加载：61]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ error ] [8]未定义数组索引: connect[/var/www/html/compmgmt/thinkphp/library/think/route/RuleGroup.php:208]
+---------------------------------------------------------------
+[ 2021-04-28T12:52:24+08:00 ] 119.118.20.66 GET www.soso.comhttp://www.soso.com/
+[运行时间：0.002480s] [吞吐率：403.22req/s] [内存消耗：491.24kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.soso.com',
+  'proxy-authorization' => 'Basic Og==',
+  'proxy-connection' => 'Keep-Alive',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-04-28T12:52:24+08:00 ] 119.118.20.66 GET www.soso.comhttp://www.soso.com/padmin/adminlogin/index.html
+[运行时间：0.002571s] [吞吐率：388.97req/s] [内存消耗：487.69kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.soso.com',
+  'proxy-authorization' => 'Basic Og==',
+  'proxy-connection' => 'Keep-Alive',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-04-28T12:52:25+08:00 ] 183.184.82.70 GET www.rfa.orghttp://www.rfa.org/english/
+[运行时间：0.002524s] [吞吐率：396.21req/s] [内存消耗：498.48kb] [文件加载：76]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.rfa.org',
+  'proxy-authorization' => 'Basic Og==',
+  'proxy-connection' => 'Keep-Alive',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  '/english/' => '',
+)
+---------------------------------------------------------------
+[ 2021-04-28T12:52:25+08:00 ] 183.184.82.70 GET www.rfa.orghttp://www.rfa.org/padmin/adminlogin/index.html
+[运行时间：0.002617s] [吞吐率：382.13req/s] [内存消耗：487.63kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.rfa.org',
+  'proxy-authorization' => 'Basic Og==',
+  'proxy-connection' => 'Keep-Alive',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-04-28T13:12:01+08:00 ] 92.118.160.41 GET 113.116.133.43:8081/
+[运行时间：0.003525s] [吞吐率：283.69req/s] [内存消耗：489.22kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.133.43:8081',
+  'user-agent' => 'NetSystemsResearch studies the availability of various services across the internet. Our website is netsystemsresearch.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-04-28T13:12:02+08:00 ] 92.118.160.41 GET 113.116.133.43:8081/padmin/adminlogin/index.html
+[运行时间：0.003233s] [吞吐率：309.31req/s] [内存消耗：485.65kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.133.43:8081',
+  'user-agent' => 'Go http package',
+  'referer' => 'http://113.116.133.43:8081/',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-04-28T18:17:10+08:00 ] 106.75.212.83 GET www.qq.comhttp://www.qq.com/404/search_children.js
+[运行时间：0.018074s] [吞吐率：55.33req/s] [内存消耗：467.85kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qq.com',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  '/404/search_children_js' => '',
+)
+---------------------------------------------------------------
+[ 2021-04-28T20:31:25+08:00 ] 45.155.205.27 GET 113.116.133.43:8081/jars
+[运行时间：0.004007s] [吞吐率：249.56req/s] [内存消耗：497.22kb] [文件加载：76]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.133.43:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/jars' => '',
+)
+---------------------------------------------------------------
+[ 2021-04-28T20:31:25+08:00 ] 45.155.205.27 GET 113.116.133.43:8081/
+[运行时间：0.007549s] [吞吐率：132.47req/s] [内存消耗：489.99kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.133.43:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'authorization' => 'Basic YWRtaW46cGFzcw==',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-04-28T20:31:26+08:00 ] 45.155.205.27 POST 113.116.133.43:8081/service/extdirect
+[运行时间：0.003602s] [吞吐率：277.62req/s] [内存消耗：469.13kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.133.43:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-length' => '293',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/service/extdirect' => '',
+  'action' => 'coreui_Component',
+  'data' => 
+  array (
+    0 => 
+    array (
+      'filter' => 
+      array (
+        0 => 
+        array (
+          'property' => 'repositoryName',
+          'value' => '*',
+        ),
+        1 => 
+        array (
+          'property' => 'expression',
+          'value' => '1==1',
+        ),
+        2 => 
+        array (
+          'property' => 'type',
+          'value' => 'jexl',
+        ),
+      ),
+      'limit' => '50',
+      'page' => '1',
+      'sort' => 
+      array (
+        0 => 
+        array (
+          'direction' => 'ASC',
+          'property' => 'name',
+        ),
+      ),
+      'start' => '0',
+    ),
+  ),
+  'method' => 'previewAssets',
+  'tid' => '18',
+  'type' => 'rpc',
+)
+---------------------------------------------------------------
+[ 2021-04-28T20:31:26+08:00 ] 45.155.205.27 GET 113.116.133.43:8081/padmin/adminlogin/index.html
+[运行时间：0.003306s] [吞吐率：302.47req/s] [内存消耗：486.55kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.133.43:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://113.116.133.43:8081/jars',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-04-28T20:31:26+08:00 ] 45.155.205.27 GET 113.116.133.43:8081/padmin/adminlogin/index.html
+[运行时间：0.003329s] [吞吐率：300.39req/s] [内存消耗：486.88kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.133.43:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'authorization' => 'Basic YWRtaW46cGFzcw==',
+  'content-type' => 'application/json',
+  'referer' => 'http://113.116.133.43:8081/',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-04-28T20:31:43+08:00 ] 36.57.172.71 HEAD 110.242.68.4http://110.242.68.4/
+[运行时间：0.003726s] [吞吐率：268.38req/s] [内存消耗：492.64kb] [文件加载：76]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '110.242.68.4',
+  'proxy-authorization' => 'Basic Og==',
+  'proxy-connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.01678543 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-04-28T20:31:43+08:00 ] 36.57.172.71 HEAD 110.242.68.4http://110.242.68.4/padmin/adminlogin/index.html
+[运行时间：0.002785s] [吞吐率：359.07req/s] [内存消耗：482.31kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '110.242.68.4',
+  'proxy-authorization' => 'Basic Og==',
+  'proxy-connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.01678543 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-04-28T20:31:44+08:00 ] 175.184.167.105 GET www.rfa.orghttp://www.rfa.org/english/
+[运行时间：0.003120s] [吞吐率：320.52req/s] [内存消耗：498.48kb] [文件加载：76]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.rfa.org',
+  'proxy-authorization' => 'Basic Og==',
+  'proxy-connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/english/' => '',
+)
+---------------------------------------------------------------
+[ 2021-04-28T20:31:44+08:00 ] 175.184.167.105 GET www.rfa.orghttp://www.rfa.org/padmin/adminlogin/index.html
+[运行时间：0.002748s] [吞吐率：363.90req/s] [内存消耗：487.63kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.rfa.org',
+  'proxy-authorization' => 'Basic Og==',
+  'proxy-connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-04-28T20:31:44+08:00 ] 36.5.219.117 GET www.minghui.orghttp://www.minghui.org/
+[运行时间：0.002943s] [吞吐率：339.78req/s] [内存消耗：491.24kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.minghui.org',
+  'proxy-authorization' => 'Basic Og==',
+  'proxy-connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-04-28T20:31:44+08:00 ] 36.5.219.117 GET www.minghui.orghttp://www.minghui.org/padmin/adminlogin/index.html
+[运行时间：0.003358s] [吞吐率：297.81req/s] [内存消耗：487.69kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.minghui.org',
+  'proxy-authorization' => 'Basic Og==',
+  'proxy-connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-04-28T20:31:45+08:00 ] 218.58.38.132 GET www.soso.comhttp://www.soso.com/
+[运行时间：0.002615s] [吞吐率：382.41req/s] [内存消耗：491.24kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.soso.com',
+  'proxy-authorization' => 'Basic Og==',
+  'proxy-connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-04-28T20:31:45+08:00 ] 39.64.241.27 CONNECT www.baidu.com:443www.baidu.com:443
+[运行时间：0.002158s] [吞吐率：463.36req/s] [内存消耗：355.40kb] [文件加载：61]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ error ] [8]未定义数组索引: connect[/var/www/html/compmgmt/thinkphp/library/think/route/RuleGroup.php:208]
+---------------------------------------------------------------
+[ 2021-04-28T20:31:45+08:00 ] 218.58.38.132 GET www.soso.comhttp://www.soso.com/padmin/adminlogin/index.html
+[运行时间：0.002806s] [吞吐率：356.39req/s] [内存消耗：487.69kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.soso.com',
+  'proxy-authorization' => 'Basic Og==',
+  'proxy-connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-04-28T20:31:46+08:00 ] 223.166.75.228 CONNECT www.so.com:443www.so.com:443
+[运行时间：0.002583s] [吞吐率：387.14req/s] [内存消耗：355.39kb] [文件加载：61]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ error ] [8]未定义数组索引: connect[/var/www/html/compmgmt/thinkphp/library/think/route/RuleGroup.php:208]
+---------------------------------------------------------------
+[ 2021-04-28T20:31:46+08:00 ] 36.5.222.217 GET www.wujieliulan.comhttp://www.wujieliulan.com/
+[运行时间：0.002555s] [吞吐率：391.37req/s] [内存消耗：491.27kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.wujieliulan.com',
+  'proxy-authorization' => 'Basic Og==',
+  'proxy-connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-04-28T20:31:46+08:00 ] 36.5.222.217 GET www.wujieliulan.comhttp://www.wujieliulan.com/padmin/adminlogin/index.html
+[运行时间：0.002516s] [吞吐率：397.45req/s] [内存消耗：487.83kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.wujieliulan.com',
+  'proxy-authorization' => 'Basic Og==',
+  'proxy-connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-04-28T20:31:46+08:00 ] 118.81.8.41 GET dongtaiwang.comhttp://dongtaiwang.com/
+[运行时间：0.002651s] [吞吐率：377.22req/s] [内存消耗：491.21kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dongtaiwang.com',
+  'proxy-authorization' => 'Basic Og==',
+  'proxy-connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-04-28T20:31:47+08:00 ] 183.160.250.26 CONNECT cn.bing.com:443cn.bing.com:443
+[运行时间：0.017542s] [吞吐率：57.01req/s] [内存消耗：355.39kb] [文件加载：61]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ error ] [8]未定义数组索引: connect[/var/www/html/compmgmt/thinkphp/library/think/route/RuleGroup.php:208]
+---------------------------------------------------------------
+[ 2021-04-28T20:31:48+08:00 ] 60.208.209.128 GET www.epochtimes.comhttp://www.epochtimes.com/
+[运行时间：0.002428s] [吞吐率：411.85req/s] [内存消耗：491.26kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.epochtimes.com',
+  'proxy-authorization' => 'Basic Og==',
+  'proxy-connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-04-28T20:31:48+08:00 ] 60.208.209.128 GET www.epochtimes.comhttp://www.epochtimes.com/padmin/adminlogin/index.html
+[运行时间：0.002507s] [吞吐率：398.89req/s] [内存消耗：487.83kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.epochtimes.com',
+  'proxy-authorization' => 'Basic Og==',
+  'proxy-connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-04-28T20:31:48+08:00 ] 175.184.164.5 CONNECT www.voanews.com:443www.voanews.com:443
+[运行时间：0.002165s] [吞吐率：461.93req/s] [内存消耗：355.40kb] [文件加载：61]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ error ] [8]未定义数组索引: connect[/var/www/html/compmgmt/thinkphp/library/think/route/RuleGroup.php:208]
+---------------------------------------------------------------
+[ 2021-04-28T20:31:49+08:00 ] 118.81.8.41 GET dongtaiwang.comhttp://dongtaiwang.com/padmin/adminlogin/index.html
+[运行时间：0.003367s] [吞吐率：297.00req/s] [内存消耗：487.66kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dongtaiwang.com',
+  'proxy-authorization' => 'Basic Og==',
+  'proxy-connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]

@@ -1,0 +1,43 @@
+---------------------------------------------------------------
+[ 2021-09-03T17:17:39+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/index.html
+[运行时间：0.648123s] [吞吐率：1.54req/s] [内存消耗：768.49kb] [文件加载：76]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=0cdrg9c8se9uvid6tg2cbmb6hh',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/index_html' => '',
+)
+---------------------------------------------------------------
+[ 2021-09-03T17:17:39+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/adminlogin/index.html
+[运行时间：0.040584s] [吞吐率：24.64req/s] [内存消耗：488.58kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=0cdrg9c8se9uvid6tg2cbmb6hh',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]

@@ -1,0 +1,1722 @@
+---------------------------------------------------------------
+[ 2020-10-16T08:27:20+08:00 ] 193.27.228.27 POST 116.30.95.7:8081/service/extdirect
+[运行时间：0.009611s] [吞吐率：104.05req/s] [内存消耗：469.12kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '116.30.95.7:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-length' => '293',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/service/extdirect' => '',
+  'action' => 'coreui_Component',
+  'data' => 
+  array (
+    0 => 
+    array (
+      'filter' => 
+      array (
+        0 => 
+        array (
+          'property' => 'repositoryName',
+          'value' => '*',
+        ),
+        1 => 
+        array (
+          'property' => 'expression',
+          'value' => '1==1',
+        ),
+        2 => 
+        array (
+          'property' => 'type',
+          'value' => 'jexl',
+        ),
+      ),
+      'limit' => '50',
+      'page' => '1',
+      'sort' => 
+      array (
+        0 => 
+        array (
+          'direction' => 'ASC',
+          'property' => 'name',
+        ),
+      ),
+      'start' => '0',
+    ),
+  ),
+  'method' => 'previewAssets',
+  'tid' => '18',
+  'type' => 'rpc',
+)
+---------------------------------------------------------------
+[ 2020-10-16T08:27:20+08:00 ] 193.27.228.27 GET 116.30.95.7:8081/
+[运行时间：0.007150s] [吞吐率：139.86req/s] [内存消耗：489.97kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '116.30.95.7:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'authorization' => 'Basic YWRtaW46cGFzcw==',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2020-10-16T08:27:20+08:00 ] 193.27.228.27 GET 116.30.95.7:8081/jars
+[运行时间：0.005917s] [吞吐率：169.00req/s] [内存消耗：497.20kb] [文件加载：76]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '116.30.95.7:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/jars' => '',
+)
+---------------------------------------------------------------
+[ 2020-10-16T08:27:21+08:00 ] 193.27.228.27 GET 116.30.95.7:8081/padmin/adminlogin/index.html
+[运行时间：0.012492s] [吞吐率：80.05req/s] [内存消耗：486.75kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '116.30.95.7:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'authorization' => 'Basic YWRtaW46cGFzcw==',
+  'content-type' => 'application/json',
+  'referer' => 'http://116.30.95.7:8081/',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-10-16T08:27:21+08:00 ] 193.27.228.27 GET 116.30.95.7:8081/padmin/adminlogin/index.html
+[运行时间：0.008562s] [吞吐率：116.79req/s] [内存消耗：486.54kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '116.30.95.7:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://116.30.95.7:8081/jars',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-10-16T08:36:25+08:00 ] 183.136.225.46 GET 116.30.95.7:8081/
+[运行时间：0.008334s] [吞吐率：119.99req/s] [内存消耗：489.32kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '116.30.95.7:8081',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2020-10-16T08:36:25+08:00 ] 183.136.225.46 GET 116.30.95.7/padmin/adminlogin/index.html
+[运行时间：0.005537s] [吞吐率：180.60req/s] [内存消耗：485.78kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '116.30.95.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-10-16T08:36:25+08:00 ] 183.136.225.46 GET 116.30.95.7:8081/
+[运行时间：0.006535s] [吞吐率：153.02req/s] [内存消耗：489.48kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '116.30.95.7:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 QIHU 360SE',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2020-10-16T08:36:25+08:00 ] 183.136.225.46 GET 116.30.95.7:8081/padmin/adminlogin/index.html
+[运行时间：0.004699s] [吞吐率：212.81req/s] [内存消耗：486.32kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '116.30.95.7:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 QIHU 360SE',
+  'accept' => '*/*',
+  'referer' => 'http://116.30.95.7:8081',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-10-16T10:31:09+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/index/index.html
+[运行时间：3.990343s] [吞吐率：0.25req/s] [内存消耗：500.27kb] [文件加载：76]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.10.210/padmin/adminlogin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/index_html' => '',
+)
+---------------------------------------------------------------
+[ 2020-10-16T10:31:10+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/adminlogin/index.html
+[运行时间：0.140244s] [吞吐率：7.13req/s] [内存消耗：488.37kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.10.210/padmin/adminlogin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-10-16T10:32:21+08:00 ] 192.168.10.85 POST 192.168.10.210/padmin/adminlogin/loginaction.html
+[运行时间：7.087421s] [吞吐率：0.14req/s] [内存消耗：693.43kb] [文件加载：79]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '31',
+  'origin' => 'http://192.168.10.210',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/padmin/adminlogin/index.html',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/loginaction_html' => '',
+  'username' => 'it02',
+  'password' => 'loevluma',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:2.033822s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:1.806501s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'it02' LIMIT 1 [ RunTime:0.360396s ]
+[ sql ] [ SQL ] UPDATE `admin`  SET `lastip` = '192.168.10.85' , `lastvisit` = '1602815540'  WHERE  `id` = 17 [ RunTime:0.298700s ]
+---------------------------------------------------------------
+[ 2020-10-16T10:32:22+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/index/index.html
+[运行时间：0.217384s] [吞吐率：4.60req/s] [内存消耗：501.59kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/padmin/adminlogin/index.html',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/index.html [ array (
+  0 => 'PAdmin',
+  1 => 'data',
+  2 => 'msg',
+) ]
+---------------------------------------------------------------
+[ 2020-10-16T10:32:23+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/index/computer.html
+[运行时间：0.689712s] [吞吐率：1.45req/s] [内存消耗：737.24kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/padmin/index/index.html',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/computer_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/computer.html [ array (
+  0 => 'PAdmin',
+  1 => 'internetAccess',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.085487s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `internet_access` [ RunTime:0.558937s ]
+[ sql ] [ SQL ] SELECT * FROM `internet_access` WHERE  `disabled` = 0 [ RunTime:0.000953s ]
+---------------------------------------------------------------
+[ 2020-10-16T10:32:23+08:00 ] 192.168.10.85 GET 192.168.10.210/static/padmin/css/font-awesome.css
+[运行时间：0.663282s] [吞吐率：1.51req/s] [内存消耗：469.57kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/static/padmin/css/style.css',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/font-awesome_css' => '',
+)
+---------------------------------------------------------------
+[ 2020-10-16T10:32:24+08:00 ] 192.168.10.85 GET 192.168.10.210/static/padmin/css/animate.css
+[运行时间：0.812497s] [吞吐率：1.23req/s] [内存消耗：469.55kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/static/padmin/css/style.css',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/animate_css' => '',
+)
+---------------------------------------------------------------
+[ 2020-10-16T10:32:26+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/index/getcomplist.html?page=1&limit=20&keyword=
+[运行时间：0.618550s] [吞吐率：1.62req/s] [内存消耗：935.41kb] [文件加载：90]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/padmin/index/computer.html',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/getcomplist_html' => '',
+  'page' => '1',
+  'limit' => '20',
+  'keyword' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.034314s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `computer` [ RunTime:0.009869s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `computer` `c` LEFT JOIN `department` `d` ON `d`.`id`=`c`.`department_id` LEFT JOIN `staff` `s` ON `s`.`id`=`c`.`staff_id` WHERE  `d`.`name` LIKE '%%'  OR `s`.`name` LIKE '%%'  OR `c`.`FQDN` LIKE '%%'  OR `c`.`asset_id` LIKE '%%'  OR `c`.`MAC` LIKE '%%'  OR `c`.`ip_addr_v4` LIKE '%%'  OR `c`.`domain_name` LIKE '%%' LIMIT 1 [ RunTime:0.012141s ]
+[ sql ] [ SQL ] SELECT `c`.*,d.name as department,s.name as staff FROM `computer` `c` LEFT JOIN `department` `d` ON `d`.`id`=`c`.`department_id` LEFT JOIN `staff` `s` ON `s`.`id`=`c`.`staff_id` WHERE  `d`.`name` LIKE '%%'  OR `s`.`name` LIKE '%%'  OR `c`.`FQDN` LIKE '%%'  OR `c`.`asset_id` LIKE '%%'  OR `c`.`MAC` LIKE '%%'  OR `c`.`ip_addr_v4` LIKE '%%'  OR `c`.`domain_name` LIKE '%%' LIMIT 0,20 [ RunTime:0.021226s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os` [ RunTime:0.014393s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.001081s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `computer_internet_access` [ RunTime:0.042723s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 1 [ RunTime:0.001321s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001067s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 2 [ RunTime:0.002190s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 4 [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 5 [ RunTime:0.002539s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000783s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 7 [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001125s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 8 [ RunTime:0.003480s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 9 [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 10 [ RunTime:0.001183s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.001597s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 11 [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000722s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 12 [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 13 [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 14 [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 15 [ RunTime:0.001084s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000860s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 16 [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 17 [ RunTime:0.001691s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000927s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 18 [ RunTime:0.001835s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000951s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 20 [ RunTime:0.000922s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000805s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 21 [ RunTime:0.000771s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 22 [ RunTime:0.002041s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.001631s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 23 [ RunTime:0.000517s ]
+---------------------------------------------------------------
+[ 2020-10-16T10:33:08+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/index/index.html
+[运行时间：0.095219s] [吞吐率：10.50req/s] [内存消耗：501.06kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.10.210/padmin/adminlogin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815546',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/index.html [ array (
+  0 => 'PAdmin',
+  1 => 'data',
+  2 => 'msg',
+) ]
+---------------------------------------------------------------
+[ 2020-10-16T10:33:08+08:00 ] 192.168.10.85 GET 192.168.10.210/static/padmin/css/animate.css
+[运行时间：0.031793s] [吞吐率：31.45req/s] [内存消耗：471.27kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/static/padmin/css/style.css',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815546',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/animate_css' => '',
+)
+---------------------------------------------------------------
+[ 2020-10-16T10:33:08+08:00 ] 192.168.10.85 GET 192.168.10.210/static/padmin/css/font-awesome.css
+[运行时间：0.096682s] [吞吐率：10.34req/s] [内存消耗：470.40kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/static/padmin/css/style.css',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815546',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/font-awesome_css' => '',
+)
+---------------------------------------------------------------
+[ 2020-10-16T10:33:09+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/index/computer.html
+[运行时间：0.797471s] [吞吐率：1.25req/s] [内存消耗：768.14kb] [文件加载：82]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.10.210/padmin/index/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815546',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/computer_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/computer.html [ array (
+  0 => 'PAdmin',
+  1 => 'internetAccess',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.052740s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `internet_access` [ RunTime:0.035419s ]
+[ sql ] [ SQL ] SELECT * FROM `internet_access` WHERE  `disabled` = 0 [ RunTime:0.001600s ]
+---------------------------------------------------------------
+[ 2020-10-16T10:33:09+08:00 ] 192.168.10.85 GET 192.168.10.210/static/padmin/css/font-awesome.css
+[运行时间：0.005483s] [吞吐率：182.38req/s] [内存消耗：470.40kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/static/padmin/css/style.css',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/font-awesome_css' => '',
+)
+---------------------------------------------------------------
+[ 2020-10-16T10:33:09+08:00 ] 192.168.10.85 GET 192.168.10.210/static/padmin/css/animate.css
+[运行时间：0.006526s] [吞吐率：153.23req/s] [内存消耗：470.38kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/static/padmin/css/style.css',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/animate_css' => '',
+)
+---------------------------------------------------------------
+[ 2020-10-16T10:33:09+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/index/getcomplist.html?page=1&limit=20&keyword=
+[运行时间：0.108244s] [吞吐率：9.24req/s] [内存消耗：869.40kb] [文件加载：90]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/padmin/index/computer.html',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/getcomplist_html' => '',
+  'page' => '1',
+  'limit' => '20',
+  'keyword' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.057466s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `computer` [ RunTime:0.003851s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `computer` `c` LEFT JOIN `department` `d` ON `d`.`id`=`c`.`department_id` LEFT JOIN `staff` `s` ON `s`.`id`=`c`.`staff_id` WHERE  `d`.`name` LIKE '%%'  OR `s`.`name` LIKE '%%'  OR `c`.`FQDN` LIKE '%%'  OR `c`.`asset_id` LIKE '%%'  OR `c`.`MAC` LIKE '%%'  OR `c`.`ip_addr_v4` LIKE '%%'  OR `c`.`domain_name` LIKE '%%' LIMIT 1 [ RunTime:0.000868s ]
+[ sql ] [ SQL ] SELECT `c`.*,d.name as department,s.name as staff FROM `computer` `c` LEFT JOIN `department` `d` ON `d`.`id`=`c`.`department_id` LEFT JOIN `staff` `s` ON `s`.`id`=`c`.`staff_id` WHERE  `d`.`name` LIKE '%%'  OR `s`.`name` LIKE '%%'  OR `c`.`FQDN` LIKE '%%'  OR `c`.`asset_id` LIKE '%%'  OR `c`.`MAC` LIKE '%%'  OR `c`.`ip_addr_v4` LIKE '%%'  OR `c`.`domain_name` LIKE '%%' LIMIT 0,20 [ RunTime:0.002197s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os` [ RunTime:0.002519s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000488s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `computer_internet_access` [ RunTime:0.002420s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 1 [ RunTime:0.000728s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 2 [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 4 [ RunTime:0.001033s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 5 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 7 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 8 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 9 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 10 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 11 [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 12 [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 13 [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 14 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 15 [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 16 [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 17 [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 18 [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 20 [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 21 [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 22 [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 23 [ RunTime:0.000446s ]
+---------------------------------------------------------------
+[ 2020-10-16T10:33:31+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/index/computerinfo.html?id=1&departmentId=5
+[运行时间：0.150313s] [吞吐率：6.65req/s] [内存消耗：517.65kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/padmin/index/computer.html',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/computerinfo_html' => '',
+  'id' => '1',
+  'departmentId' => '5',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/computer_info.html [ array (
+  0 => 'PAdmin',
+  1 => 'computerId',
+  2 => 'departmentId',
+) ]
+---------------------------------------------------------------
+[ 2020-10-16T10:33:31+08:00 ] 192.168.10.85 GET 192.168.10.210/static/padmin/css/font-awesome.css
+[运行时间：0.019065s] [吞吐率：52.45req/s] [内存消耗：470.01kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/static/padmin/css/style.css',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/font-awesome_css' => '',
+)
+---------------------------------------------------------------
+[ 2020-10-16T10:33:31+08:00 ] 192.168.10.85 GET 192.168.10.210/static/padmin/css/animate.css
+[运行时间：0.035439s] [吞吐率：28.22req/s] [内存消耗：470.88kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/static/padmin/css/style.css',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/animate_css' => '',
+)
+---------------------------------------------------------------
+[ 2020-10-16T10:33:32+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/index/loaddptlist.html?_=1602815612019
+[运行时间：0.176760s] [吞吐率：5.66req/s] [内存消耗：739.70kb] [文件加载：83]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/padmin/index/computerinfo.html?id=1&departmentId=5',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/loaddptlist_html' => '',
+  '_' => '1602815612019',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.138414s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.023276s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `department` LIMIT 1 [ RunTime:0.001199s ]
+[ sql ] [ SQL ] SELECT * FROM `department` LIMIT 0,100 [ RunTime:0.001256s ]
+---------------------------------------------------------------
+[ 2020-10-16T10:33:32+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/index/getoslist.html?_=1602815612020
+[运行时间：0.173783s] [吞吐率：5.75req/s] [内存消耗：734.19kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/padmin/index/computerinfo.html?id=1&departmentId=5',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/getoslist_html' => '',
+  '_' => '1602815612020',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001438s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os` [ RunTime:0.013826s ]
+[ sql ] [ SQL ] SELECT * FROM `os` ORDER BY `name`,`version` [ RunTime:0.001308s ]
+---------------------------------------------------------------
+[ 2020-10-16T10:33:32+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/index/getdptstaff.html?dptId=5&_=1602815612021
+[运行时间：0.169663s] [吞吐率：5.89req/s] [内存消耗：745.66kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/padmin/index/computerinfo.html?id=1&departmentId=5',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/getdptstaff_html' => '',
+  'dptId' => '5',
+  '_' => '1602815612021',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011946s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `staff` [ RunTime:0.019338s ]
+[ sql ] [ SQL ] SELECT * FROM `staff` WHERE  `department_id` = 5 [ RunTime:0.070446s ]
+---------------------------------------------------------------
+[ 2020-10-16T10:33:32+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/index/getcompinfo.html?id=1&_=1602815612022
+[运行时间：0.090670s] [吞吐率：11.03req/s] [内存消耗：762.73kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/padmin/index/computerinfo.html?id=1&departmentId=5',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/getcompinfo_html' => '',
+  'id' => '1',
+  '_' => '1602815612022',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.058990s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `computer` [ RunTime:0.003754s ]
+[ sql ] [ SQL ] SELECT * FROM `computer` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.018338s ]
+---------------------------------------------------------------
+[ 2020-10-16T10:33:40+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/index/computerinfo.html?id=1&departmentId=5
+[运行时间：0.031550s] [吞吐率：31.70req/s] [内存消耗：517.23kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/padmin/index/computer.html',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/computerinfo_html' => '',
+  'id' => '1',
+  'departmentId' => '5',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/computer_info.html [ array (
+  0 => 'PAdmin',
+  1 => 'computerId',
+  2 => 'departmentId',
+) ]
+---------------------------------------------------------------
+[ 2020-10-16T10:33:40+08:00 ] 192.168.10.85 GET 192.168.10.210/static/padmin/css/font-awesome.css
+[运行时间：0.042851s] [吞吐率：23.34req/s] [内存消耗：470.01kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/static/padmin/css/style.css',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/font-awesome_css' => '',
+)
+---------------------------------------------------------------
+[ 2020-10-16T10:33:40+08:00 ] 192.168.10.85 GET 192.168.10.210/static/padmin/css/animate.css
+[运行时间：0.050644s] [吞吐率：19.75req/s] [内存消耗：469.98kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/static/padmin/css/style.css',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/animate_css' => '',
+)
+---------------------------------------------------------------
+[ 2020-10-16T10:33:41+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/index/loaddptlist.html?_=1602815620966
+[运行时间：0.315857s] [吞吐率：3.17req/s] [内存消耗：739.70kb] [文件加载：83]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/padmin/index/computerinfo.html?id=1&departmentId=5',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/loaddptlist_html' => '',
+  '_' => '1602815620966',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.283039s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.005046s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `department` LIMIT 1 [ RunTime:0.001113s ]
+[ sql ] [ SQL ] SELECT * FROM `department` LIMIT 0,100 [ RunTime:0.001010s ]
+---------------------------------------------------------------
+[ 2020-10-16T10:33:41+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/index/getoslist.html?_=1602815620967
+[运行时间：0.440794s] [吞吐率：2.27req/s] [内存消耗：734.19kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/padmin/index/computerinfo.html?id=1&departmentId=5',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/getoslist_html' => '',
+  '_' => '1602815620967',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.093731s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os` [ RunTime:0.036298s ]
+[ sql ] [ SQL ] SELECT * FROM `os` ORDER BY `name`,`version` [ RunTime:0.001144s ]
+---------------------------------------------------------------
+[ 2020-10-16T10:33:41+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/index/getdptstaff.html?dptId=5&_=1602815620968
+[运行时间：0.470915s] [吞吐率：2.12req/s] [内存消耗：745.66kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/padmin/index/computerinfo.html?id=1&departmentId=5',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/getdptstaff_html' => '',
+  'dptId' => '5',
+  '_' => '1602815620968',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027556s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `staff` [ RunTime:0.015857s ]
+[ sql ] [ SQL ] SELECT * FROM `staff` WHERE  `department_id` = 5 [ RunTime:0.001170s ]
+---------------------------------------------------------------
+[ 2020-10-16T10:33:41+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/index/getcompinfo.html?id=1&_=1602815620969
+[运行时间：0.115120s] [吞吐率：8.69req/s] [内存消耗：762.73kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/padmin/index/computerinfo.html?id=1&departmentId=5',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/getcompinfo_html' => '',
+  'id' => '1',
+  '_' => '1602815620969',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.100472s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `computer` [ RunTime:0.003262s ]
+[ sql ] [ SQL ] SELECT * FROM `computer` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002548s ]
+---------------------------------------------------------------
+[ 2020-10-16T10:33:45+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/index/computerinfo.html?id=1&departmentId=5
+[运行时间：0.007577s] [吞吐率：131.98req/s] [内存消耗：517.23kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/padmin/index/computer.html',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/computerinfo_html' => '',
+  'id' => '1',
+  'departmentId' => '5',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/computer_info.html [ array (
+  0 => 'PAdmin',
+  1 => 'computerId',
+  2 => 'departmentId',
+) ]
+---------------------------------------------------------------
+[ 2020-10-16T10:33:45+08:00 ] 192.168.10.85 GET 192.168.10.210/static/padmin/css/animate.css
+[运行时间：0.004969s] [吞吐率：201.24req/s] [内存消耗：469.98kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/static/padmin/css/style.css',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/animate_css' => '',
+)
+---------------------------------------------------------------
+[ 2020-10-16T10:33:45+08:00 ] 192.168.10.85 GET 192.168.10.210/static/padmin/css/font-awesome.css
+[运行时间：0.006328s] [吞吐率：158.03req/s] [内存消耗：470.01kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/static/padmin/css/style.css',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/font-awesome_css' => '',
+)
+---------------------------------------------------------------
+[ 2020-10-16T10:33:46+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/index/getoslist.html?_=1602815625874
+[运行时间：0.135322s] [吞吐率：7.39req/s] [内存消耗：734.19kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/padmin/index/computerinfo.html?id=1&departmentId=5',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/getoslist_html' => '',
+  '_' => '1602815625874',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001326s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os` [ RunTime:0.127114s ]
+[ sql ] [ SQL ] SELECT * FROM `os` ORDER BY `name`,`version` [ RunTime:0.000831s ]
+---------------------------------------------------------------
+[ 2020-10-16T10:33:46+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/index/getdptstaff.html?dptId=5&_=1602815625875
+[运行时间：0.361677s] [吞吐率：2.76req/s] [内存消耗：745.66kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/padmin/index/computerinfo.html?id=1&departmentId=5',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/getdptstaff_html' => '',
+  'dptId' => '5',
+  '_' => '1602815625875',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001280s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `staff` [ RunTime:0.224419s ]
+[ sql ] [ SQL ] SELECT * FROM `staff` WHERE  `department_id` = 5 [ RunTime:0.001062s ]
+---------------------------------------------------------------
+[ 2020-10-16T10:33:46+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/index/loaddptlist.html?_=1602815625873
+[运行时间：0.375819s] [吞吐率：2.66req/s] [内存消耗：739.70kb] [文件加载：83]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/padmin/index/computerinfo.html?id=1&departmentId=5',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/loaddptlist_html' => '',
+  '_' => '1602815625873',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003524s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.003650s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `department` LIMIT 1 [ RunTime:0.000995s ]
+[ sql ] [ SQL ] SELECT * FROM `department` LIMIT 0,100 [ RunTime:0.000612s ]
+---------------------------------------------------------------
+[ 2020-10-16T10:33:46+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/index/getcompinfo.html?id=1&_=1602815625876
+[运行时间：0.070673s] [吞吐率：14.15req/s] [内存消耗：762.73kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/padmin/index/computerinfo.html?id=1&departmentId=5',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/getcompinfo_html' => '',
+  'id' => '1',
+  '_' => '1602815625876',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.054502s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `computer` [ RunTime:0.004849s ]
+[ sql ] [ SQL ] SELECT * FROM `computer` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002448s ]
+---------------------------------------------------------------
+[ 2020-10-16T10:34:48+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/index/index.html
+[运行时间：0.009961s] [吞吐率：100.39req/s] [内存消耗：501.06kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.10.210/padmin/adminlogin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/index.html [ array (
+  0 => 'PAdmin',
+  1 => 'data',
+  2 => 'msg',
+) ]
+---------------------------------------------------------------
+[ 2020-10-16T10:34:48+08:00 ] 192.168.10.85 GET 192.168.10.210/static/padmin/css/animate.css
+[运行时间：0.027308s] [吞吐率：36.62req/s] [内存消耗：470.38kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/static/padmin/css/style.css',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/animate_css' => '',
+)
+---------------------------------------------------------------
+[ 2020-10-16T10:34:48+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/index/computer.html
+[运行时间：0.097163s] [吞吐率：10.29req/s] [内存消耗：767.63kb] [文件加载：82]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/padmin/index/index.html',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/computer_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/computer.html [ array (
+  0 => 'PAdmin',
+  1 => 'internetAccess',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.063724s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `internet_access` [ RunTime:0.005386s ]
+[ sql ] [ SQL ] SELECT * FROM `internet_access` WHERE  `disabled` = 0 [ RunTime:0.001966s ]
+---------------------------------------------------------------
+[ 2020-10-16T10:34:48+08:00 ] 192.168.10.85 GET 192.168.10.210/static/padmin/css/font-awesome.css
+[运行时间：0.065973s] [吞吐率：15.16req/s] [内存消耗：470.40kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/static/padmin/css/style.css',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/font-awesome_css' => '',
+)
+---------------------------------------------------------------
+[ 2020-10-16T10:34:49+08:00 ] 192.168.10.85 GET 192.168.10.210/static/padmin/css/font-awesome.css
+[运行时间：0.005243s] [吞吐率：190.73req/s] [内存消耗：470.01kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/static/padmin/css/style.css',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/font-awesome_css' => '',
+)
+---------------------------------------------------------------
+[ 2020-10-16T10:34:49+08:00 ] 192.168.10.85 GET 192.168.10.210/static/padmin/css/animate.css
+[运行时间：0.011754s] [吞吐率：85.08req/s] [内存消耗：469.98kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/static/padmin/css/style.css',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/animate_css' => '',
+)
+---------------------------------------------------------------
+[ 2020-10-16T10:34:49+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/index/getcomplist.html?page=1&limit=20&keyword=
+[运行时间：0.371383s] [吞吐率：2.69req/s] [内存消耗：869.40kb] [文件加载：90]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/padmin/index/computer.html',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815589',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/getcomplist_html' => '',
+  'page' => '1',
+  'limit' => '20',
+  'keyword' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003695s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `computer` [ RunTime:0.035283s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `computer` `c` LEFT JOIN `department` `d` ON `d`.`id`=`c`.`department_id` LEFT JOIN `staff` `s` ON `s`.`id`=`c`.`staff_id` WHERE  `d`.`name` LIKE '%%'  OR `s`.`name` LIKE '%%'  OR `c`.`FQDN` LIKE '%%'  OR `c`.`asset_id` LIKE '%%'  OR `c`.`MAC` LIKE '%%'  OR `c`.`ip_addr_v4` LIKE '%%'  OR `c`.`domain_name` LIKE '%%' LIMIT 1 [ RunTime:0.002380s ]
+[ sql ] [ SQL ] SELECT `c`.*,d.name as department,s.name as staff FROM `computer` `c` LEFT JOIN `department` `d` ON `d`.`id`=`c`.`department_id` LEFT JOIN `staff` `s` ON `s`.`id`=`c`.`staff_id` WHERE  `d`.`name` LIKE '%%'  OR `s`.`name` LIKE '%%'  OR `c`.`FQDN` LIKE '%%'  OR `c`.`asset_id` LIKE '%%'  OR `c`.`MAC` LIKE '%%'  OR `c`.`ip_addr_v4` LIKE '%%'  OR `c`.`domain_name` LIKE '%%' LIMIT 0,20 [ RunTime:0.023214s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os` [ RunTime:0.002623s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `computer_internet_access` [ RunTime:0.002408s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 1 [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 2 [ RunTime:0.000454s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 4 [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 5 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 7 [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 8 [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 9 [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 10 [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 11 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 12 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 13 [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 14 [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000543s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 15 [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 16 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000494s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 17 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 18 [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 20 [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 21 [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 22 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 23 [ RunTime:0.000468s ]
+---------------------------------------------------------------
+[ 2020-10-16T10:34:56+08:00 ] 192.168.10.85 GET 192.168.10.210/static/common/layui/css/res/logo.png
+[运行时间：0.345218s] [吞吐率：2.90req/s] [内存消耗：479.57kb] [文件加载：78]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/static/common/layui/css/admin.css',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815690',
+)
+[ info ] [ PARAM ] array (
+  '/static/common/layui/css/res/logo_png' => '',
+  'css' => 'res',
+)
+---------------------------------------------------------------
+[ 2020-10-16T10:35:23+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/index/index.html
+[运行时间：0.012827s] [吞吐率：77.96req/s] [内存消耗：501.06kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.10.210/padmin/adminlogin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815690',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/index.html [ array (
+  0 => 'PAdmin',
+  1 => 'data',
+  2 => 'msg',
+) ]
+---------------------------------------------------------------
+[ 2020-10-16T10:35:24+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/index/computer.html
+[运行时间：0.072695s] [吞吐率：13.76req/s] [内存消耗：767.63kb] [文件加载：82]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/padmin/index/index.html',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815690',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/computer_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/computer.html [ array (
+  0 => 'PAdmin',
+  1 => 'internetAccess',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001079s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `internet_access` [ RunTime:0.010213s ]
+[ sql ] [ SQL ] SELECT * FROM `internet_access` WHERE  `disabled` = 0 [ RunTime:0.000800s ]
+---------------------------------------------------------------
+[ 2020-10-16T10:35:24+08:00 ] 192.168.10.85 GET 192.168.10.210/static/padmin/css/font-awesome.css
+[运行时间：0.047874s] [吞吐率：20.89req/s] [内存消耗：470.40kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/static/padmin/css/style.css',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815690',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/font-awesome_css' => '',
+)
+---------------------------------------------------------------
+[ 2020-10-16T10:35:24+08:00 ] 192.168.10.85 GET 192.168.10.210/static/padmin/css/animate.css
+[运行时间：0.044618s] [吞吐率：22.41req/s] [内存消耗：471.27kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/static/padmin/css/style.css',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815690',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/animate_css' => '',
+)
+---------------------------------------------------------------
+[ 2020-10-16T10:35:24+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/index/getcomplist.html?page=1&limit=20&keyword=
+[运行时间：0.057983s] [吞吐率：17.25req/s] [内存消耗：869.40kb] [文件加载：90]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.210/padmin/index/computer.html',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1600651394,1600743841; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=bi0c7bc4uc6ogc51h119862dmv; Hm_lpvt_d214947968792b839fd669a4decaaffc=1602815690',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/getcomplist_html' => '',
+  'page' => '1',
+  'limit' => '20',
+  'keyword' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001093s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `computer` [ RunTime:0.002831s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `computer` `c` LEFT JOIN `department` `d` ON `d`.`id`=`c`.`department_id` LEFT JOIN `staff` `s` ON `s`.`id`=`c`.`staff_id` WHERE  `d`.`name` LIKE '%%'  OR `s`.`name` LIKE '%%'  OR `c`.`FQDN` LIKE '%%'  OR `c`.`asset_id` LIKE '%%'  OR `c`.`MAC` LIKE '%%'  OR `c`.`ip_addr_v4` LIKE '%%'  OR `c`.`domain_name` LIKE '%%' LIMIT 1 [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT `c`.*,d.name as department,s.name as staff FROM `computer` `c` LEFT JOIN `department` `d` ON `d`.`id`=`c`.`department_id` LEFT JOIN `staff` `s` ON `s`.`id`=`c`.`staff_id` WHERE  `d`.`name` LIKE '%%'  OR `s`.`name` LIKE '%%'  OR `c`.`FQDN` LIKE '%%'  OR `c`.`asset_id` LIKE '%%'  OR `c`.`MAC` LIKE '%%'  OR `c`.`ip_addr_v4` LIKE '%%'  OR `c`.`domain_name` LIKE '%%' LIMIT 0,20 [ RunTime:0.001440s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os` [ RunTime:0.002709s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.001193s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `computer_internet_access` [ RunTime:0.002624s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 1 [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 2 [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 4 [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 5 [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 7 [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 8 [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001707s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 9 [ RunTime:0.000488s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 10 [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000912s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 11 [ RunTime:0.002344s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.004698s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 12 [ RunTime:0.000979s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.001054s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 13 [ RunTime:0.000973s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 14 [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 15 [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 16 [ RunTime:0.000889s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 17 [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 18 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 20 [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 21 [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 22 [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 23 [ RunTime:0.000434s ]
+---------------------------------------------------------------
+[ 2020-10-16T13:36:05+08:00 ] 185.39.11.105 GET example.comhttp://example.com/
+[运行时间：0.015669s] [吞吐率：63.82req/s] [内存消耗：488.73kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'example.com',
+  'user-agent' => 'Go-http-client/1.1',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2020-10-16T13:36:05+08:00 ] 185.39.11.105 GET example.comhttp://example.com/padmin/adminlogin/index.html
+[运行时间：0.005439s] [吞吐率：183.86req/s] [内存消耗：485.56kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'example.com',
+  'user-agent' => 'Go-http-client/1.1',
+  'referer' => 'http://example.com',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-10-16T13:40:31+08:00 ] 128.14.134.134 GET 116.30.95.7:8081/
+[运行时间：0.020845s] [吞吐率：47.97req/s] [内存消耗：489.48kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '116.30.95.7:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2020-10-16T13:40:31+08:00 ] 128.14.134.134 GET 116.30.95.7:8081/padmin/adminlogin/index.html
+[运行时间：0.008506s] [吞吐率：117.56req/s] [内存消耗：486.27kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '116.30.95.7:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://116.30.95.7:8081/',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-10-16T17:34:01+08:00 ] 92.118.161.53 GET /
+[运行时间：0.880734s] [吞吐率：1.14req/s] [内存消耗：758.94kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'NetSystemsResearch studies the availability of various services across the internet. Our website is netsystemsresearch.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)

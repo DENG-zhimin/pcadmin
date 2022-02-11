@@ -1,0 +1,2087 @@
+---------------------------------------------------------------
+[ 2021-06-25T00:08:48+08:00 ] 45.146.165.123 GET 113.90.31.109:8081/
+[运行时间：0.004045s] [吞吐率：247.22req/s] [内存消耗：489.97kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.31.109:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'authorization' => 'Basic YWRtaW46cGFzcw==',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-06-25T00:08:48+08:00 ] 45.146.165.123 POST 113.90.31.109:8081/service/extdirect
+[运行时间：0.004072s] [吞吐率：245.57req/s] [内存消耗：469.13kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.31.109:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-length' => '293',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/service/extdirect' => '',
+  'action' => 'coreui_Component',
+  'data' => 
+  array (
+    0 => 
+    array (
+      'filter' => 
+      array (
+        0 => 
+        array (
+          'property' => 'repositoryName',
+          'value' => '*',
+        ),
+        1 => 
+        array (
+          'property' => 'expression',
+          'value' => '1==1',
+        ),
+        2 => 
+        array (
+          'property' => 'type',
+          'value' => 'jexl',
+        ),
+      ),
+      'limit' => '50',
+      'page' => '1',
+      'sort' => 
+      array (
+        0 => 
+        array (
+          'direction' => 'ASC',
+          'property' => 'name',
+        ),
+      ),
+      'start' => '0',
+    ),
+  ),
+  'method' => 'previewAssets',
+  'tid' => '18',
+  'type' => 'rpc',
+)
+---------------------------------------------------------------
+[ 2021-06-25T00:08:49+08:00 ] 45.146.165.123 GET 113.90.31.109:8081/jars
+[运行时间：0.003006s] [吞吐率：332.67req/s] [内存消耗：497.20kb] [文件加载：76]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.31.109:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/jars' => '',
+)
+---------------------------------------------------------------
+[ 2021-06-25T00:08:49+08:00 ] 45.146.165.123 GET 113.90.31.109:8081/padmin/adminlogin/index.html
+[运行时间：0.003019s] [吞吐率：331.23req/s] [内存消耗：486.88kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.31.109:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'authorization' => 'Basic YWRtaW46cGFzcw==',
+  'content-type' => 'application/json',
+  'referer' => 'http://113.90.31.109:8081/',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-06-25T00:08:49+08:00 ] 45.146.165.123 GET 113.90.31.109:8081/padmin/adminlogin/index.html
+[运行时间：0.003090s] [吞吐率：323.61req/s] [内存消耗：486.55kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.31.109:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://113.90.31.109:8081/jars',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-06-25T00:51:51+08:00 ] 42.240.133.39 GET 113.90.31.109:8081/
+[运行时间：0.004382s] [吞吐率：228.21req/s] [内存消耗：488.70kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.31.109:8081',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-06-25T00:51:52+08:00 ] 106.75.184.38 GET 113.90.31.109:8081/
+[运行时间：0.003213s] [吞吐率：311.22req/s] [内存消耗：490.19kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.31.109:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-charset' => 'GBK,utf-8;q=0.7,*;q=0.3',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-06-25T00:51:52+08:00 ] 106.75.184.38 GET 113.90.31.109:8081/padmin/adminlogin/index.html
+[运行时间：0.003148s] [吞吐率：317.65req/s] [内存消耗：486.91kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.31.109:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-charset' => 'GBK,utf-8;q=0.7,*;q=0.3',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'referer' => 'http://113.90.31.109:8081',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-06-25T01:09:57+08:00 ] 101.251.200.214 GET 113.90.31.109:8081/
+[运行时间：0.003708s] [吞吐率：269.70req/s] [内存消耗：489.84kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.31.109:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-charset' => 'GBK,utf-8;q=0.7,*;q=0.3',
+  'accept' => 'application/json, text/plain, */*',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-06-25T01:10:00+08:00 ] 101.251.200.214 GET 113.90.31.109:8081/padmin/adminlogin/index.html
+[运行时间：0.005763s] [吞吐率：173.52req/s] [内存消耗：486.41kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.31.109:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-charset' => 'GBK,utf-8;q=0.7,*;q=0.3',
+  'accept' => 'application/json, text/plain, */*',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-06-25T05:20:23+08:00 ] 92.118.161.37 GET 113.90.31.109:8081/
+[运行时间：0.062093s] [吞吐率：16.10req/s] [内存消耗：489.20kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.31.109:8081',
+  'user-agent' => 'NetSystemsResearch studies the availability of various services across the internet. Our website is netsystemsresearch.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-06-25T05:20:23+08:00 ] 92.118.161.37 GET 113.90.31.109:8081/padmin/adminlogin/index.html
+[运行时间：0.014141s] [吞吐率：70.72req/s] [内存消耗：485.65kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.31.109:8081',
+  'user-agent' => 'Go http package',
+  'referer' => 'http://113.90.31.109:8081/',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-06-25T06:08:39+08:00 ] 60.191.125.35 HEAD 112.124.42.80:63435http://112.124.42.80:63435/
+[运行时间：0.003671s] [吞吐率：272.41req/s] [内存消耗：491.63kb] [文件加载：76]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+  'bs_real_ip' => 'TmpBdU1Ua3hMakV5TlM0ek5RPT0=',
+  'host' => '112.124.42.80:63435',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'proxy-connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-06-25T06:08:39+08:00 ] 60.191.125.35 GET 112.124.42.80:63435http://112.124.42.80:63435/padmin/adminlogin/index.html
+[运行时间：0.002770s] [吞吐率：361.02req/s] [内存消耗：486.89kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lk2dl72rhs4a3fvrdrfc2itsst',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+  'bs_real_ip' => 'TmpBdU1Ua3hMakV5TlM0ek5RPT0=',
+  'host' => '112.124.42.80:63435',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'proxy-connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-06-25T08:46:05+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/adminlogin/index.html
+[运行时间：0.404651s] [吞吐率：2.47req/s] [内存消耗：757.95kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/adminlogin/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-06-25T09:26:55+08:00 ] 192.168.10.58 POST pcadmin.aoi.bj/padmin/adminlogin/loginaction.html
+[运行时间：0.409254s] [吞吐率：2.44req/s] [内存消耗：693.96kb] [文件加载：79]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'content-length' => '31',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://pcadmin.aoi.bj',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/adminlogin/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/loginaction_html' => '',
+  'username' => 'it02',
+  'password' => 'loevluma',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.090734s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.180702s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'it02' LIMIT 1 [ RunTime:0.058197s ]
+[ sql ] [ SQL ] UPDATE `admin`  SET `lastip` = '192.168.10.58' , `lastvisit` = '1624584415'  WHERE  `id` = 17 [ RunTime:0.002381s ]
+---------------------------------------------------------------
+[ 2021-06-25T09:26:56+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/index.html
+[运行时间：0.075866s] [吞吐率：13.18req/s] [内存消耗：565.90kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/adminlogin/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/index.html [ array (
+  0 => 'PAdmin',
+  1 => 'data',
+  2 => 'msg',
+) ]
+---------------------------------------------------------------
+[ 2021-06-25T09:26:56+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/static/padmin/css/font-awesome.css
+[运行时间：0.048284s] [吞吐率：20.71req/s] [内存消耗：474.23kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://pcadmin.aoi.bj/static/padmin/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/font-awesome_css' => '',
+)
+---------------------------------------------------------------
+[ 2021-06-25T09:26:56+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/static/padmin/css/animate.css
+[运行时间：0.045632s] [吞吐率：21.91req/s] [内存消耗：529.62kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://pcadmin.aoi.bj/static/padmin/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/animate_css' => '',
+)
+---------------------------------------------------------------
+[ 2021-06-25T09:26:57+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/computer.html
+[运行时间：0.246796s] [吞吐率：4.05req/s] [内存消耗：737.17kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/computer_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/computer.html [ array (
+  0 => 'PAdmin',
+  1 => 'internetAccess',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.045797s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `internet_access` [ RunTime:0.168032s ]
+[ sql ] [ SQL ] SELECT * FROM `internet_access` WHERE  `disabled` = 0 [ RunTime:0.000323s ]
+---------------------------------------------------------------
+[ 2021-06-25T09:26:57+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/static/padmin/css/font-awesome.css
+[运行时间：0.009312s] [吞吐率：107.39req/s] [内存消耗：469.08kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://pcadmin.aoi.bj/static/padmin/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/font-awesome_css' => '',
+)
+---------------------------------------------------------------
+[ 2021-06-25T09:26:57+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/static/padmin/css/animate.css
+[运行时间：0.013505s] [吞吐率：74.05req/s] [内存消耗：469.05kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://pcadmin.aoi.bj/static/padmin/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/animate_css' => '',
+)
+---------------------------------------------------------------
+[ 2021-06-25T09:26:57+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/getcomplist.html?page=1&limit=20&keyword=
+[运行时间：0.100190s] [吞吐率：9.98req/s] [内存消耗：936.01kb] [文件加载：90]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/computer.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/getcomplist_html' => '',
+  'page' => '1',
+  'limit' => '20',
+  'keyword' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.028130s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `computer` [ RunTime:0.001364s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `computer` `c` LEFT JOIN `department` `d` ON `d`.`id`=`c`.`department_id` LEFT JOIN `staff` `s` ON `s`.`id`=`c`.`staff_id` WHERE  `d`.`name` LIKE '%%'  OR `s`.`name` LIKE '%%'  OR `c`.`FQDN` LIKE '%%'  OR `c`.`asset_id` LIKE '%%'  OR `c`.`MAC` LIKE '%%'  OR `c`.`ip_addr_v4` LIKE '%%'  OR `c`.`domain_name` LIKE '%%' LIMIT 1 [ RunTime:0.007269s ]
+[ sql ] [ SQL ] SELECT `c`.*,d.name as department,s.name as staff FROM `computer` `c` LEFT JOIN `department` `d` ON `d`.`id`=`c`.`department_id` LEFT JOIN `staff` `s` ON `s`.`id`=`c`.`staff_id` WHERE  `d`.`name` LIKE '%%'  OR `s`.`name` LIKE '%%'  OR `c`.`FQDN` LIKE '%%'  OR `c`.`asset_id` LIKE '%%'  OR `c`.`MAC` LIKE '%%'  OR `c`.`ip_addr_v4` LIKE '%%'  OR `c`.`domain_name` LIKE '%%' LIMIT 0,20 [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os` [ RunTime:0.001226s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `computer_internet_access` [ RunTime:0.000979s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 1 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 2 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 4 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 5 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 7 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 8 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 9 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 10 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 11 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 12 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 13 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 14 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 15 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 16 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 17 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 18 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 20 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 21 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 22 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 23 [ RunTime:0.000366s ]
+---------------------------------------------------------------
+[ 2021-06-25T09:27:02+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/staff.html
+[运行时间：0.067630s] [吞吐率：14.79req/s] [内存消耗：500.71kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/staff_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/staff.html [ array (
+  0 => 'PAdmin',
+) ]
+---------------------------------------------------------------
+[ 2021-06-25T09:27:02+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/static/padmin/css/font-awesome.css
+[运行时间：0.003331s] [吞吐率：300.22req/s] [内存消耗：469.08kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://pcadmin.aoi.bj/static/padmin/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/font-awesome_css' => '',
+)
+---------------------------------------------------------------
+[ 2021-06-25T09:27:02+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/static/padmin/css/animate.css
+[运行时间：0.007618s] [吞吐率：131.27req/s] [内存消耗：469.95kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://pcadmin.aoi.bj/static/padmin/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/animate_css' => '',
+)
+---------------------------------------------------------------
+[ 2021-06-25T09:27:03+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/liststaff.html?page=1&limit=20&keyword=
+[运行时间：0.150850s] [吞吐率：6.63req/s] [内存消耗：772.87kb] [文件加载：83]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/staff.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/liststaff_html' => '',
+  'page' => '1',
+  'limit' => '20',
+  'keyword' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000894s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `staff` [ RunTime:0.009494s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `staff` `s` LEFT JOIN `department` `d` ON `d`.`id`=`s`.`department_id` WHERE  `s`.`name` LIKE '%%'  OR `s`.`mobile` LIKE '%%'  OR `s`.`email` LIKE '%%'  OR `s`.`email2` LIKE '%%'  OR `s`.`staff_number` LIKE '%%'  OR `s`.`extension` LIKE '%%'  OR `s`.`short_number` LIKE '%%'  OR `d`.`name` LIKE '%%' LIMIT 1 [ RunTime:0.135498s ]
+[ sql ] [ SQL ] SELECT `s`.*,d.name as department FROM `staff` `s` LEFT JOIN `department` `d` ON `d`.`id`=`s`.`department_id` WHERE  `s`.`name` LIKE '%%'  OR `s`.`mobile` LIKE '%%'  OR `s`.`email` LIKE '%%'  OR `s`.`email2` LIKE '%%'  OR `s`.`staff_number` LIKE '%%'  OR `s`.`extension` LIKE '%%'  OR `s`.`short_number` LIKE '%%'  OR `d`.`name` LIKE '%%' ORDER BY `department_id` LIMIT 0,20 [ RunTime:0.000802s ]
+---------------------------------------------------------------
+[ 2021-06-25T09:27:06+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/liststaff.html?page=1&limit=20&keyword=%E8%93%9D
+[运行时间：0.218848s] [吞吐率：4.57req/s] [内存消耗：757.53kb] [文件加载：83]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/staff.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/liststaff_html' => '',
+  'page' => '1',
+  'limit' => '20',
+  'keyword' => '蓝',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014897s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `staff` [ RunTime:0.001555s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `staff` `s` LEFT JOIN `department` `d` ON `d`.`id`=`s`.`department_id` WHERE  `s`.`name` LIKE '%蓝%'  OR `s`.`mobile` LIKE '%蓝%'  OR `s`.`email` LIKE '%蓝%'  OR `s`.`email2` LIKE '%蓝%'  OR `s`.`staff_number` LIKE '%蓝%'  OR `s`.`extension` LIKE '%蓝%'  OR `s`.`short_number` LIKE '%蓝%'  OR `d`.`name` LIKE '%蓝%' LIMIT 1 [ RunTime:0.000899s ]
+[ sql ] [ SQL ] SELECT `s`.*,d.name as department FROM `staff` `s` LEFT JOIN `department` `d` ON `d`.`id`=`s`.`department_id` WHERE  `s`.`name` LIKE '%蓝%'  OR `s`.`mobile` LIKE '%蓝%'  OR `s`.`email` LIKE '%蓝%'  OR `s`.`email2` LIKE '%蓝%'  OR `s`.`staff_number` LIKE '%蓝%'  OR `s`.`extension` LIKE '%蓝%'  OR `s`.`short_number` LIKE '%蓝%'  OR `d`.`name` LIKE '%蓝%' ORDER BY `department_id` LIMIT 0,20 [ RunTime:0.197219s ]
+---------------------------------------------------------------
+[ 2021-06-25T09:28:09+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/liststaff.html?page=1&limit=20&keyword=%E5%88%B6%E5%B7%A5
+[运行时间：0.012255s] [吞吐率：81.60req/s] [内存消耗：765.94kb] [文件加载：83]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/staff.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/liststaff_html' => '',
+  'page' => '1',
+  'limit' => '20',
+  'keyword' => '制工',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000539s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `staff` [ RunTime:0.001156s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `staff` `s` LEFT JOIN `department` `d` ON `d`.`id`=`s`.`department_id` WHERE  `s`.`name` LIKE '%制工%'  OR `s`.`mobile` LIKE '%制工%'  OR `s`.`email` LIKE '%制工%'  OR `s`.`email2` LIKE '%制工%'  OR `s`.`staff_number` LIKE '%制工%'  OR `s`.`extension` LIKE '%制工%'  OR `s`.`short_number` LIKE '%制工%'  OR `d`.`name` LIKE '%制工%' LIMIT 1 [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SELECT `s`.*,d.name as department FROM `staff` `s` LEFT JOIN `department` `d` ON `d`.`id`=`s`.`department_id` WHERE  `s`.`name` LIKE '%制工%'  OR `s`.`mobile` LIKE '%制工%'  OR `s`.`email` LIKE '%制工%'  OR `s`.`email2` LIKE '%制工%'  OR `s`.`staff_number` LIKE '%制工%'  OR `s`.`extension` LIKE '%制工%'  OR `s`.`short_number` LIKE '%制工%'  OR `d`.`name` LIKE '%制工%' ORDER BY `department_id` LIMIT 0,20 [ RunTime:0.001187s ]
+---------------------------------------------------------------
+[ 2021-06-25T09:28:33+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/staffinfo.html?id=85
+[运行时间：0.028079s] [吞吐率：35.61req/s] [内存消耗：501.23kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/staff.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/staffinfo_html' => '',
+  'id' => '85',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/staffInfo.html [ array (
+  0 => 'PAdmin',
+  1 => 'staffId',
+) ]
+---------------------------------------------------------------
+[ 2021-06-25T09:28:33+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/static/padmin/css/font-awesome.css
+[运行时间：0.003279s] [吞吐率：304.97req/s] [内存消耗：469.08kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://pcadmin.aoi.bj/static/padmin/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/font-awesome_css' => '',
+)
+---------------------------------------------------------------
+[ 2021-06-25T09:28:33+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/static/padmin/css/animate.css
+[运行时间：0.007192s] [吞吐率：139.05req/s] [内存消耗：469.95kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://pcadmin.aoi.bj/static/padmin/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/animate_css' => '',
+)
+---------------------------------------------------------------
+[ 2021-06-25T09:28:33+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/loaddptlist.html?_=1624584513520
+[运行时间：0.030447s] [吞吐率：32.84req/s] [内存消耗：738.58kb] [文件加载：83]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/staffinfo.html?id=85',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/loaddptlist_html' => '',
+  '_' => '1624584513520',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000582s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.025686s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `department` LIMIT 1 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT * FROM `department` LIMIT 0,100 [ RunTime:0.000270s ]
+---------------------------------------------------------------
+[ 2021-06-25T09:28:33+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/getstaffinfo.html?id=85&_=1624584513521
+[运行时间：0.028558s] [吞吐率：35.02req/s] [内存消耗：741.74kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/staffinfo.html?id=85',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/getstaffinfo_html' => '',
+  'id' => '85',
+  '_' => '1624584513521',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000765s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `staff` [ RunTime:0.001098s ]
+[ sql ] [ SQL ] SELECT * FROM `staff` WHERE  `id` = 85 LIMIT 1 [ RunTime:0.000397s ]
+---------------------------------------------------------------
+[ 2021-06-25T09:34:08+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/staffinfo.html?id=45
+[运行时间：0.003370s] [吞吐率：296.75req/s] [内存消耗：500.81kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/staff.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/staffinfo_html' => '',
+  'id' => '45',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/staffInfo.html [ array (
+  0 => 'PAdmin',
+  1 => 'staffId',
+) ]
+---------------------------------------------------------------
+[ 2021-06-25T09:34:08+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/static/padmin/css/font-awesome.css
+[运行时间：0.004073s] [吞吐率：245.51req/s] [内存消耗：469.08kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://pcadmin.aoi.bj/static/padmin/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/font-awesome_css' => '',
+)
+---------------------------------------------------------------
+[ 2021-06-25T09:34:08+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/static/padmin/css/animate.css
+[运行时间：0.003629s] [吞吐率：275.56req/s] [内存消耗：469.05kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://pcadmin.aoi.bj/static/padmin/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/animate_css' => '',
+)
+---------------------------------------------------------------
+[ 2021-06-25T09:34:08+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/loaddptlist.html?_=1624584848542
+[运行时间：0.005911s] [吞吐率：169.18req/s] [内存消耗：738.58kb] [文件加载：83]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/staffinfo.html?id=45',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/loaddptlist_html' => '',
+  '_' => '1624584848542',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001149s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.001027s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `department` LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT * FROM `department` LIMIT 0,100 [ RunTime:0.000236s ]
+---------------------------------------------------------------
+[ 2021-06-25T09:34:08+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/getstaffinfo.html?id=45&_=1624584848543
+[运行时间：0.057622s] [吞吐率：17.35req/s] [内存消耗：741.69kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/staffinfo.html?id=45',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/getstaffinfo_html' => '',
+  'id' => '45',
+  '_' => '1624584848543',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030024s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `staff` [ RunTime:0.023884s ]
+[ sql ] [ SQL ] SELECT * FROM `staff` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000513s ]
+---------------------------------------------------------------
+[ 2021-06-25T09:34:24+08:00 ] 192.168.10.58 POST pcadmin.aoi.bj/padmin/index/savestaffinfo.html
+[运行时间：0.375352s] [吞吐率：2.66req/s] [内存消耗：818.71kb] [文件加载：89]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'content-length' => '138',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://pcadmin.aoi.bj',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/staffinfo.html?id=45',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/savestaffinfo_html' => '',
+  'name' => '邓茗芳',
+  'department_id' => '9',
+  'gender' => '0',
+  'staff_number' => '',
+  'extension' => '8033',
+  'short_number' => '',
+  'mobile' => '',
+  'email' => '',
+  'email2' => '',
+  'address' => '',
+  'id' => '45',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012502s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `staff` [ RunTime:0.001176s ]
+[ sql ] [ SQL ] UPDATE `staff`  SET `name` = '邓茗芳' , `department_id` = 9 , `gender` = 0 , `staff_number` = '' , `extension` = '8033' , `short_number` = '' , `mobile` = '' , `email` = '' , `email2` = '' , `address` = '' , `id` = 45 , `updated_at` = '2021-06-25 09:34:24'  WHERE  `id` = 45 [ RunTime:0.206505s ]
+---------------------------------------------------------------
+[ 2021-06-25T09:34:25+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/staff.html
+[运行时间：0.002702s] [吞吐率：370.10req/s] [内存消耗：500.62kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/staff.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/staff_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/staff.html [ array (
+  0 => 'PAdmin',
+) ]
+---------------------------------------------------------------
+[ 2021-06-25T09:34:25+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/static/padmin/css/font-awesome.css
+[运行时间：0.003104s] [吞吐率：322.17req/s] [内存消耗：469.08kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://pcadmin.aoi.bj/static/padmin/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/font-awesome_css' => '',
+)
+---------------------------------------------------------------
+[ 2021-06-25T09:34:25+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/static/padmin/css/animate.css
+[运行时间：0.002863s] [吞吐率：349.26req/s] [内存消耗：469.05kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://pcadmin.aoi.bj/static/padmin/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/animate_css' => '',
+)
+---------------------------------------------------------------
+[ 2021-06-25T09:34:25+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/liststaff.html?page=1&limit=20&keyword=
+[运行时间：0.006910s] [吞吐率：144.72req/s] [内存消耗：772.87kb] [文件加载：83]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/staff.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/liststaff_html' => '',
+  'page' => '1',
+  'limit' => '20',
+  'keyword' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000965s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `staff` [ RunTime:0.001176s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `staff` `s` LEFT JOIN `department` `d` ON `d`.`id`=`s`.`department_id` WHERE  `s`.`name` LIKE '%%'  OR `s`.`mobile` LIKE '%%'  OR `s`.`email` LIKE '%%'  OR `s`.`email2` LIKE '%%'  OR `s`.`staff_number` LIKE '%%'  OR `s`.`extension` LIKE '%%'  OR `s`.`short_number` LIKE '%%'  OR `d`.`name` LIKE '%%' LIMIT 1 [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT `s`.*,d.name as department FROM `staff` `s` LEFT JOIN `department` `d` ON `d`.`id`=`s`.`department_id` WHERE  `s`.`name` LIKE '%%'  OR `s`.`mobile` LIKE '%%'  OR `s`.`email` LIKE '%%'  OR `s`.`email2` LIKE '%%'  OR `s`.`staff_number` LIKE '%%'  OR `s`.`extension` LIKE '%%'  OR `s`.`short_number` LIKE '%%'  OR `d`.`name` LIKE '%%' ORDER BY `department_id` LIMIT 0,20 [ RunTime:0.000698s ]
+---------------------------------------------------------------
+[ 2021-06-25T09:34:31+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/liststaff.html?page=1&limit=20&keyword=%E5%88%B6%E5%B7%A5
+[运行时间：0.016188s] [吞吐率：61.77req/s] [内存消耗：765.09kb] [文件加载：83]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/staff.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/liststaff_html' => '',
+  'page' => '1',
+  'limit' => '20',
+  'keyword' => '制工',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009453s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `staff` [ RunTime:0.001146s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `staff` `s` LEFT JOIN `department` `d` ON `d`.`id`=`s`.`department_id` WHERE  `s`.`name` LIKE '%制工%'  OR `s`.`mobile` LIKE '%制工%'  OR `s`.`email` LIKE '%制工%'  OR `s`.`email2` LIKE '%制工%'  OR `s`.`staff_number` LIKE '%制工%'  OR `s`.`extension` LIKE '%制工%'  OR `s`.`short_number` LIKE '%制工%'  OR `d`.`name` LIKE '%制工%' LIMIT 1 [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT `s`.*,d.name as department FROM `staff` `s` LEFT JOIN `department` `d` ON `d`.`id`=`s`.`department_id` WHERE  `s`.`name` LIKE '%制工%'  OR `s`.`mobile` LIKE '%制工%'  OR `s`.`email` LIKE '%制工%'  OR `s`.`email2` LIKE '%制工%'  OR `s`.`staff_number` LIKE '%制工%'  OR `s`.`extension` LIKE '%制工%'  OR `s`.`short_number` LIKE '%制工%'  OR `d`.`name` LIKE '%制工%' ORDER BY `department_id` LIMIT 0,20 [ RunTime:0.000839s ]
+---------------------------------------------------------------
+[ 2021-06-25T09:34:53+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/computerinfo.html?id=1&departmentId=5
+[运行时间：0.013445s] [吞吐率：74.38req/s] [内存消耗：517.52kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/computer.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/computerinfo_html' => '',
+  'id' => '1',
+  'departmentId' => '5',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/computer_info.html [ array (
+  0 => 'PAdmin',
+  1 => 'computerId',
+  2 => 'departmentId',
+) ]
+---------------------------------------------------------------
+[ 2021-06-25T09:34:53+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/static/padmin/css/font-awesome.css
+[运行时间：0.004194s] [吞吐率：238.43req/s] [内存消耗：469.08kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://pcadmin.aoi.bj/static/padmin/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/font-awesome_css' => '',
+)
+---------------------------------------------------------------
+[ 2021-06-25T09:34:53+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/static/padmin/css/animate.css
+[运行时间：0.004082s] [吞吐率：244.98req/s] [内存消耗：469.05kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://pcadmin.aoi.bj/static/padmin/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/animate_css' => '',
+)
+---------------------------------------------------------------
+[ 2021-06-25T09:34:53+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/loaddptlist.html?_=1624584893436
+[运行时间：0.006092s] [吞吐率：164.15req/s] [内存消耗：738.61kb] [文件加载：83]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/computerinfo.html?id=1&departmentId=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/loaddptlist_html' => '',
+  '_' => '1624584893436',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000571s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.001365s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `department` LIMIT 1 [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT * FROM `department` LIMIT 0,100 [ RunTime:0.000328s ]
+---------------------------------------------------------------
+[ 2021-06-25T09:34:53+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/getoslist.html?_=1624584893437
+[运行时间：0.032295s] [吞吐率：30.96req/s] [内存消耗：733.38kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/computerinfo.html?id=1&departmentId=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/getoslist_html' => '',
+  '_' => '1624584893437',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000540s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os` [ RunTime:0.026235s ]
+[ sql ] [ SQL ] SELECT * FROM `os` ORDER BY `name`,`version` [ RunTime:0.000316s ]
+---------------------------------------------------------------
+[ 2021-06-25T09:34:53+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/getdptstaff.html?dptId=5&_=1624584893438
+[运行时间：0.032789s] [吞吐率：30.50req/s] [内存消耗：745.10kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/computerinfo.html?id=1&departmentId=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/getdptstaff_html' => '',
+  'dptId' => '5',
+  '_' => '1624584893438',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000640s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `staff` [ RunTime:0.001183s ]
+[ sql ] [ SQL ] SELECT * FROM `staff` WHERE  `department_id` = 5 [ RunTime:0.000562s ]
+---------------------------------------------------------------
+[ 2021-06-25T09:34:54+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/getcompinfo.html?id=1&_=1624584893439
+[运行时间：0.005378s] [吞吐率：185.94req/s] [内存消耗：762.08kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/computerinfo.html?id=1&departmentId=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/getcompinfo_html' => '',
+  'id' => '1',
+  '_' => '1624584893439',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000455s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `computer` [ RunTime:0.001170s ]
+[ sql ] [ SQL ] SELECT * FROM `computer` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000630s ]
+---------------------------------------------------------------
+[ 2021-06-25T09:36:12+08:00 ] 185.173.35.13 GET /
+[运行时间：0.022913s] [吞吐率：43.64req/s] [内存消耗：490.15kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'NetSystemsResearch studies the availability of various services across the internet. Our website is netsystemsresearch.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-06-25T09:46:21+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/staffinfo.html?id=81
+[运行时间：0.003272s] [吞吐率：305.62req/s] [内存消耗：500.81kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/staff.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/staffinfo_html' => '',
+  'id' => '81',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/staffInfo.html [ array (
+  0 => 'PAdmin',
+  1 => 'staffId',
+) ]
+---------------------------------------------------------------
+[ 2021-06-25T09:46:21+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/static/padmin/css/font-awesome.css
+[运行时间：0.002866s] [吞吐率：348.91req/s] [内存消耗：469.08kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://pcadmin.aoi.bj/static/padmin/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/font-awesome_css' => '',
+)
+---------------------------------------------------------------
+[ 2021-06-25T09:46:21+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/static/padmin/css/animate.css
+[运行时间：0.002960s] [吞吐率：337.84req/s] [内存消耗：469.05kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://pcadmin.aoi.bj/static/padmin/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/animate_css' => '',
+)
+---------------------------------------------------------------
+[ 2021-06-25T09:46:21+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/loaddptlist.html?_=1624585581127
+[运行时间：0.029973s] [吞吐率：33.36req/s] [内存消耗：738.58kb] [文件加载：83]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/staffinfo.html?id=81',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/loaddptlist_html' => '',
+  '_' => '1624585581127',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025158s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.001096s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `department` LIMIT 1 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT * FROM `department` LIMIT 0,100 [ RunTime:0.000258s ]
+---------------------------------------------------------------
+[ 2021-06-25T09:46:21+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/getstaffinfo.html?id=81&_=1624585581128
+[运行时间：0.029943s] [吞吐率：33.40req/s] [内存消耗：741.70kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/staffinfo.html?id=81',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/getstaffinfo_html' => '',
+  'id' => '81',
+  '_' => '1624585581128',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000711s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `staff` [ RunTime:0.001121s ]
+[ sql ] [ SQL ] SELECT * FROM `staff` WHERE  `id` = 81 LIMIT 1 [ RunTime:0.000479s ]
+---------------------------------------------------------------
+[ 2021-06-25T09:46:30+08:00 ] 192.168.10.58 POST pcadmin.aoi.bj/padmin/index/savestaffinfo.html
+[运行时间：0.078138s] [吞吐率：12.80req/s] [内存消耗：817.63kb] [文件加载：89]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'content-length' => '157',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://pcadmin.aoi.bj',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/staffinfo.html?id=81',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/savestaffinfo_html' => '',
+  'name' => '蓝斯娜',
+  'department_id' => '9',
+  'gender' => '0',
+  'staff_number' => '301104',
+  'extension' => '8031',
+  'short_number' => '',
+  'mobile' => '',
+  'email' => 'mg02@aoi.bj',
+  'email2' => '',
+  'address' => '',
+  'id' => '81',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000584s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `staff` [ RunTime:0.001250s ]
+[ sql ] [ SQL ] UPDATE `staff`  SET `name` = '蓝斯娜' , `department_id` = 9 , `gender` = 0 , `staff_number` = '301104' , `extension` = '8031' , `short_number` = '' , `mobile` = '' , `email` = 'mg02@aoi.bj' , `email2` = '' , `address` = '' , `id` = 81 , `updated_at` = '2021-06-25 09:46:30'  WHERE  `id` = 81 [ RunTime:0.071048s ]
+---------------------------------------------------------------
+[ 2021-06-25T09:46:31+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/staff.html
+[运行时间：0.002814s] [吞吐率：355.36req/s] [内存消耗：500.62kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/staff.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/staff_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/staff.html [ array (
+  0 => 'PAdmin',
+) ]
+---------------------------------------------------------------
+[ 2021-06-25T09:46:31+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/static/padmin/css/font-awesome.css
+[运行时间：0.003182s] [吞吐率：314.27req/s] [内存消耗：469.08kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://pcadmin.aoi.bj/static/padmin/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/font-awesome_css' => '',
+)
+---------------------------------------------------------------
+[ 2021-06-25T09:46:31+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/static/padmin/css/animate.css
+[运行时间：0.007443s] [吞吐率：134.36req/s] [内存消耗：469.95kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://pcadmin.aoi.bj/static/padmin/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/animate_css' => '',
+)
+---------------------------------------------------------------
+[ 2021-06-25T09:46:31+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/liststaff.html?page=1&limit=20&keyword=
+[运行时间：0.048850s] [吞吐率：20.47req/s] [内存消耗：772.87kb] [文件加载：83]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/staff.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/liststaff_html' => '',
+  'page' => '1',
+  'limit' => '20',
+  'keyword' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000541s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `staff` [ RunTime:0.001567s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `staff` `s` LEFT JOIN `department` `d` ON `d`.`id`=`s`.`department_id` WHERE  `s`.`name` LIKE '%%'  OR `s`.`mobile` LIKE '%%'  OR `s`.`email` LIKE '%%'  OR `s`.`email2` LIKE '%%'  OR `s`.`staff_number` LIKE '%%'  OR `s`.`extension` LIKE '%%'  OR `s`.`short_number` LIKE '%%'  OR `d`.`name` LIKE '%%' LIMIT 1 [ RunTime:0.000691s ]
+[ sql ] [ SQL ] SELECT `s`.*,d.name as department FROM `staff` `s` LEFT JOIN `department` `d` ON `d`.`id`=`s`.`department_id` WHERE  `s`.`name` LIKE '%%'  OR `s`.`mobile` LIKE '%%'  OR `s`.`email` LIKE '%%'  OR `s`.`email2` LIKE '%%'  OR `s`.`staff_number` LIKE '%%'  OR `s`.`extension` LIKE '%%'  OR `s`.`short_number` LIKE '%%'  OR `d`.`name` LIKE '%%' ORDER BY `department_id` LIMIT 0,20 [ RunTime:0.042608s ]
+---------------------------------------------------------------
+[ 2021-06-25T09:47:48+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/liststaff.html?page=1&limit=20&keyword=%E5%88%B6%E5%B7%A5
+[运行时间：0.036388s] [吞吐率：27.48req/s] [内存消耗：765.13kb] [文件加载：83]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/staff.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/liststaff_html' => '',
+  'page' => '1',
+  'limit' => '20',
+  'keyword' => '制工',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029480s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `staff` [ RunTime:0.001339s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `staff` `s` LEFT JOIN `department` `d` ON `d`.`id`=`s`.`department_id` WHERE  `s`.`name` LIKE '%制工%'  OR `s`.`mobile` LIKE '%制工%'  OR `s`.`email` LIKE '%制工%'  OR `s`.`email2` LIKE '%制工%'  OR `s`.`staff_number` LIKE '%制工%'  OR `s`.`extension` LIKE '%制工%'  OR `s`.`short_number` LIKE '%制工%'  OR `d`.`name` LIKE '%制工%' LIMIT 1 [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SELECT `s`.*,d.name as department FROM `staff` `s` LEFT JOIN `department` `d` ON `d`.`id`=`s`.`department_id` WHERE  `s`.`name` LIKE '%制工%'  OR `s`.`mobile` LIKE '%制工%'  OR `s`.`email` LIKE '%制工%'  OR `s`.`email2` LIKE '%制工%'  OR `s`.`staff_number` LIKE '%制工%'  OR `s`.`extension` LIKE '%制工%'  OR `s`.`short_number` LIKE '%制工%'  OR `d`.`name` LIKE '%制工%' ORDER BY `department_id` LIMIT 0,20 [ RunTime:0.000813s ]
+---------------------------------------------------------------
+[ 2021-06-25T09:47:50+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/staffinfo.html?id=81
+[运行时间：0.002701s] [吞吐率：370.23req/s] [内存消耗：500.81kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/staff.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/staffinfo_html' => '',
+  'id' => '81',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/staffInfo.html [ array (
+  0 => 'PAdmin',
+  1 => 'staffId',
+) ]
+---------------------------------------------------------------
+[ 2021-06-25T09:47:50+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/static/padmin/css/font-awesome.css
+[运行时间：0.002894s] [吞吐率：345.55req/s] [内存消耗：469.08kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://pcadmin.aoi.bj/static/padmin/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/font-awesome_css' => '',
+)
+---------------------------------------------------------------
+[ 2021-06-25T09:47:50+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/static/padmin/css/animate.css
+[运行时间：0.002976s] [吞吐率：336.03req/s] [内存消耗：469.05kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://pcadmin.aoi.bj/static/padmin/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/animate_css' => '',
+)
+---------------------------------------------------------------
+[ 2021-06-25T09:47:50+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/loaddptlist.html?_=1624585670837
+[运行时间：0.005166s] [吞吐率：193.57req/s] [内存消耗：738.58kb] [文件加载：83]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/staffinfo.html?id=81',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/loaddptlist_html' => '',
+  '_' => '1624585670837',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000423s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.001178s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `department` LIMIT 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SELECT * FROM `department` LIMIT 0,100 [ RunTime:0.000236s ]
+---------------------------------------------------------------
+[ 2021-06-25T09:47:50+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/getstaffinfo.html?id=81&_=1624585670838
+[运行时间：0.005470s] [吞吐率：182.81req/s] [内存消耗：741.74kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://pcadmin.aoi.bj/padmin/index/staffinfo.html?id=81',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/getstaffinfo_html' => '',
+  'id' => '81',
+  '_' => '1624585670838',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000547s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `staff` [ RunTime:0.001130s ]
+[ sql ] [ SQL ] SELECT * FROM `staff` WHERE  `id` = 81 LIMIT 1 [ RunTime:0.000534s ]
+---------------------------------------------------------------
+[ 2021-06-25T10:02:06+08:00 ] 204.93.154.210 GET /
+[运行时间：0.003527s] [吞吐率：283.53req/s] [内存消耗：487.85kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-06-25T14:54:58+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/index/index.html
+[运行时间：0.005058s] [吞吐率：197.70req/s] [内存消耗：498.41kb] [文件加载：76]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/index_html' => '',
+)
+---------------------------------------------------------------
+[ 2021-06-25T14:54:58+08:00 ] 192.168.10.58 GET pcadmin.aoi.bj/padmin/adminlogin/index.html
+[运行时间：0.002934s] [吞吐率：340.83req/s] [内存消耗：487.38kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pcadmin.aoi.bj',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=s1gl8d34261a2n1tlicpeurvs6',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-06-25T15:21:26+08:00 ] 103.203.58.3 GET 113.90.221.199:8081/
+[运行时间：0.003781s] [吞吐率：264.47req/s] [内存消耗：489.15kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.221.199:8081',
+  'user-agent' => 'Mozilla/5.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-06-25T17:01:18+08:00 ] 128.14.133.58 GET 113.90.221.199:8081/
+[运行时间：0.004205s] [吞吐率：237.81req/s] [内存消耗：489.51kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.221.199:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-06-25T17:49:16+08:00 ] 45.146.165.123 GET 113.90.221.199:8081/jars
+[运行时间：0.004021s] [吞吐率：248.68req/s] [内存消耗：497.22kb] [文件加载：76]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.221.199:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/jars' => '',
+)
+---------------------------------------------------------------
+[ 2021-06-25T17:49:16+08:00 ] 45.146.165.123 GET 113.90.221.199:8081/
+[运行时间：0.003230s] [吞吐率：309.59req/s] [内存消耗：489.99kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.221.199:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'authorization' => 'Basic YWRtaW46cGFzcw==',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-06-25T17:49:17+08:00 ] 45.146.165.123 POST 113.90.221.199:8081/service/extdirect
+[运行时间：0.003855s] [吞吐率：259.40req/s] [内存消耗：469.13kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.221.199:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-length' => '293',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/service/extdirect' => '',
+  'action' => 'coreui_Component',
+  'data' => 
+  array (
+    0 => 
+    array (
+      'filter' => 
+      array (
+        0 => 
+        array (
+          'property' => 'repositoryName',
+          'value' => '*',
+        ),
+        1 => 
+        array (
+          'property' => 'expression',
+          'value' => '1==1',
+        ),
+        2 => 
+        array (
+          'property' => 'type',
+          'value' => 'jexl',
+        ),
+      ),
+      'limit' => '50',
+      'page' => '1',
+      'sort' => 
+      array (
+        0 => 
+        array (
+          'direction' => 'ASC',
+          'property' => 'name',
+        ),
+      ),
+      'start' => '0',
+    ),
+  ),
+  'method' => 'previewAssets',
+  'tid' => '18',
+  'type' => 'rpc',
+)
+---------------------------------------------------------------
+[ 2021-06-25T17:49:17+08:00 ] 45.146.165.123 GET 113.90.221.199:8081/padmin/adminlogin/index.html
+[运行时间：0.003724s] [吞吐率：268.52req/s] [内存消耗：486.55kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.221.199:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://113.90.221.199:8081/jars',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-06-25T17:49:17+08:00 ] 45.146.165.123 GET 113.90.221.199:8081/padmin/adminlogin/index.html
+[运行时间：0.003094s] [吞吐率：323.19req/s] [内存消耗：486.88kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.221.199:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'authorization' => 'Basic YWRtaW46cGFzcw==',
+  'content-type' => 'application/json',
+  'referer' => 'http://113.90.221.199:8081/',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-06-25T21:15:57+08:00 ] 101.251.200.214 GET 113.90.221.199:8081/
+[运行时间：0.003777s] [吞吐率：264.76req/s] [内存消耗：489.86kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.221.199:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-charset' => 'GBK,utf-8;q=0.7,*;q=0.3',
+  'accept' => 'application/json, text/plain, */*',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2021-06-25T21:16:01+08:00 ] 101.251.200.214 GET 113.90.221.199:8081/padmin/adminlogin/index.html
+[运行时间：0.004444s] [吞吐率：225.02req/s] [内存消耗：486.41kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.221.199:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-charset' => 'GBK,utf-8;q=0.7,*;q=0.3',
+  'accept' => 'application/json, text/plain, */*',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2021-06-25T21:39:28+08:00 ] 193.118.53.202 GET 113.90.221.199:8081/login
+[运行时间：0.141516s] [吞吐率：7.07req/s] [内存消耗：476.35kb] [文件加载：78]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/index//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'login',
+  'route' => 'index/user/logininfo',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.90.221.199:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+  '/login' => '',
+)
+[ error ] [0]致命错误: Class 'app\service\SystemService' not found[/var/www/html/compmgmt/application/index/controller/Common.php:54]

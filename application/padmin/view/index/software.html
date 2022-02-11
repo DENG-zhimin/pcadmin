@@ -1,0 +1,209 @@
+{{include file="public/header" /}}
+
+
+<style>
+	/*弹出层按钮样式*/
+	.layui-layer-btna {
+		width: 120px;
+		margin: 0px 15px;
+	}
+	.layui-layer-btn .layui-layer-btn0 {
+		background-color: rgb(255, 255, 255);
+		color: rgb(51, 51, 51);
+		border-color: rgb(222, 222, 222);
+	}
+	.layui-layer-btn .layui-layer-btn1{
+		background-color: #1E90FF;
+		color: rgb(255, 255, 255);
+		border-color: rgb(0, 150, 136);
+	}
+	
+	#content {
+		width: 100%;
+		min-height: 180px;
+	}
+	.title{
+		font-size: 16px;
+	}
+	.title:hover{
+		cursor: pointer;
+	}
+	
+</style>
+<div style="padding: 15px;">
+
+	<div class="layui-row layui-col-space10">
+		<div class="layui-col-md4">
+			<span onclick="detail()" class="layui-btn layui-btn-normal">新增</span>
+		</div>
+		<div class="layui-col-md8">
+			<form action="#" onsubmit="return false">
+				<input  id="keyword"  placeholder="可按软件名称，类别名称等搜索">
+				<button onclick="loadInfo($('#keyword').val())" class="layui-btn layui-btn-normal" style="margin-left: 15px;">搜索</button>
+			</form>
+		</div>
+	</div>
+
+	<div class="layui-row">
+		<div class="grid-demo">
+			<table id="infoList" class="layui-table" lay-filter="infoList"></table>
+		</div>
+	</div>
+<style>#edit-box{padding: 30px;}</style>
+	
+	
+	
+</div>
+
+
+<!-- footer start -->
+{{include file="public/footer" /}}
+<!-- footer end -->
+
+<script>
+	// test = "{{:MyUrl('padmin/index/staffInfo')}}"  + "?id=" 
+	// console.log(test)
+
+	loadInfo('');
+	layui.use(['form','layer'],function(){
+		form = layui.form; layer=layui.layer;
+	});
+	
+
+	function loadInfo(keyword){
+
+	  layui.use(['table', 'form','layer'], function () {
+	      var $ = layui.$
+	          , admin = layui.admin
+	          , view = layui.view
+	          , table = layui.table
+	          , form = layui.form;
+	      var table = layui.table;
+	
+			table.render({
+				elem: '#infoList'
+				, method: "get"
+				, response: {
+					statusCode: '200' //重新规定成功的状态码为 200，table 组件默认为 0
+					,count:'total'
+				}
+				, cellMinWidth: 80
+				, parseData: function (res) { //将原始数据解析成 table 组件所规定的数据
+					console.log(res);
+				}
+				,where:{keyword:keyword}
+				, url: "{{:MyUrl('padmin/index/getSoftwareList')}}" //数据接口
+				, page: true //开启分页
+				,limit:20
+				, cols: [[ //表头
+						{field: 'id', title: 'ID', sort: true,width:60}
+					, {field: 'category', title: '类别',sort:true}
+					, {field: 'name', title: '名称',sort:true,templet:function(d){
+							return "<span class='title' style='color:blue;' lay-event='detail' >" + d.name+ "</span>";
+					}}
+					, {field: 'version', title: '版本',sort:true}
+					, {field: 'arch', title: '架构',sort:true}
+					,{field:'manufacturer',title:'厂商',sort:true}
+					, {field: 'brand', title: '品牌',sort:true}
+					,{field: 'opt', title: '操作', width:80,align: 'center',
+						templet:function(_value)
+						{
+							var _html = "";
+							_html += '<span class="layui-btn layui-btn-sm layui-btn-danger" lay-event="del">删除</span>';
+							return _html;
+						}
+					}
+				]]
+			}); //end of table.render
+	       
+	    table.on('tool(infoList)',function(obj){
+	    	var data = obj.data;
+	    	var action = obj.event;	//event = lay-event
+	    	switch(action){
+	    		case 'detail':
+	    			detail(data);
+	    			break;
+				case 'del':
+					layer.confirm('确认删除？',{
+						btn:['确认','取消']
+					}
+					,function(){
+						//confirm
+						del(data);
+
+					}
+					,function(){
+
+					})
+					break;
+	    	}
+	    });
+			
+		detail = function(d){
+			id = d? d.id:0;        
+			var ud = layer.open({
+				type:2
+				,area:['90%','90%']
+				,closeBtn:1
+				,title:'員工信息'
+				,shade:0.6
+				,anim:2
+				,content: "{{:MyUrl('padmin/index/softwareInfo')}}"  + "?id=" + id
+				,id:"one"
+				,offset: 'auto'
+				,btnAlign: 'c'
+				,yes: function(){
+					layer.closeAll();
+				}
+				,success:function()
+				{
+					
+				}
+				,end:function()
+				{
+				}  
+			});		//end of layer.open
+		}	//end of detail function.
+
+		//删除职员
+		del = function(d){
+       		 var load = layer.load(2, {shade: [0.3,'#fff']});
+            $.ajax({
+                url:"{{:MyUrl('padmin/index/delSoftware')}}",
+                cache:false,
+                type:"POST",
+                dataType:"json",
+                data: {'id': d.id},
+                error:function(XMLHttpRequest, textStatus, errorThrown)
+                {
+                    layer.close(load);
+                    layer.msg("网络异常，请稍后再试！");
+                },
+                success:function(response)
+                {
+                    layer.close(load);
+                    if( response.code == 200)
+                    {
+                        layer.msg(response.msg);
+  					  	setTimeout(function()  {
+							document.location.reload();
+							}, 1000);
+                    }
+                    else
+                    {
+                        layer.msg(response.msg,{icon: 2});
+                    }
+                }
+            }); //end of ajax
+		}		//end of del function
+
+	  });			//end of layui.user
+		
+	}
+
+
+
+		
+
+	
+</script>

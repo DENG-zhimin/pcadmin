@@ -1,0 +1,361 @@
+---------------------------------------------------------------
+[ 2020-11-02T01:41:31+08:00 ] 120.229.76.229 GET bj.aoi.ddns.us:8081/padmin/adminlogin/index.html
+[运行时间：0.016917s] [吞吐率：59.11req/s] [内存消耗：490.26kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'l_wlu' => '1604252489334',
+  'l_alu' => '1604252489351',
+  'upgrade-insecure-requests' => '1',
+  'l_sipc' => '1604252489358',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-Hans-CN,en-US;q=0.8',
+  'x-ucbrowser-ua' => 'dv(HTC 802t);pr(UCBrowser/10.2.0.535);ov(Android 5.0.2);ss(360*640);pi(1080*1920);bt(UC);pm(1);bv(1);nm(0);im(0);sr(0);nt(2);',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-Hans-CN; 1807-A01 Build/OPM1) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 Quark/4.1.0.132 Mobile Safari/537.36',
+  'clientip' => '120.229.76.229',
+  'cookie' => 'Hm_lpvt_d214947968792b839fd669a4decaaffc=1603850304; Hm_lvt_d214947968792b839fd669a4decaaffc=1603437197; PHPSESSID=8b07vs9k74qmlvjrl4d249mjg1',
+  'x-forwarded-for' => '120.229.76.229',
+  'host' => 'bj.aoi.ddns.us:8081',
+  'cache-control' => 'max-age=259200',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-11-02T01:42:00+08:00 ] 120.229.76.229 GET bj.aoi.ddns.us:8081/
+[运行时间：0.008583s] [吞吐率：116.51req/s] [内存消耗：490.46kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'bj.aoi.ddns.us:8081',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2020-11-02T01:42:14+08:00 ] 120.229.76.229 GET bj.aoi.ddns.us:8081/
+[运行时间：0.029166s] [吞吐率：34.29req/s] [内存消耗：491.36kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'bj.aoi.ddns.us:8081',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2020-11-02T01:42:14+08:00 ] 120.229.76.229 GET bj.aoi.ddns.us:8081/padmin/adminlogin/index.html
+[运行时间：0.006795s] [吞吐率：147.17req/s] [内存消耗：487.24kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'bj.aoi.ddns.us:8081',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=iqt67ipvv9vstem0ub7omrmbqv',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-11-02T01:42:14+08:00 ] 120.229.76.229 GET bj.aoi.ddns.us:8081/padmin/adminlogin/index.html
+[运行时间：0.026935s] [吞吐率：37.13req/s] [内存消耗：488.14kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'bj.aoi.ddns.us:8081',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=iqt67ipvv9vstem0ub7omrmbqv',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-11-02T01:42:18+08:00 ] 120.229.76.229 GET bj.aoi.ddns.us:8081/padmin/adminlogin/index.html
+[运行时间：0.028887s] [吞吐率：34.62req/s] [内存消耗：488.66kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'bj.aoi.ddns.us:8081',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=iqt67ipvv9vstem0ub7omrmbqv',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-11-02T02:32:47+08:00 ] 185.172.111.197 HEAD /
+[运行时间：0.007323s] [吞吐率：136.56req/s] [内存消耗：489.30kb] [文件加载：76]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2020-11-02T04:41:22+08:00 ] 185.172.111.197 HEAD /
+[运行时间：0.008743s] [吞吐率：114.38req/s] [内存消耗：489.30kb] [文件加载：76]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2020-11-02T05:28:07+08:00 ] 83.97.20.30 GET 113.110.185.248:8081/
+[运行时间：0.062629s] [吞吐率：15.97req/s] [内存消耗：489.63kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.110.185.248:8081',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2020-11-02T05:28:07+08:00 ] 83.97.20.30 GET /padmin/adminlogin/index.html
+[运行时间：0.006339s] [吞吐率：157.75req/s] [内存消耗：484.44kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-11-02T08:23:48+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/index/index.html
+[运行时间：0.009917s] [吞吐率：100.84req/s] [内存消耗：499.37kb] [文件加载：76]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:82.0) Gecko/20100101 Firefox/82.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.10.210/padmin/adminlogin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1603700213,1603964442; session_id=b197b5fb4f633851551876d3da9731aed7f311c3',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/index/index_html' => '',
+)
+---------------------------------------------------------------
+[ 2020-11-02T08:23:48+08:00 ] 192.168.10.85 GET 192.168.10.210/padmin/adminlogin/index.html
+[运行时间：0.005875s] [吞吐率：170.21req/s] [内存消耗：488.37kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.10.210',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:82.0) Gecko/20100101 Firefox/82.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.10.210/padmin/adminlogin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_d214947968792b839fd669a4decaaffc=1603700213,1603964442; session_id=b197b5fb4f633851551876d3da9731aed7f311c3; PHPSESSID=nmhbp8fugig3vhlghfi6uuth9d',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-11-02T10:30:42+08:00 ] 198.144.190.164 HEAD /
+[运行时间：0.317774s] [吞吐率：3.15req/s] [内存消耗：489.30kb] [文件加载：76]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2020-11-02T11:16:47+08:00 ] 89.248.160.139 GET 113.110.185.248:8081/
+[运行时间：0.046785s] [吞吐率：21.37req/s] [内存消耗：489.17kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'te' => 'deflate,gzip;q=0.3',
+  'connection' => 'TE, close',
+  'host' => '113.110.185.248:8081',
+  'user-agent' => 'libwww-perl/6.05',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2020-11-02T11:16:48+08:00 ] 89.248.160.139 GET 113.110.185.248:8081/padmin/adminlogin/index.html
+[运行时间：0.114749s] [吞吐率：8.71req/s] [内存消耗：485.73kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'te' => 'deflate,gzip;q=0.3',
+  'connection' => 'TE, close',
+  'host' => '113.110.185.248:8081',
+  'user-agent' => 'libwww-perl/6.05',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2020-11-02T11:42:00+08:00 ] 128.14.134.170 GET 113.110.185.248:8081/
+[运行时间：0.036543s] [吞吐率：27.37req/s] [内存消耗：489.51kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.110.185.248:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2020-11-02T11:42:00+08:00 ] 128.14.134.170 GET 113.110.185.248:8081/padmin/adminlogin/index.html
+[运行时间：0.009510s] [吞吐率：105.15req/s] [内存消耗：486.34kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/compmgmt/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/compmgmt/application/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '113.110.185.248:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://113.110.185.248:8081/',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+  '/padmin/adminlogin/index_html' => '',
+)
+[ info ] [ VIEW ] /var/www/html/compmgmt/application/padmin/view/index/login.html [ array (
+  0 => 'title',
+) ]

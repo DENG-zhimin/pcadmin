@@ -1,0 +1,349 @@
+{{include file="public/header" /}}
+
+
+<style>
+	/*弹出层按钮样式*/
+	.layui-layer-btna {
+		width: 120px;
+		margin: 0px 15px;
+	}
+	.layui-layer-btn .layui-layer-btn0 {
+		background-color: rgb(255, 255, 255);
+		color: rgb(51, 51, 51);
+		border-color: rgb(222, 222, 222);
+	}
+	.layui-layer-btn .layui-layer-btn1{
+		background-color: #1E90FF;
+		color: rgb(255, 255, 255);
+		border-color: rgb(0, 150, 136);
+	}
+</style>
+<div style="padding: 15px;">
+
+	<div class="layui-row layui-col-space10">
+		<div class="layui-col-md4">
+			<span onclick="addNew()" class="layui-btn layui-btn-normal">新增</span>
+		</div>
+	</div>
+
+	<div class="layui-row">
+		<div class="grid-demo">
+			<table id="infoList" class="layui-table" lay-filter="infoList"></table>
+		</div>
+	</div>
+<style>#edit-box{padding: 30px;}</style>
+
+</div>
+
+<div id="edit-box" style="padding: 15px; display: none;">
+	<h1>
+		制作一个vps模板
+	</h1>
+	<hr />
+
+	<form class="layui-form" action="#" method="post" onsubmit="return false;" id="edit-form">
+	<div class="layui-form-item">
+		<label class="layui-form-label">名称</label>
+		<div class="layui-input-block">
+			<input id="name" type="text" name="name" placeholder="字母数字下划线" class="layui-input"/>
+		</div>
+	</div>
+	<div class="layui-form-item">
+		<label class="layui-form-label">供应商</label>
+		<div class="layui-input-block">
+			<select name="vendor_id" id="vendor">
+			{{volist name='vendors' id='v'}}
+				<option value="{{$v.id}}">{{$v.name}}</option>
+			{{/volist}}
+			</select>
+		</div>
+	</div>
+	<div class="layui-form-item">
+		<label class="layui-form-label">供应商osid</label>
+		<div class="layui-input-block">
+			<input id="osid" type="text" name="osid" placeholder="数字" class="layui-input"/>
+		</div>
+	</div>
+	<div class="layui-form-item">
+		<label class="layui-form-label">快照id</label>
+		<div class="layui-input-block">
+			<input id="snapshotid" type="text" name="bo_snapshotid" placeholder="字母数字" class="layui-input"/>
+		</div>
+	</div>
+	<div class="layui-form-item">
+		<label class="layui-form-label">家族</label>
+		<div class="layui-input-block">
+			<input id="family" type="text" name="family" placeholder="字母" class="layui-input"/>
+		</div>
+	</div>
+	<div class="layui-form-item">
+		<label class="layui-form-label">架构</label>
+		<div class="layui-input-block">
+			<select name="arch" id="arch" >
+				<option value="x64">x64</option>
+				<option value="i386">i386</option>
+			</select>
+		</div>
+	</div>
+	<div class="layui-form-item">
+		<label class="layui-form-label">描述</label>
+		<div class="layui-input-block">
+			<input id="description" type="text" name="description" placeholder="字母" class="layui-input"/>
+		</div>
+	</div>
+	<div class="layui-form-item">
+		<label class="layui-form-label">windows</label>
+		<div class="layui-input-block">
+			<input type="radio" name="windows" class="windows" value="1" title="是" >
+			<input type="radio" name="windows" value="0" class="windows" title="否" checked="">
+		</div>
+	</div>
+	<div class="layui-form-item">
+		<label class="layui-form-label">状态</label>
+		<div class="layui-input-block">
+			<input type="radio" name="disabled" value="1" title="正常" class="status" checked="">
+			<input type="radio" name="disabled" value="0" title="停用" class="status" >
+		</div>
+	</div>
+	
+	<div style="display: none;">
+		<div class="layui-col-md4">
+			<input type="hidden" name="id" value="" id="id" />
+			<span id="submit" onclick="submitAction()" class="layui-btn layui-btn-normal">提交</span>
+		</div>
+	</div>
+	</form>
+	
+
+</div>
+
+<!-- footer start -->
+{{include file="public/footer" /}}
+<!-- footer end -->
+
+<script>
+	loadInfo();
+	
+	layui.use('form');
+	
+	function addNew()
+	{
+		var index = layer.open({
+			type:1
+			,area:['60%','80%']
+			,closeBtn:0
+			,title:false
+			,shade:0.6
+			,anim:2
+			,content: $("#edit-box")
+			,btn: ['关闭','保存']
+			,id:"one"
+			,offset: 'auto'
+			,btnAlign: 'c'
+			,yes: function(){
+				layer.closeAll();
+			}
+			,btn2: function(){
+					$("#submit").click();
+					return false;
+			}
+			,success:function()
+			{
+				$("#edit-box").css('display','block');
+				$("#edit-box input").val('');
+			},
+			end:function(){
+				$("#edit-box").css('display','none');
+			}
+		});
+	}
+
+	function loadInfo(){
+	  layui.use(['table', 'form','layer'], function () {
+	      var $ = layui.$
+	          , admin = layui.admin
+	          , view = layui.view
+	          , table = layui.table
+	          , form = layui.form;
+	      var table = layui.table;
+	
+			table.render({
+	      elem: '#infoList'
+	      , method: "get"
+	      , response: {
+	          statusCode: '200' //重新规定成功的状态码为 200，table 组件默认为 0
+	          ,count:'total'
+	      }
+	      ,cellMinWidth: 80
+	      , parseData: function (res) { //将原始数据解析成 table 组件所规定的数据
+//	         console.log(res);
+	      }
+	      , url: "{{:MyUrl('papi/resource/pubisoList')}}" //数据接口
+	      , page: true //开启分页
+	      , cols: [[ //表头
+	      		  {field: 'vendor_id', title: 'vender id', sort: true}
+	          , {field: 'isoid', title: 'vendor isoid',sort:true}
+	          , {field: 'name', title: '名称',sort:true}
+	          , {field: 'description', title: '描述',sort:true}
+	          , {field: 'status', title: '状态',sort:true,templet:function(d){
+	          	if(d.status){
+	          		_htm = "<a class='layui-btn layui-btn-danger layui-btn-xs' lay-event='disable'><i class='layui-icon layui-icon-edit'></i>禁用</a>";
+	          	}else{
+	          		_htm = "<a class='layui-btn layui-btn-normal layui-btn-xs' lay-event='enable'><i class='layui-icon layui-icon-edit'></i>启用</a>";
+	          	}
+	          	return _htm;
+	          }}
+	          , {field: '_op', title: '操作', templet:function(d){
+	          	_htm = '';
+	          	_htm += "<a class='layui-btn layui-btn-normal layui-btn-xs' lay-event='edit'><i class='layui-icon layui-icon-edit'></i>编辑</a>";
+				      _htm += "<a class='layui-btn layui-btn-danger layui-btn-xs' lay-event='destroy'><i class='layui-icon layui-icon-delete'></i>删除</a>	";
+				      return _htm;
+	          }}
+	      ]]
+	  	});
+	       
+	    table.on('tool(infoList)',function(obj){
+	    	var data = obj.data;
+	    	var action = obj.event;	//event = lay-event
+	    	switch(action){
+	    		case 'edit':
+	    			edit(data);
+	    			break;
+	    		case 'destroy':
+	    			setOs('destroy',{id:data.id});
+	    			break;
+	    		case 'disable':
+	    			setOs('setStatus',{id:data.id,disabled:1});
+	    			break;
+	    		case 'enable':
+	    			setOs('setStatus',{id:data.id,disabled:0});
+	    			break;
+	    	}
+	    });
+			
+		});
+	}
+	
+	function setOs(action,params)
+	{
+		if(action=='setStatus')
+		{
+			url="/papi/resource/isoUpdate";
+		} else if(action=='destroy') {
+			if(!confirm('确定删除吗？')) return false;
+			url = "/papi/resource/isoDestroy";
+		}
+		$.ajax({
+			type:"post",
+			url:url,
+			async:true,
+			data:params,
+			success:function(res){
+console.log(res);				
+				if(res.code==200)
+				{
+					layer.msg(res.msg);
+					setTimeout(layer.closeAll(),1000);
+					loadInfo();
+				}else {
+					layer.msg(res.msg);
+				}
+			}
+		});
+	}
+	
+	//打开修改层
+	function edit(data)
+	{
+
+		var index = layer.open({
+			type:1
+			,area:['60%','80%']
+			,closeBtn:0
+			,title:false
+			,shade:0.6
+			,anim:2
+			,content: $("#edit-box")
+			,btn: ['关闭','保存']
+			,id:"one"
+			,offset: 'auto'
+			,btnAlign: 'c'
+			,yes: function(){
+				layer.closeAll();
+			}
+			,btn2: function(){
+				$("#submit").click();
+//				layer.close(index);
+//				loadInfo();
+			}
+			,success:function()
+			{
+				$("#edit-box").css('display','block');
+				$("#name").val(data.name);
+				$("#osid").val(data.osid)
+				$("#snapshotid").val(data.bo_snapshotid);
+				$("#family").val(data.family);
+				$("#id").val(data.id);
+
+				$("input[name='windows'][value='" +data.windows + "']").attr('checked',true);
+				$("input[name='status'][value='" +data.status + "']").attr('checked',true);
+				$("#vendor").val(data.vendor_id);
+				$("#arch").val(data.arch)	;
+				$("#description").val(data.description);
+				layui.use('form',function(){
+					form =layui.form
+					form.render();
+				});
+			}
+			,end:function(){
+				$("#edit-box").css('display','none');
+			}
+		});
+	}
+	
+	//设置服务器
+	function submitAction()
+	{
+		id=$("#id").val();
+		if(id==""){
+			//add new os
+			$.ajax({
+				type:"post",
+				url:"/papi/resource/isoCreate",
+				data:$("#edit-form").serialize(),
+				async:true,
+				success:function(res){
+					layer.msg(res.msg);
+					if(res.code==200){
+						setTimeout(function(){
+							layer.closeAll();
+							loadInfo();
+						},500);
+					}
+				}
+			});
+			
+		} else {
+			//edit os
+			$.ajax({
+				type:"post",
+				url:"/papi/resource/isoUpdate",
+				data:$("#edit-form").serialize(),
+				async:true,
+				success:function(res){
+					layer.msg(res.msg);
+					if(res.code==200){
+						setTimeout(function(){
+							layer.closeAll();
+							loadInfo();
+						},500);
+					}
+				}
+			});
+		}
+	}
+	
+		
+
+	
+</script>

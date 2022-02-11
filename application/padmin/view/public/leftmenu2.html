@@ -1,0 +1,57 @@
+
+<!-- 侧边菜单 -->
+        <div class="layui-side layui-side-menu">
+            <div class="layui-side-scroll">
+                <div class="layui-logo" lay-href="{{:MyUrl('padmin/index/computer')}}">
+                    <span>AOI IT資信管理</span>
+                </div>
+
+                <ul class="layui-nav layui-nav-tree" lay-shrink="all" id="LAY-system-side-menu" lay-filter="layadmin-system-side-menu">
+                    <li data-name="home" class="layui-nav-item">
+                        <a href="javascript:;" lay-tips="系统设置" lay-direction="2">
+                            <i class="layui-icon layui-icon-home"></i>
+                            <cite>基本信息</cite>
+                        </a>
+                        <dl class="layui-nav-child">
+                            <!-- <dd class="layui-this">
+                                <a lay-href="home/console.html">基本配置</a>
+                            </dd> -->
+                            {{if condition="in_array(session('PAdmin.username'), ['admin', 'it02'])"}}
+                            <dd>
+                                <a lay-href="{{:MyUrl('padmin/index/webSiteAdmin')}}">管理员</a>
+                            </dd>
+                            {{/if}}
+                            <dd>
+                                <a lay-href="{{:MyUrl('padmin/index/department')}}">部门管理</a>
+                            </dd>
+                            
+                            <dd>
+                                <a lay-href="{{:MyUrl('padmin/index/staff')}}">员工</a>
+                            </dd>
+                            <dd>
+                                <a lay-href="{{:MyUrl('padmin/index/software')}}">软件</a>
+                            </dd>
+                           <!-- <dd>
+                                <a lay-href="{{:MyUrl('portal', 'login', 'loginout')}}">退出</a>
+                            </dd>-->
+                        </dl>
+                    </li>
+                    <li data-name="nav" class="layui-nav-item  layui-nav-itemed">
+                        <a href="javascript:;" lay-tips="资产管理" lay-direction="2">
+                            <i class="layui-icon layui-icon-template"></i>
+                            <cite>资产管理</cite>
+                        </a> 
+                        <dl class="layui-nav-child layui-this">
+                            <dd><a lay-href="{{:MyUrl('padmin/index/computer')}}">电脑管理</a></dd>
+                        </dl>
+                        <dl class="layui-nav-child">
+                            <dd><a lay-href="{{:MyUrl('padmin/index/printer')}}">打印机管理</a></dd>
+                        </dl>
+                        <dl class="layui-nav-child">
+                            <dd><a lay-href="{{:MyUrl('padmin/index/maintain')}}">维护管理</a></dd>
+                        </dl>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>

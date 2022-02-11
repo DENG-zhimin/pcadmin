@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui, viewport-fit=cover">
+	<meta name="screen-orientation" content="portrait"/>
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="full-screen" content="yes">
+	<meta name="x5-fullscreen" content="true">
+	<title>APP 下载</title>
+</head>
+<style>
+	body{
+
+	}
+	.xiazai{
+		margin-top: 1rem;
+	}
+
+	.a1{
+		font-size: .34rem;
+		border: 1px solid #fff;
+		width: 2.4rem;
+		height: .8rem;
+		text-align: center;
+		line-height: .8rem;
+		border-radius: .8rem;
+		color: #fff;
+		display: block;
+		margin: 0 auto;
+	}
+	.a2{
+		font-size: .34rem;
+		border: 1px solid #fff;
+		width: 2.4rem;
+		height: .8rem;
+		text-align: center;
+		line-height: .8rem;
+		border-radius: .8rem;
+		color: #fff;
+		display: block;
+		margin: 0 auto;
+	}
+	.img{
+		width: 80%;
+		margin: 0 auto;
+		display: block;
+		margin-top: .8rem;
+	}
+	.mencen{
+		position: fixed;
+		background: rgba(0,0,0,.6);
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+	;
+	}
+	.img2{
+		width: 2rem;
+		float: right;
+		margin-right: 1rem;
+		margin-top: 3rem;
+		display: block;
+
+	}
+	.pss{
+		color: #fff;
+		margin-top: 7rem;
+		font-size: .34rem;
+		text-align: center;
+	}
+</style>
+<body background="http://sequ.res.5wajin.com/2019/05/20/3f9591c0bdc9adff67815be904f59f66.png ">
+<div class="mencen">
+	<img src='youshagnjiao.png' class="img2"/>
+	<p class="pss">点击右上角在浏览器中打开</p>
+</div>
+<!--<img src='youshagnjiao.png'/>-->
+<!--<img src="http://sequ.res.5wajin.com/2019/05/20/3f9591c0bdc9adff67815be904f59f66.png" class="img"/>-->
+<div style="padding: 200px"></div>
+<div class="xiazai">
+	<!--<img src="img@2x.png"/>-->
+	<p style="margin-top: -100px;" >
+		<a class="a1" style="text-decoration:none;" href="">
+			安卓下载
+		</a>
+	</p>
+
+	<p style="margin-top: -100px;" >
+		<a class="a2" style="text-decoration:none;" href="">
+			IOS下载
+		</a>
+	</p>
+
+</div>
+
+
+
+</body>
+</html>
+<script>
+    function scale(){
+        var scale = 1 / window.devicePixelRatio;
+        document.querySelector('meta[name="viewport"]').setAttribute('content','width=device-width,initial-scale=' + scale + ', maximum-scale=' + scale + ', minimum-scale=' + scale + ', user-scalable=no');
+        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + 'px';
+    }
+    scale();
+    // window.onresize = function() {
+    //     scale();
+    //     isWeiXin();
+    // }
+    console.log(document.getElementsByClassName("mencen"))
+    //判断是否是浏览器
+    // alert("点击右上角在浏览器中打开")
+    function isWeiXin() {
+        const ua = window.navigator.userAgent.toLowerCase();
+        if (ua.match(/MicroMessenger/i) == 'micromessenger') {
+            var center = document.getElementsByClassName("mencen")[0];
+            center.style.display = "block";
+            return true;
+        } else {
+            var center = document.getElementsByClassName("mencen")[0];
+            center.style.display = "none";
+            return false;
+        }
+    }
+    isWeiXin();
+
+</script>

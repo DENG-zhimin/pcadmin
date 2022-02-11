@@ -1,0 +1,85 @@
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="widget">
+                    <h5 class="widgetheading">联系我们</h5>
+                    <a href="{{$system.online}}" target="_blank" class="qq_contain" style="color:#fff;">
+                        <img src="{{$Think.__MY_ROOT_PUBLIC__}}static/portal/css/img/icon_qq.png" alt="" style="position:relative;top:-1px;">
+                        <span class="qq_text">在线咨询</span>
+                    </a>
+                    <p>
+                        <i class="icon-phone"></i> {{$system.phone}} <br>
+                        <i class="icon-envelope-alt"></i> {{$system.email}}
+                    </p>
+                </div>
+            </div>
+
+
+            {{if !empty($nav)}}
+            {{foreach $nav as $k=>$v}}
+            {{if $v['bottom_show'] eq 1}}
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <div class="widget">
+                    <h5 class="widgetheading">{{$v.title}}</h5>
+                    <ul class="link-list">
+                        {{foreach $v['child'] as $kk=>$vv}}
+                        {{if $vv['bottom_show'] eq 1}}
+                           <li {{if $v['id'] eq 1 or $v['id'] eq 2}}class="hide"{{/if}}>
+                        {{if $vv['url']}}
+                        <a href="{{$vv['url']}}" title="{{$vv.title}}"  target="_blank">
+                        {{else /}}
+                        <a href="{{:PluginsAdminUrl('xinxin_website', 'index', 'index',['id'=>$vv['id']])}}">
+                        {{/if}}
+                            {{$vv.title}}</a></li>
+
+                       {{if $v['id'] eq 1 or $v['id'] eq 2}}
+                        {{foreach $vv['child'] as $ks=>$vs}}
+                        {{if $vs['bottom_show'] eq 1}}
+                           <li>
+                               {{if $vs['url']}}
+                               <a href="{{$vs['url']}}" title="{{$vs.title}}"  target="_blank">
+                               {{else /}}
+                               <a href="{{:PluginsAdminUrl('xinxin_website', 'index', 'index',['id'=>$vs['id']])}}">
+                                {{/if}}
+                                   {{$vs.title}}</a></li>
+                        {{/if}}
+                        {{/foreach}}
+                        {{/if}}
+
+                        {{/if}}
+                        {{/foreach}}
+                    </ul>
+                </div>
+            </div>
+            {{/if}}
+            {{/foreach}}
+            {{/if}}
+            <div class="col-md-2">
+                <div class="widget">
+                    <h5 class="widgetheading">关注我们</h5>
+                    <ul class="link-list">
+                        <img style="max-width: 60%;" src="{{$qcode.thumb}}" />
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div id="sub-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="copyright">
+                        <p>
+                            {{$system.copyright}}&nbsp;&nbsp;{{$system.icp}}&nbsp;&nbsp;{{$system.address}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>

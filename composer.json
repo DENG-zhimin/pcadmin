@@ -1,0 +1,39 @@
+{
+    "name": "onecms/onecms",
+    "description": "XINXINCMS domestic leading enterprise-class B2C free open source e-commerce system!",
+    "type": "project",
+    "keywords": [
+        "shop",
+        "b2c",
+        "mall",
+        "商城",
+        "开源商城",
+        "小程序",
+        "thinkphp",
+        "ORM"
+    ],
+    "homepage": "http://www.59xinxin.com/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "JOB",
+            "email": "xinxincms@126.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "qiniu/php-sdk": "^7.0",
+        "topthink/framework": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "application"
+        }
+    },
+    "extra": {
+        "think-path": "thinkphp"
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}

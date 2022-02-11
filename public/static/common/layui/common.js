@@ -1,0 +1,1 @@
+/var/www/html/compmgmt/public/static/common/layui/common.js

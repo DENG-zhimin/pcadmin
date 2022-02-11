@@ -1,0 +1,133 @@
+{{include file="public/header" /}}
+<style>
+    .info-box{
+        border:gainsboro solid 1px;
+        padding: 5px 10px;
+        margin: 10px;
+    }
+    .soft-box{
+        background-color: aliceblue;
+        border:gainsboro solid 1px;
+        border-radius: 5px;
+        padding:5px;
+        margin: 5px;
+        width: fit-content;
+        display: inline-block;
+    }
+    .container{
+        padding-top: 10px;
+    }
+    .comp-info{text-align: center;}
+    .layui-btn {margin-bottom: 15px;}
+</style>
+
+<div class="container" >
+    <div class="comp-info">
+        <h3 >{{$computer.FQDN}}  {{:$computer.os_name . '-' . $computer.version . '_' . $computer.arch }}</h3>
+    </div>
+    <form action="#" method="POST" onsubmit="return false;" id="info-box">
+        {{volist name="category" id="c"}}
+            <div class="info-box" >
+                <legend >{{$c.chinese_name}}</legend> 
+                {{if isset($c.soft)}}
+                    {{volist name="c.soft" id="s"}}
+                        <div class="soft-box">
+                            <input type="checkbox" id="{{$s.id}}" name="{{$s.id}}" value="{{$s.id}}">
+                            <label for="{{$s.id}}"> {{$s.name . '_' . $s.version . '_' . $s.arch}} </label>
+                        </div>
+
+
+                    {{/volist}}        
+                {{/if}}    
+            </div>
+
+        {{/volist}}
+    
+    <div class="comp-info">
+        <input type="hidden" name="computer_id" value="{{$computer['id']}}">
+        <button class="layui-btn layui-btn-sm layui-btn-normal" style="width: 150px;" lay-submit lay-filter='submitBtn'>保存</button>
+    </div>
+</form>
+    
+    
+</div>
+
+
+{{include file="public/footer" /}}
+
+<script>
+    layui.use('form',function(){
+        var form = layui.form;
+
+        getCompSoftMap();
+        
+        function getCompSoftMap()
+        {
+                var load = layer.load(2, {shade: [0.3,'#fff']});
+                    $.ajax({
+                        url:"{{:MyUrl('padmin/index/getCompSoftMap')}}",
+                        cache:false,
+                        type:"GET",
+                        dataType:"json",
+                        data:{"id":"{{$computer['id']}}"},
+                        error:function(XMLHttpRequest, textStatus, errorThrown)
+                        {
+                            layer.close(load);
+                            layer.msg("网络异常，请稍后再试！");
+                        },
+                        success:function(response)
+                        {
+                            layer.close(load);
+                            if( response.code == 200)
+                            {
+                                //填入内容
+                                d = response.data;
+                                // keys = Object.keys(d)
+                                d.forEach(function(key){
+                                    $("#" + key ).attr('checked','checked');
+                                })
+                                
+                                form.render();
+                            }
+                            else
+                            {
+                                layer.msg(response.msg,{icon: 2});
+                            }
+                        }
+                    });
+            }
+
+        form.on("submit(submitBtn)",function(obj){
+            data=$("#info-box").serialize();
+            var load = layer.load(2, {shade: [0.3,'#fff']});
+                $.ajax({
+                    url:"{{:MyUrl('padmin/index/saveComputerSoftware')}}",
+                    cache:false,
+                    type:"POST",
+                    dataType:"json",
+                    data:data,
+                    error:function(XMLHttpRequest, textStatus, errorThrown)
+                    {
+                        layer.close(load);
+                        layer.msg("网络异常，请稍后再试！");
+                    },
+                    success:function(response)
+                    {
+                        layer.close(load);
+                        if( response.code == 200)
+                        {
+                            layer.msg(response.msg);
+                            setTimeout(function()  {
+                                window.parent.layer.closeAll();
+                                window.parent.location.reload();
+                            }, 1000);
+                        }
+                        else
+                        {
+                            layer.msg(response.msg,{icon: 2});
+                        }
+                    }
+                }); //end of ajax
+        });     //end of form.on
+    })
+</script>

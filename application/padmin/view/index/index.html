@@ -1,0 +1,106 @@
+{{include file="public/header" /}}
+<link rel="stylesheet" href="{{$Think.__MY_ROOT_PUBLIC__}}static/common/layui/css/admin.css" media="all">
+
+
+<!--<body class="layui-layout-body">-->
+
+<div id="LAY_app">
+    <div class="layui-layout layui-layout-admin">
+        <div class="layui-header">
+            <!-- 头部区域 -->
+            <ul class="layui-nav layui-layout-left">
+                <li class="layui-nav-item layadmin-flexible" lay-unselect>
+                    <a href="javascript:;" layadmin-event="flexible" title="侧边伸缩">
+                        <i class="layui-icon layui-icon-shrink-right" id="LAY_app_flexible"></i>
+                    </a>
+                </li>
+                <li class="layui-nav-item layui-hide-xs" lay-unselect>
+                    <a href="https://dev.web.sscrm.com" target="_blank" title="前台">
+                        <i class="layui-icon layui-icon-website"></i>
+                    </a>
+                </li>
+                <li class="layui-nav-item" lay-unselect>
+                    <a href="javascript:;" layadmin-event="refresh" title="刷新">
+                        <i class="layui-icon layui-icon-refresh-3"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="layui-nav layui-layout-right" lay-filter="layadmin-layout-right">
+                <li class="layui-nav-item" lay-unselect>
+                    <a href="javascript:;">
+                        <cite>{{$PAdmin.username}}</cite>
+                    </a>
+                    <dl class="layui-nav-child">
+                        <dd layadmin-event="logout" style="text-align: center;"><a href="{{:MyUrl('/padmin/adminlogin/logout')}}">退出</a></dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+			<!--左侧菜单-->        
+			{{include file="public/leftmenu2" /}}
+        
+
+        <!-- 页面标签 -->
+        <div class="layadmin-pagetabs" id="LAY_app_tabs">
+            <div class="layui-icon layadmin-tabs-control layui-icon-prev" layadmin-event="leftPage"></div>
+            <div class="layui-icon layadmin-tabs-control layui-icon-next" layadmin-event="rightPage"></div>
+            <div class="layui-icon layadmin-tabs-control layui-icon-down">
+                <ul class="layui-nav layadmin-tabs-select" lay-filter="layadmin-pagetabs-nav">
+                    <li class="layui-nav-item" lay-unselect>
+                        <a href="javascript:;"></a>
+                        <dl class="layui-nav-child layui-anim-fadein">
+                            <dd layadmin-event="closeThisTabs"><a href="javascript:;">关闭当前标签页</a></dd>
+                            <dd layadmin-event="closeOtherTabs"><a href="javascript:;">关闭其它标签页</a></dd>
+                            <dd layadmin-event="closeAllTabs"><a href="javascript:;">关闭全部标签页</a></dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+            <div class="layui-tab" lay-unauto lay-allowClose="true" lay-filter="layadmin-layout-tabs">
+                <ul class="layui-tab-title" id="LAY_app_tabsheader">
+                    <!-- <li lay-id="home/console.html" lay-attr="home/console.html" class="layui-this"><i class="layui-icon layui-icon-home"></i></li> -->
+                    <li lay-id="{{:MyUrl('padmin/index/computer')}}" lay-attr="{{:MyUrl('padmin/index/computer')}}" class="layui-this"><i class="layui-icon layui-icon-home"></i></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- 主体内容 -->
+        <div class="layui-body" id="LAY_app_body">
+            <div class="layadmin-tabsbody-item layui-show">
+                <!-- <iframe src="{{:MyUrl('padmin/index/panel')}}" frameborder="0" class="layadmin-iframe" style="height: 100%; width: 100%;"></iframe> -->
+                <iframe src="{{:MyUrl('padmin/index/computer')}}" frameborder="0" class="layadmin-iframe" style="height: 100%; width: 100%;"></iframe>
+            </div>
+        </div>
+
+        <!-- 辅助元素，一般用于移动设备下遮罩 -->
+        <div class="layadmin-body-shade" layadmin-event="shade"></div>
+    </div>
+</div>
+
+<!--&lt;!&ndash; footer start &ndash;&gt;-->
+{{include file="public/footer" /}}
+<!--&lt;!&ndash; footer end &ndash;&gt;-->
+
+<script>
+    layui.config({
+        base: '{{$Think.__MY_ROOT_PUBLIC__}}static/common/layui/' //静态资源所在路径
+    }).extend({
+        index: 'lib/index' //主入口模块
+    }).use('index');
+</script>
+
+<!-- 百度统计 -->
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?d214947968792b839fd669a4decaaffc";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<!--</body>-->
+
+

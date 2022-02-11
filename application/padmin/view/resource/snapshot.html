@@ -1,0 +1,219 @@
+{{include file="public/header" /}}
+
+
+<style>
+	/*弹出层按钮样式*/
+	.layui-layer-btna {
+		width: 120px;
+		margin: 0px 15px;
+	}
+	.layui-layer-btn .layui-layer-btn0 {
+		background-color: rgb(255, 255, 255);
+		color: rgb(51, 51, 51);
+		border-color: rgb(222, 222, 222);
+	}
+	.layui-layer-btn .layui-layer-btn1{
+		background-color: #1E90FF;
+		color: rgb(255, 255, 255);
+		border-color: rgb(0, 150, 136);
+	}
+</style>
+<div style="padding: 15px;">
+
+	<div class="layui-row layui-col-space10">
+		<div class="layui-col-md4">
+			<span onclick="addNew()" class="layui-btn layui-btn-normal">新增</span>
+		</div>
+	</div>
+
+	<div class="layui-row">
+		<div class="grid-demo">
+			<table id="infoList" class="layui-table" lay-filter="infoList"></table>
+		</div>
+	</div>
+	
+<style>#edit-box{padding: 30px;}</style>
+	<div id="edit-box" style="display: none;">
+		<form action="#" method="post" onsubmit="return false" id="edit-form">
+			<div class="layui-form-item">
+				<label class="layui-form-label">简述</label>
+				<div class="layui-input-block">
+					<input type="text" name="description"  placeholder="可输入中文字母数据下划线"  class="layui-input" value="" id="description">
+				</div>
+			</div>
+			
+			<div style="display: none;">
+				<input type="hidden" name="id" value="" id="id" />
+				<input type="submit" onclick="submitEdit()" name="提交" id="submit"/>
+			</div>
+		</form>
+		
+	</div>
+</div>
+
+
+<!-- footer start -->
+{{include file="public/footer" /}}
+<!-- footer end -->
+
+<script>
+	loadInfo();
+	
+	layui.use('form');
+	
+	function addNew()
+	{
+		var index = layer.open({
+			type:2
+			,area:['50%','50%']
+			,closeBtn:0
+			,title:false
+			,shade:0.6
+			,anim:2
+			,content: "{{:MyUrl('padmin/resource/snapshotcreate')}}"
+			,btn: ['关闭','保存']
+			,id:"one"
+			,offset: 'auto'
+			,btnAlign: 'c'
+			,yes: function(){
+				layer.closeAll();
+			}
+			,btn2: function(){
+				var body = layui.layer.getChildFrame('form', index);
+				body.find("#submit").click();
+				loadInfo();
+				return false;
+			}
+			,success:function()
+			{
+			}
+		});
+	}
+
+	function loadInfo(){
+	  layui.use(['table', 'form','layer'], function () {
+	      var $ = layui.$
+	          , admin = layui.admin
+	          , view = layui.view
+	          , table = layui.table
+	          , form = layui.form;
+	      var table = layui.table;
+	
+			table.render({
+	      elem: '#infoList'
+	      , method: "get"
+	      , response: {
+	          statusCode: '200' //重新规定成功的状态码为 200，table 组件默认为 0
+	          ,count:'total'
+	      }
+	      ,cellMinWidth: 80
+	      , parseData: function (res) { //将原始数据解析成 table 组件所规定的数据
+	         console.log(res);
+	      }
+	      , url: "{{:MyUrl('papi/server/snapshotlist')}}" //数据接口
+	      , page: true //开启分页
+	      , cols: [[ //表头
+	      		  {field: 'id', title: 'ID', sort: true}
+	          , {field: 'description', title: '简述',width:180}
+	          ,	{field:'os', title:"OS", sort:true}
+	          , {field: 'size', title: '大小',sort:true}
+	          , {field: 'status', title: '状态',sort:true}
+	          , {field: 'date_created', title: '创建时间',sort:true}
+	          , {field: 'description', title: '简述'}
+	          , {field: '_op', title: '操作', templet:function(d){
+	          	_htm = '';
+	          	_htm += "<a class='layui-btn layui-btn-normal layui-btn-xs' lay-event='edit'><i class='layui-icon layui-icon-edit'></i>编辑</a>";
+				      _htm += "<a class='layui-btn layui-btn-danger layui-btn-xs' lay-event='destroy'><i class='layui-icon layui-icon-delete'></i>删除</a>	";
+				      return _htm;
+	          }}
+	      ]]
+	  	});
+	       
+	    table.on('tool(infoList)',function(obj){
+	    	var data = obj.data;
+	    	var action = obj.event;	//event = lay-event
+	    	switch(action){
+	    		case 'edit':
+	    			edit(data);
+	    			break;
+	    		case 'destroy':
+						if(!confirm('确定删除吗?')) return false;
+	    			setSnapshot('destroy',{'id':data.id,'SNAPSHOTID':data.snapshotid});
+	    			break;
+	    	}
+	    });
+			
+		});
+	}
+	
+	//修改
+	function edit(data)
+	{
+
+		var index = layer.open({
+			type:1
+			,area:['50%','30%']
+			,closeBtn:0
+			,title:false
+			,shade:0.6
+			,anim:2
+			,content: $("#edit-box")
+			,btn: ['关闭','保存']
+			,id:"one"
+			,offset: 'auto'
+			,btnAlign: 'c'
+			,yes: function(){
+				layer.closeAll();
+			}
+			,btn2: function(){
+				$("#submit").click();
+				layer.close(index);
+				loadInfo();
+			}
+			,success:function()
+			{
+				$("#editForm").css('display','block');
+				$("#description").val(data.description);
+				$("#id").val(data.id);
+			}
+			,end:function(){
+				$("#editForm").css('display','none');
+			}
+		});
+	}
+//	
+//	
+//	提交修改
+	function submitEdit()
+	{
+		description = $("#description").val();
+		_id = $("#id").val();
+		
+		setSnapshot('update',{'description':description,'id':_id});
+		
+	}
+	
+	
+	//设置服务器
+	function setSnapshot(action,params)
+	{
+		$.ajax({
+			type:"post",
+			url:"/papi/server/setSnapshot",
+			data:{
+				'action':action,
+				'params':params
+			},
+			async:true,
+			success:function(res){
+console.log(res);				
+				layer.msg(res.msg);
+				setTimeout(function(){loadInfo();},500);
+			}
+		});
+	}
+	
+		
+
+	
+</script>

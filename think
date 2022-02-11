@@ -1,0 +1,21 @@
+#!/usr/bin/env php
+<?php
+// +----------------------------------------------------------------------
+// | Copyright (c) 2019~2019 http://www.59xinxin.com All rights reserved.
+// +----------------------------------------------------------------------
+// | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
+// +----------------------------------------------------------------------
+// | Author: ONE
+// +----------------------------------------------------------------------
+
+namespace think;
+
+// 加载基础文件
+require __DIR__ . '/thinkphp/base.php';
+require __DIR__ . '/public/core.php';
+
+// 应用初始化
+Container::get('app')->path(__DIR__ . '/application/')->initialize();
+
+// 控制台初始化
+Console::init();

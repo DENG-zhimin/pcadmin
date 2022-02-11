@@ -1,0 +1,104 @@
+<?php
+
+//菜单数据
+
+$menu =[
+
+	[
+		'title'		=> "全局设置",
+		'module'	=> 'xinxin_website',
+		'controller'=> 'admin',
+		'action'	=> 'websitesystem',
+		'subMenu'	=>[
+			[
+			'title'		=> "部门管理",
+			'module'	=> 'xinxin_website',
+			'controller'=> 'admin',
+			'action'	=> 'index',
+			],
+			[
+			'title'		=> "员工管理",
+			'module'	=> 'xinxin_website',
+			'controller'=> 'admin',
+			'action'	=> 'websitesystem',
+			],
+		]
+	],
+
+	[
+		'title'		=> "资产管理",
+		'module'	=> 'xinxin_website',
+		'controller'=> 'admin',
+		'action'	=> 'index',
+		'subMenu'	=>[
+			[
+			'title'		=> "电脑管理",
+			'module'	=> 'xinxin_website',
+			'controller'=> 'admin',
+			'action'	=> 'nav',
+			],
+		]
+	],
+
+];
+?> 
+
+<style>
+	/* .hide{ display: none;}
+	.layui-layer-btn .layui-layer-btn0 {
+		border: 1px solid #dedede;
+		background-color: #fff;
+		color: #333
+	}
+	.layui-layer-btn .layui-layer-btn1 {
+		border-color: #009688;
+		background-color: #009688;
+		color: #fff;
+	}
+	span.cancel{
+	background-color: #cecece; */
+	}
+</style >
+
+<!-- 侧边菜单 -->
+<div class="layui-side layui-side-menu">
+	<div class="layui-side-scroll">
+		<div class="layui-logo" lay-href="home/console.html">
+			<span>AOI IT資信管理</span>
+		</div>
+
+		<ul class="layui-nav layui-nav-tree" lay-shrink="all" id="LAY-system-side-menu" lay-filter="layadmin-system-side-menu">
+			{{volist name='menu' id='m'}}
+					<li class="layui-nav-item layui-nav-itemed">
+						<a href="javascript:;">{{$m.title}}</a>
+						<dl class="layui-nav-child">
+							{{volist name="m.subMenu" id="subm"}}
+							<dd
+								{{if condition="$subm.action==request()->action()"}}
+								class="layui-this"
+								{{/if}}
+							><a href="{{:MyUrl($subm.module, $subm.controller, $subm.action)}}">{{$subm.title}}</a></dd>
+							{{/volist}}
+						</dl>
+					</li>		
+			{{/volist}}
+		</ul>
+	</div>
+</div>
+
+
+
+
+
+<script src="{{$Think.__MY_ROOT_PUBLIC__}}static/common/layui/layui.js"></script>
+<script>
+	layui.use('element', function(){
+		var element = layui.element; //导航的hover效果、二级菜单等功能，需要依赖element模块
+
+		//监听导航点击
+		element.on('nav(demo)', function(elem){
+			//console.log(elem)
+			layer.msg(elem.text());
+		});
+	});
+</script>

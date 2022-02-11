@@ -1,0 +1,16 @@
+
+<section id="featured">
+    <!-- Slider -->
+    <div id="main-slider" class="flexslider">
+        <ul class="slides">
+            {{if !empty($banner)}}
+            {{foreach $banner as $k=>$v}}
+            <li>
+                <a href="{{$v.url}}"><img src="{{$v.thumb}}" alt="{{$v.title}}" /></a>
+            </li>
+            {{/foreach}}
+            {{/if}}
+        </ul>
+    </div>
+    <!-- end slider -->
+</section>
