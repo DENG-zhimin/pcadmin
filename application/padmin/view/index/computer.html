@@ -137,15 +137,16 @@
 				, cols: [[ //表头
 					  {field: 'id', title: 'ID', sort: true,width:65}
           ,{field:'department',title:'部門',sort:true,width:85}
-          ,{field: 'staff', title: '职員',templet:function(d){
+          ,{field: 'staff', title: '职員', sort: true,templet:function(d){
 							return "<span class='title' style='color:blue;' lay-event='staffInfo' >" + d.staff+ "</span>";
 					}}
 					// ,{field:'staff',title:'职員',sort:true,width:85}
 					// , {field: 'user_account', title: '登录账户',width:120}
           , {field: 'FQDN', title: '电脑名称',sort:true,width:150}
           , {field: 'cpu', title: 'CPU',sort:true,width:150}
+          , {field: 'memory', title: '内存',sort:true,width:60}
 					, {field: 'ip_addr_v4', title: 'IPv4地址',sort:true,width:150}
-					, {field: 'os', title: '操作系统',sort:true}
+					, {field: 'os', title: '系统',sort:true}
 					, {field: 'status', title: '状态',sort:true,
             templet: function(d) {
               if (d.status == 1) { 
