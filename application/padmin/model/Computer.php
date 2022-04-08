@@ -8,6 +8,14 @@ use think\Db;
 
 class Computer extends Model
 {
+  /**
+   * 状态获取器
+   */
+  public function getStatusAttr($value)
+  {
+    $status = [1=>"使用中", 0=>"闲置", -1=>"已报废"];
+    return $status[$value];
+  }
 
     public static function getCompList($data)
     {

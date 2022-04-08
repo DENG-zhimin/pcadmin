@@ -1,4 +1,4 @@
-<?php /*a:3:{s:66:"/var/www/html/compmgmt/application/padmin/view/index/computer.html";i:1621420406;s:65:"/var/www/html/compmgmt/application/padmin/view/public/header.html";i:1585799193;s:65:"/var/www/html/compmgmt/application/padmin/view/public/footer.html";i:1565994208;}*/ ?>
+<?php /*a:3:{s:66:"/var/www/html/compmgmt/application/padmin/view/index/computer.html";i:1649386007;s:65:"/var/www/html/compmgmt/application/padmin/view/public/header.html";i:1585799193;s:65:"/var/www/html/compmgmt/application/padmin/view/public/footer.html";i:1565994208;}*/ ?>
 <!DOCTYPE html>
 <html >
 <head>
@@ -214,6 +214,17 @@ layui.use('element', function(){
           , {field: 'FQDN', title: '电脑名称',sort:true,width:150}
 					, {field: 'ip_addr_v4', title: 'IPv4地址',sort:true,width:150}
 					, {field: 'os', title: '操作系统',sort:true}
+					, {field: 'status', title: '状态',sort:true,
+            templet: function(d) {
+              if (d.status == 1) { 
+                return "使用中";
+              } else if (d.status == 0) {
+                return "闲置中";
+              } else if (d.status == -1) {
+                return "已报废";
+              }
+            }
+          }
 					// , {field: 'main_unit', title: '主机',sort:true,width:120}
 					,{field: 'opt', title: '操作', align: 'center', width: 190,
 						templet:function(_value)

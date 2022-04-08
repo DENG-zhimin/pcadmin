@@ -1,4 +1,4 @@
-<?php /*a:3:{s:71:"/var/www/html/compmgmt/application/padmin/view/index/computer_info.html";i:1621419961;s:65:"/var/www/html/compmgmt/application/padmin/view/public/header.html";i:1585799193;s:65:"/var/www/html/compmgmt/application/padmin/view/public/footer.html";i:1565994208;}*/ ?>
+<?php /*a:3:{s:71:"/var/www/html/compmgmt/application/padmin/view/index/computer_info.html";i:1649386316;s:65:"/var/www/html/compmgmt/application/padmin/view/public/header.html";i:1585799193;s:65:"/var/www/html/compmgmt/application/padmin/view/public/footer.html";i:1565994208;}*/ ?>
 <!DOCTYPE html>
 <html >
 <head>
@@ -150,6 +150,19 @@
                     </div>
                 </div>
             </div>
+            <div class="layui-form-item">
+              <div class="layui-form-inline">
+                  <label class="layui-form-label">状态</label>
+                  <div class="layui-input-inline">
+                      <select id="stat" name="status" >
+                          <option value="1">使用中</option>
+                          <option value="0">闲置中</option>
+                          <option value="-1">已报废</option>
+                      </select>
+                  </div>
+              </div>
+            </div>
+
             <div class="layui-form-item">
              
                   <label class="layui-form-label">备注</label>
