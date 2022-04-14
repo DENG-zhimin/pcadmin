@@ -55,15 +55,18 @@
 <div style="padding: 15px;">
 
 	<div id="sch-box" class="layui-row layui-col-space12">
-		<div class="layui-col-md4">
+		<div class="layui-col-md3">
 			<span onclick="detail(0)" class="layui-btn layui-btn-normal">新增</span>
 		</div>
-		<div class="layui-col-md8">
-			<form action="#" onsubmit="return false">
+		<div class="layui-col-md7">
+			<form action="#" onsubmit="mySummit">
 				<input  id="keyword"  placeholder="可按部门名称，职员名称，电脑名称，mac地址等搜索">
 				<button onclick="loadInfo($('#keyword').val())" class="layui-btn layui-btn-normal" style="margin-left: 15px;">搜索</button>
 			</form>
 		</div>
+    <div class="layui-col-md2">
+      <a class="layui-btn layui-btn-normal" id="download">下载</a>
+    </div>
 	</div>
 
 	<div class="layui-row">
@@ -76,7 +79,7 @@
 <div id="access" >
 	<p style="text-align: center;"><h3label id="comp-name"></h3></p>
 	<hr>
-	<form action="post" method="POST" onsubmit="return false;" action="#" id="ia-box">
+	<form action="post" method="POST" onsubmit="mySummit" action="#" id="ia-box">
 		{{volist name="internetAccess" id="ia"}}
 			<div class="ia-item">
 				<input type="checkbox" name="ia{{$ia.id}}" id="ia{{$ia.id}}" value="{{$ia.id}}"  >
@@ -88,7 +91,7 @@
 			<input type="hidden" id='id' name="computer_id">
 			<button type="submit" lay-submit lay-filter="iaSubmit" class="layui-btn layui-btn-normal">保存</button>
 		</div>
-</form>
+  </form>
 
 
 
@@ -104,6 +107,8 @@
 
 <script>
 	loadInfo();
+  var listData;
+  var table;
 
 	function loadInfo () {
     eleKw = document.getElementById('keyword')
@@ -127,6 +132,9 @@
 					statusCode: '200' //重新规定成功的状态码为 200，table 组件默认为 0
 					,count:'total'
 				}
+        , done: function(res, curr, count) {
+          listData = res.data;
+        }
 				, cellMinWidth: 80
 				, parseData: function (res) { //将原始数据解析成 table 组件所规定的数据
 					// console.log(res);
@@ -325,6 +333,9 @@
 			});		//end of layer.open
 		}	//end of detail function.
 
+    downTable = function() {
+      table.exportFile('infoList', listData, 'xls');
+    }
 
 		form.on("submit(iaSubmit)",function(obj){
 			var data=$("#ia-box").serialize();
@@ -391,7 +402,13 @@
 		
 	}
 
+  $('#download').click(function(){
+    downTable();
+  })
 
+  function mySummit () {
+    return false;
+  }
 
 		
 
