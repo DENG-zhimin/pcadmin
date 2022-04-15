@@ -58,7 +58,7 @@
 			<span onclick="detail(0)" class="layui-btn layui-btn-normal">新增</span>
 		</div>
 		<div class="layui-col-md11">
-			<form action="" onsubmit="return false;" class="layui-form">
+			<form action="###" onsubmit="return false;" class="layui-form">
         <div id="schForm"  class="layui-form-item">
           <div class="layui-inline layui-col-md12">
               <label class="layui-form-label" >申请时间</label>
@@ -73,9 +73,9 @@
                 <input  id="keyword" name="keyword"  placeholder="关键字" class="layui-input" style=" width: 200px;"/>
               </div>
               <div class="layui-input-inline " style="padding-left: 15px; right: 10px;" >
-                <button onclick="schInfo()" class="layui-btn layui-btn-normal" 
+                <button type="submit" onclick="schInfo()" class="layui-btn layui-btn-normal" 
                     style="margin-left: 15px;" >搜索</button>
-                <button onclick="downTable()" class="layui-btn layui-btn-normal" 
+                <button type="button" onclick="downTable()" class="layui-btn layui-btn-normal" 
                     style="margin-left: 15px;" >下载</button>
               </div>
           </div>
@@ -102,7 +102,7 @@
 
 <script>
   var listData;
-	loadInfo('');
+	schInfo();
 	layui.use(['form','layer'],function(){
 		form = layui.form; layer=layui.layer;
 	});

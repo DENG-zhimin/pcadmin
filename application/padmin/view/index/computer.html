@@ -53,25 +53,26 @@
 	}
 </style>
 <div style="padding: 15px;">
-
-	<div id="sch-box" class="layui-row layui-col-space12">
-		<div class="layui-col-md2">
-			<span onclick="detail(0)" class="layui-btn layui-btn-normal">新增</span>
-		</div>
-		<div class="layui-col-md7">
-			<form action="#" onsubmit="mySummit" class="layui-form">
-        <div class="layui-form-item">
-          <div class="layui-inline layui-col-md11" >
-            <input  id="keyword"  placeholder="可按部门名称，职员名称，电脑名称，mac地址等搜索" class="layui-input">
+    <div id="sch-box" class="layui-row layui-col-space12">
+      <div class="layui-col-md2">
+        <span onclick="detail(0)" class="layui-btn layui-btn-normal">新增</span>
+      </div>
+      <div class="layui-col-md10">
+        <form action="###" onsubmit="return false;" class="layui-form">
+          <div class="layui-form-item">
+            <div class="layui-inline layui-col-md12">
+              <div class="layui-inline layui-col-md7" >
+                <input  id="keyword"  placeholder="可按部门名称，职员名称，电脑名称，mac地址等搜索" class="layui-input">
+              </div>
+              <div class="layui-inline layui-col-md4" style="padding-left: 20px;">
+                <button type="submit" onclick="loadInfo()" class="layui-btn layui-btn-normal" style="padding-left: 15px;">搜索</button>
+                <a class="layui-btn layui-btn-normal" id="download">下载</a>
+              </div>
+            </div>
           </div>
-        </div>
-			</form>
-		</div>
-    <div class="layui-col-md3" style="padding-left: 20px;">
-      <button onclick="loadInfo($('#keyword').val())" class="layui-btn layui-btn-normal" style="margin-left: 15px;">搜索</button>
-      <a class="layui-btn layui-btn-normal" id="download">下载</a>
+        </form>
+      </div>
     </div>
-	</div>
 
 	<div class="layui-row">
 		<div class="grid-demo">
@@ -413,6 +414,7 @@
   function mySummit () {
     return false;
   }
+
 
 		
 
