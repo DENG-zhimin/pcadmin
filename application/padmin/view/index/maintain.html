@@ -75,7 +75,7 @@
               <div class="layui-input-inline " style="padding-left: 15px; right: 10px;" >
                 <button onclick="schInfo()" class="layui-btn layui-btn-normal" 
                     style="margin-left: 15px;" >搜索</button>
-                <button onclick="loadInfo($('#keyword').val())" class="layui-btn layui-btn-normal" 
+                <button onclick="downTable()" class="layui-btn layui-btn-normal" 
                     style="margin-left: 15px;" >下载</button>
               </div>
           </div>
@@ -101,7 +101,7 @@
 <!-- footer end -->
 
 <script>
-
+  var listData;
 	loadInfo('');
 	layui.use(['form','layer'],function(){
 		form = layui.form; layer=layui.layer;
@@ -147,6 +147,9 @@
 				,limit:20
 				,where:{'keyword':keyword, 'start_time': start_time, 'stop_time': stop_time}
 				, cellMinWidth: 80
+        , done: function(res, curr, count) {
+          listData = res.data;
+        }
 				, parseData: function (res) { //将原始数据解析成 table 组件所规定的数据
 					console.log(res);
 				}
@@ -258,7 +261,9 @@
 			});		//end of layer.open
 		}	//end of detail function.
 
-		
+    downTable = function() {
+      table.exportFile('infoList', listData, 'xls');
+    }
 
 	  });			//end of layui.user
 		
