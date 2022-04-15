@@ -63,20 +63,29 @@ class Index extends Common
         if(isset($params['page'])) {$pageParams['page'] =$params['page'] ; unset($params['page']);}
         if(isset($params['limit'])) {$pageParams['list_rows']=$params['limit']; unset($params['limit']);}
 
-        $whereor = array();
-        if(isset($params['keyword'])){
-            $kw=$params['keyword'];
-            $whereor[] = ['c.FQDN', 'like', "%$kw%"];
-            $whereor[] = ['m.app_time', 'like', "%$kw%"];
-            $whereor[] = ['m.maintain_time', 'like', "%$kw%"];
-            $whereor[] = ['m.applicant', 'like', "%$kw%"];
-        }
+        $timeParams = [];
+        if (isset($params['start_time'])) { $timeParams[] = ['m.app_time', '>', $params['start_time']]; }
+        if (isset($params['stop_time'])) { $timeParams[] = ['m.app_time', '<', $params['stop_time']]; }
 
         $list = Db::name('maintain')->alias('m')
             ->order('app_time desc')
             ->leftjoin('department d', 'd.id=m.department_id')
             ->leftjoin('computer c', 'c.id=m.computer_id')
-            ->whereor($whereor)
+            ->where($timeParams)
+            // ->whereor($whereor)
+            ->where(function($query){
+              $params=input('get.');
+              $params = \wherify_params($params);
+              $whereor = array();
+              if(isset($params['keyword'])){
+                  $kw=$params['keyword'];
+                  $whereor[] = ['c.FQDN', 'like', "%$kw%"];
+                  $whereor[] = ['m.app_info', 'like', "%$kw%"];
+                  $whereor[] = ['m.maintain_time', 'like', "%$kw%"];
+                  $whereor[] = ['m.applicant', 'like', "%$kw%"];
+              }
+              $query->whereOr($whereor);
+            })
             ->field('m.*,d.name as department, c.FQDN as computer')
             ->paginate($pageParams)->toArray();
         return \LayuiDataReturn('ok', 200, $list['data'], $list['total']);

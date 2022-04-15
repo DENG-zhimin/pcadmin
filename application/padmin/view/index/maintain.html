@@ -32,18 +32,54 @@
 		padding: 0px 5px;
 		margin:3px !important;
 	}
-	
+
+.layui-input-inline {
+  /* background-color: #fbff1e; */
+  margin-right: 5px;
+}
+
+.layui-form-label {
+  width: 60px !important;
+}
+
+.layui-input-inline {
+  width: 100%;
+}
+
+.time-input {
+  width: 100px !important;
+}
+
 </style>
 <div style="padding: 15px;">
 
 	<div id="sch-box" class="layui-row layui-col-space10">
-		<div class="layui-col-md4">
+		<div class="layui-col-md1">
 			<span onclick="detail(0)" class="layui-btn layui-btn-normal">新增</span>
 		</div>
-		<div class="layui-col-md8">
-			<form action="#" onsubmit="return false">
-				<input  id="keyword"  placeholder="可按电脑名称、申请人名称、申请及维护时间等搜索">
-				<button onclick="loadInfo($('#keyword').val())" class="layui-btn layui-btn-normal" style="margin-left: 15px;">搜索</button>
+		<div class="layui-col-md11">
+			<form action="" onsubmit="return false;" class="layui-form">
+        <div id="schForm"  class="layui-form-item">
+          <div class="layui-inline layui-col-md12">
+              <label class="layui-form-label" >申请时间</label>
+              <div class="layui-input-inline time-input">
+                <input type="text" name="start_time" autocomplete="off" class="layui-input " id="startTime" />
+              </div>
+              <label class="layui-input-inline" style="width: 15px; margin-top: 8px;" >--</label>
+              <div class="layui-input-inline time-input">
+                <input type="text" name="stop_time"  autocomplete="off" class="layui-input" id="stopTime" />
+              </div>
+              <div class="layui-input-inline" style="margin: 0 20px;">
+                <input  id="keyword" name="keyword"  placeholder="关键字" class="layui-input" style=" width: 200px;"/>
+              </div>
+              <div class="layui-input-inline " style="padding-left: 15px; right: 10px;" >
+                <button onclick="schInfo()" class="layui-btn layui-btn-normal" 
+                    style="margin-left: 15px;" >搜索</button>
+                <button onclick="loadInfo($('#keyword').val())" class="layui-btn layui-btn-normal" 
+                    style="margin-left: 15px;" >下载</button>
+              </div>
+          </div>
+        </div>
 			</form>
 		</div>
 	</div>
@@ -71,17 +107,36 @@
 		form = layui.form; layer=layui.layer;
 	});
 	
+  function schInfo() {
+    // loadInfo($('#keyword').val())
+    let start_time = $('#startTime').val();
+    let stop_time = $('#stopTime').val();
+    let keyword = $('#keyword').val();
+    
+    loadInfo(keyword, start_time, stop_time);
+  }
 
-	function loadInfo(keyword){
+	function loadInfo(keyword, start_time, stop_time){
 
-	  layui.use(['table', 'form','layer'], function () {
+	  layui.use(['table', 'form','layer', 'laydate'], function () {
 	      var $ = layui.$
-	          , admin = layui.admin
-	          , view = layui.view
+	          // , admin = layui.admin
+	          // , view = layui.view
 	          , table = layui.table
-	          , form = layui.form;
-	      var table = layui.table;
-	
+	          , form = layui.form
+            , layer = layui.layer
+            , laydate = layui.laydate
+      
+      // render date elem
+      laydate.render({
+        elem: '#startTime'
+      })
+
+      laydate.render({
+        elem: '#stopTime'
+      })
+            
+      // render table
 			table.render({
 				elem: '#infoList'
 				, method: "get"
@@ -90,7 +145,7 @@
 					,count:'total'
 				}
 				,limit:20
-				,where:{'keyword':keyword}
+				,where:{'keyword':keyword, 'start_time': start_time, 'stop_time': stop_time}
 				, cellMinWidth: 80
 				, parseData: function (res) { //将原始数据解析成 table 组件所规定的数据
 					console.log(res);
@@ -105,7 +160,7 @@
 						return  "<a href='###' lay-event='computer' >" + d.computer + "</a>";
 					}}
 					, {field: 'app_info', title: '申报信息', sort:true,templet:function(d){
-						_html=d.app_info.substring(0,10);
+						_html=d.app_info.substring(0,20);
 						return _html;
 					}}
 					, {field: 'app_time', title: '申请时间',width:150,sort:true}
